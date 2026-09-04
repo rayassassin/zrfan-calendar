@@ -39,6 +39,9 @@ def run(n_articles=7, out_dir=None, force=False, remind=10):
         return 1
     print(f'      获取 {len(arts)} 篇：{arts[0]["title"]} ~ {arts[-1]["title"]}')
 
+    # 抓到的最新一篇文章的日期，供预览页 footer 与「6 点兜底」共判据
+    latest = date(arts[-1]['year'], arts[-1]['month'], arts[-1]['day'])
+
     print('[2/5] 解析活动')
     sch = ps.parse_all(arts)
     timed = sum(1 for s in sch if s['freq'] != 'ONCE')
@@ -50,7 +53,7 @@ def run(n_articles=7, out_dir=None, force=False, remind=10):
     print(f'      生成 {len(cals)} 个银行日历 + all.ics')
 
     print('[4/5] 生成预览页')
-    p = page.build(sch, cals, arts, out_dir, remind=remind)
+    p = page.build(sch, cals, arts, out_dir, remind=remind, latest_date=latest)
     print(f'      {p}')
 
     print('[5/5] 校验')
@@ -79,8 +82,7 @@ def run(n_articles=7, out_dir=None, force=False, remind=10):
     with open(os.path.join(out_dir, 'meta.json'), 'w', encoding='utf-8') as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
 
-    # 记录本次抓到的最新文章日期，供「6 点兜底」判断当天指南是否已发布
-    latest = date(arts[-1]['year'], arts[-1]['month'], arts[-1]['day'])
+    # 把最新文章日期写到 state，供服务器端「6 点兜底」判断当天指南是否已发布
     state_dir = os.path.join(HERE, 'state')
     os.makedirs(state_dir, exist_ok=True)
     with open(os.path.join(state_dir, 'latest_article_date'), 'w', encoding='utf-8') as f:

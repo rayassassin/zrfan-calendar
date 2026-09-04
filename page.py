@@ -96,7 +96,8 @@ TPL = """<!DOCTYPE html>
   <div id="banks">__BANKS__</div>
 
   <footer>
-    数据来源：zrfan.com 每日刷卡指南，每日自动更新。<br>
+    数据来源：zrfan.com 每日刷卡指南，最新一期 <b>__LATEST_DATE__</b>（分析文章 __N_SRC__ 篇）。<br>
+    更新策略：每日 <b>00:00</b> 主更新；若 0 点时当天指南尚未发布，<b>06:00</b> 自动补抓一次。<br>
     订阅后 Google 日历约每 12 小时刷新一次；活动以原文为准，名额有限的活动请提前打开 APP 准备。<br>
     日历内容仅供参考，具体活动规则、名额与截止时间请以银行官方页面为准。
   </footer>
@@ -170,7 +171,7 @@ def _freq_tag(s):
     return '<span class="tag o">期内可参与</span>'
 
 
-def build(schedules, calendars, articles, out_dir, remind=10, today=None):
+def build(schedules, calendars, articles, out_dir, remind=10, today=None, latest_date=None):
     by_slug = {}
     for s in schedules:
         for b in s['banks']:
@@ -213,6 +214,8 @@ def build(schedules, calendars, articles, out_dir, remind=10, today=None):
 
     n_timed = sum(1 for s in schedules if s['freq'] != 'ONCE')
     now = datetime.now(CST).strftime('%Y-%m-%d %H:%M')
+    latest_str = (latest_date.strftime('%Y-%m-%d (%a)')
+                  if latest_date else '未知')
     page = (TPL
             .replace('__BANKS__', ''.join(blocks))
             .replace('__GEN_TIME__', now)
@@ -220,7 +223,8 @@ def build(schedules, calendars, articles, out_dir, remind=10, today=None):
             .replace('__N_EV__', str(len(schedules)))
             .replace('__N_TIMED__', str(n_timed))
             .replace('__N_SRC__', str(len(articles)))
-            .replace('__REMIND__', str(remind)))
+            .replace('__REMIND__', str(remind))
+            .replace('__LATEST_DATE__', latest_str))
 
     path = os.path.join(out_dir, 'index.html')
     with open(path, 'w', encoding='utf-8') as f:

@@ -1,0 +1,41 @@
+# 用 nginx 反代 + Let's Encrypt 证书，提供 Google 日历可用的 HTTPS 订阅源
+#
+# 前置：
+#   1. 域名解析到本机（例如 calendar.yourdomain.com）
+#   2. certbot --nginx -d calendar.yourdomain.com
+#   3. 把下面内容存为 /etc/nginx/conf.d/zrfan-calendar.conf，nginx -s reload
+
+server {
+    listen 80;
+    server_name calendar.yourdomain.com;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl http2;
+    server_name calendar.yourdomain.com;
+
+    ssl_certificate     /etc/letsencrypt/live/calendar.yourdomain.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/calendar.yourdomain.com/privkey.pem;
+    ssl_protocols       TLSv1.2 TLSv1.3;
+
+    root /opt/zrfan-calendar/build;
+    index index.html;
+    charset utf-8;
+
+    # 关键：.ics 必须返回 text/calendar，否则 Google 日历不认
+    location ~* \.ics$ {
+        types { }
+        default_type "text/calendar; charset=utf-8";
+        add_header Access-Control-Allow-Origin *;
+        add_header Cache-Control "public, max-age=1800";
+    }
+
+    location / {
+        try_files $uri $uri/ =404;
+        add_header Cache-Control "public, max-age=600";
+    }
+
+    access_log /var/log/nginx/zrfan-calendar.access.log;
+    error_log  /var/log/nginx/zrfan-calendar.error.log;
+}

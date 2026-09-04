@@ -1,0 +1,37 @@
+name: update calendar
+
+# 没有域名和证书时，用 GitHub Pages 免费托管（自带 HTTPS，Google 日历可直接订阅）
+on:
+  schedule:
+    # UTC 23:00 = 北京时间次日 07:00（站点每天下午更新次日指南）
+    - cron: '0 23 * * *'
+  workflow_dispatch:      # 允许在 Actions 页面手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 抓取并生成日历
+        run: python3 main.py -n 7
+
+      - name: 校验 ICS
+        run: python3 validate.py build/ics
+
+      - name: 发布到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'chore: update calendar'

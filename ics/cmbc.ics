@@ -1,0 +1,189 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//zrfan card guide//ZH-CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:刷卡指南·民生银行
+X-WR-CALDESC:民生银行信用卡/借记卡优惠提醒，共 8 项（6 
+ 项定点提醒）。数据来源 zrfan.com 每日刷卡指南
+X-WR-TIMEZONE:Asia/Shanghai
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:b17b1f29caea4457b87b021b475d626b@zrfan-card-guide
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20270401
+SUMMARY:民生银行｜小米之家分期（期内可参与）
+DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
+ 用卡分期支付（云闪付搜索-小米，可查询剩余名额）\n
+ 农业银行满1500-50元、满5k-150元（8月31日截止）\n民生银
+ 行满2k-50元、满5k-100元（26年11月30日截止）\n中信银行
+ 满1500-45元、满3500-100元、满6k-180元（27年3月31日截止）
+ \n\n活动截止：2027-03-31\n来源：2026-8-31日周一刷卡指南 h
+ ttps://www.zrfan.com/8850.html
+TRANSP:TRANSPARENT
+URL:https://www.zrfan.com/8850.html
+CATEGORIES:民生银行
+END:VEVENT
+BEGIN:VEVENT
+UID:529e30b931f1e921849958cc64ea4f8b@zrfan-card-guide
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20270401
+SUMMARY:民生银行｜小米之家分期（期内可参与）
+DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
+ 用卡分期支付（云闪付搜索-小米，可查询剩余名额）\n
+ 农业银行满1500-50元、满5k-150元（10月31日截止）\n浦发
+ 银行满3k-100元（12月31日截止）\n民生银行满2k-50元、满5
+ k-100元（26年11月30日截止）\n中信银行满1500-45元、满3500
+ -100元、满6k-180元（27年3月31日截止）\n\n活动截止：2027-
+ 03-31\n来源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857
+ .html
+TRANSP:TRANSPARENT
+URL:https://www.zrfan.com/8857.html
+CATEGORIES:民生银行
+END:VEVENT
+BEGIN:VEVENT
+UID:37c9f34d0358e241e542804056f27948@zrfan-card-guide
+DTSTART:20260905T160000Z
+DTEND:20260905T163000Z
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20261231T155959Z
+SUMMARY:[周日] 民生银行｜00:00 微信支付各种减
+DESCRIPTION:周日，指定商户门店、APP或微信小程序，使用
+ 微信支付选择民生信用卡支付（续期至12月31日截止）\n
+ 奈雪的茶小程序，满30-10元（日600名额，日1次月2次）\n
+ 必胜客门店、APP及小程序，满100-30元（日2k名额，日1次
+ 月2次）\n哈根达斯门店，满50-15元（日100名额，日1次月
+ 2次）\n麦当劳柜台、点餐机、APP及小程序，满30-10元（
+ 日2k名额，日1次月2次）\n瑞幸咖啡APP及小程序，满15-3
+ 元（日3k名额，日1次月2次）\nTims咖啡门店及小程序，
+ 满15-3元（日500名额，日1次月2次）\n喜茶GO小程序，满30
+ -10元（日1k名额，日1次月2次）\ncosta门店及小程序，满1
+ 5-3元（日500名额，日1次月2次）\n百果园门店及小程序
+ ，满30-10元（日1500名额，日1次月2次）\n猫眼，满30-10元
+ （日2k名额，日1次月2次）\n滴滴APP及小程序，满50-10元
+ （日2k名额，日1次月2次）\n美宜佳门店享85折上限5元（
+ 日4k名额，日1次月2次）\n沃尔玛门店自助收银机，满100
+ -20元（日3k名额，日次月2次）\n屈臣氏门店及小程序，
+ 满50-15元（日1k名额，日1次月2次）\n名创优品门店及小
+ 程序，满50-10元（日500名额，日1次月2次）\n同程APP及小
+ 程序，满300-20元（日1k名额，日1次月2次）\n特来电APP及
+ 小程序，满30-10元（日500名额，日1次月2次）\n\n活动截
+ 止：2026-12-31\n来源：2026-8-30日周日刷卡指南 https://www.zr
+ fan.com/8849.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[周日] 民生银行｜00:00 微信支付各种减
+END:VALARM
+URL:https://www.zrfan.com/8849.html
+CATEGORIES:民生银行
+END:VEVENT
+BEGIN:VEVENT
+UID:1a79799a6aac6eafa4a5d7fd0268e9c9@zrfan-card-guide
+DTSTART:20260909T160000Z
+DTEND:20260909T163000Z
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20261130T155959Z
+SUMMARY:[周四] 民生银行｜00:00 星巴克买一赠一
+DESCRIPTION:消费达标，周四指定星巴克门店，使用全民生
+ 活APP付款码选择民生信用卡支付，享买一赠一（续期至
+ 26年11月30日截止）\n四星以上银联任意消费1笔可得1资
+ 质（月4次）\n其它用户银联任意消费1笔可得1资质（月2
+ 次）月消费满5k元次月可得2资质\n\n活动截止：2026-11-30
+ \n来源：2026-9-3日周四刷卡指南 https://www.zrfan.com/8855.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[周四] 民生银行｜00:00 星巴克买一赠一
+END:VALARM
+URL:https://www.zrfan.com/8855.html
+CATEGORIES:民生银行
+END:VEVENT
+BEGIN:VEVENT
+UID:4bc8bc44c97a7304c57c66bc54076a74@zrfan-card-guide
+DTSTART:20260903T230000Z
+DTEND:20260903T233000Z
+RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
+SUMMARY:[每日] 民生银行｜07:00 中石化、中石油
+DESCRIPTION:每日7点起，中石化、中石油使用支付宝付款码
+ 或碰一下，选择民生信用卡支付，满200-5元（日800名额
+ ，月2次，9月30日截止）\n\n活动截止：2026-09-30\n来源：2
+ 026-9-4日周五刷卡指南 https://www.zrfan.com/8857.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[每日] 民生银行｜07:00 中石化、中石油
+END:VALARM
+URL:https://www.zrfan.com/8857.html
+CATEGORIES:民生银行
+END:VEVENT
+BEGIN:VEVENT
+UID:5d12a2ea9b032734aabf8937e17c06e6@zrfan-card-guide
+DTSTART:20260910T010000Z
+DTEND:20260910T013000Z
+RRULE:FREQ=WEEKLY;BYDAY=TH,FR,SA;UNTIL=20261231T155959Z
+SUMMARY:[周四周五周六] 民生银行｜09:00 20元消费金
+DESCRIPTION:周四至周六每日9点起，全民生活APP-我的-我的
+ 星级，活力行星（月1次）能量行星及恒星（月2次）可8
+ 积分兑换满200-20元券（26年12月31日截止）\n\n活动截止
+ ：2026-12-31\n来源：2026-9-4日周五刷卡指南 https://www.zrfan.
+ com/8857.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[周四周五周六] 民生银行｜09:00 20元消费金
+END:VALARM
+URL:https://www.zrfan.com/8857.html
+CATEGORIES:民生银行
+END:VEVENT
+BEGIN:VEVENT
+UID:b833f5d901c79773729d4245773cb12a@zrfan-card-guide
+DTSTART:20260904T010000Z
+DTEND:20260904T013000Z
+RRULE:FREQ=DAILY;UNTIL=20261004T155959Z
+SUMMARY:[每日] 民生银行｜09:00 山姆联名卡（新卡介绍）
+DESCRIPTION:①山姆会员店指定消费，卓越会员享2%+民生山
+ 姆联名卡享2%返现（月上限700元）其它消费享0.2%返现（
+ 月上限100元）\n②山姆会员店指定消费，普通会员享民
+ 生山姆联名卡1%返现（月上限100元）其它消费享0.2%返现
+ （月上限50元）\n民生银行全民生活APP-惠买单，可购买
+ 一些餐饮美食优惠券（平常日力度不大）\n民生银行奈
+ 雪的茶联名卡每月任意消费3笔次月可领一张电子券（
+ 共1年12张）\n中信银行\n\n来源：2026-9-4日周五刷卡指南 
+ https://www.zrfan.com/8857.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[每日] 民生银行｜09:00 山姆联名卡（新卡介绍
+ ）
+END:VALARM
+URL:https://www.zrfan.com/8857.html
+CATEGORIES:民生银行
+END:VEVENT
+BEGIN:VEVENT
+UID:5927a56c023d39ab8802a492c4e872aa@zrfan-card-guide
+DTSTART:20260904T040000Z
+DTEND:20260904T043000Z
+RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
+SUMMARY:[每日] 民生银行｜12:00 中石油、车车卡中石油
+DESCRIPTION:每日12点起，使用指定卡当月消费满1k元，指定
+ 中石油门店使用全民生活APP付款码选择民生指定车卡，
+ 享加油优惠（26年12月31日截止）\n民生中石油联名卡、
+ 车车卡、etc卡支付满200-25元（月2次，全民生活app-搜-中
+ 石油，查询门店及剩余名额）\n车车豪白满200-100元（月
+ 2次）钻石白满200-100元（月5次）（全民生活app-搜-车车
+ 卡，查询门店及剩余名额）\n\n活动截止：2026-12-31\n来
+ 源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[每日] 民生银行｜12:00 中石油、车车卡中石油
+END:VALARM
+URL:https://www.zrfan.com/8857.html
+CATEGORIES:民生银行
+END:VEVENT
+END:VCALENDAR

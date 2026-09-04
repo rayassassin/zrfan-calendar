@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//zrfan card guide//ZH-CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:刷卡指南·平安银行
+X-WR-CALDESC:平安银行信用卡/借记卡优惠提醒，共 2 项（2 
+ 项定点提醒）。数据来源 zrfan.com 每日刷卡指南
+X-WR-TIMEZONE:Asia/Shanghai
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:b3eae4b9e80812e5b4235f486d88cd34@zrfan-card-guide
+DTSTART:20260904T010000Z
+DTEND:20260904T013000Z
+RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
+SUMMARY:[每日] 平安银行｜09:00 好车主金卡
+DESCRIPTION:使用平安好车主金卡标准版（其它好车主卡不
+ 参加，该卡首年300年费，次年消费3w可免）每月网络消
+ 费单笔满88元享1%累积省钱包，单笔上限10元月上限40元
+ ，次月加油8折抵扣或兑换充电券（26年12月31日截止）\n
+ ps：权益一般，首年还要300门票\n\n活动截止：2026-12-31\n
+ 来源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[每日] 平安银行｜09:00 好车主金卡
+END:VALARM
+URL:https://www.zrfan.com/8857.html
+CATEGORIES:平安银行
+END:VEVENT
+BEGIN:VEVENT
+UID:c3fc7b908362289f4d851e804714fd3f@zrfan-card-guide
+DTSTART:20260904T010000Z
+DTEND:20260904T013000Z
+RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
+SUMMARY:[每日] 平安银行｜09:00 畅享积分
+DESCRIPTION:平安口袋银行APP-搜-微信支付宝积分奖励，每
+ 月报名后，支付宝微信消费累计积分（不超过固额）（
+ 26年12月31日截止）\n\n活动截止：2026-12-31\n来源：2026-9-4
+ 日周五刷卡指南 https://www.zrfan.com/8857.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[每日] 平安银行｜09:00 畅享积分
+END:VALARM
+URL:https://www.zrfan.com/8857.html
+CATEGORIES:平安银行
+END:VEVENT
+END:VCALENDAR

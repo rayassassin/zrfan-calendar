@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-09-04T15:02:36",
+  "articles": [
+    {
+      "title": "2026-8-29日周六刷卡指南",
+      "url": "https://www.zrfan.com/8848.html",
+      "date": "2026-08-29"
+    },
+    {
+      "title": "2026-8-30日周日刷卡指南",
+      "url": "https://www.zrfan.com/8849.html",
+      "date": "2026-08-30"
+    },
+    {
+      "title": "2026-8-31日周一刷卡指南",
+      "url": "https://www.zrfan.com/8850.html",
+      "date": "2026-08-31"
+    },
+    {
+      "title": "2026-9-1日周二刷卡指南",
+      "url": "https://www.zrfan.com/8852.html",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "2026-9-2日周三刷卡指南",
+      "url": "https://www.zrfan.com/8854.html",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "2026-9-3日周四刷卡指南",
+      "url": "https://www.zrfan.com/8855.html",
+      "date": "2026-09-03"
+    },
+    {
+      "title": "2026-9-4日周五刷卡指南",
+      "url": "https://www.zrfan.com/8857.html",
+      "date": "2026-09-04"
+    }
+  ],
+  "n_events": 162,
+  "n_timed": 111,
+  "calendars": [
+    {
+      "bank": "农业银行",
+      "slug": "abc",
+      "count": 25,
+      "timed": 12
+    },
+    {
+      "bank": "兴业银行",
+      "slug": "cib",
+      "count": 19,
+      "timed": 9
+    },
+    {
+      "bank": "工商银行",
+      "slug": "icbc",
+      "count": 19,
+      "timed": 13
+    },
+    {
+      "bank": "邮储银行",
+      "slug": "psbc",
+      "count": 17,
+      "timed": 13
+    },
+    {
+      "bank": "中国银行",
+      "slug": "boc",
+      "count": 15,
+      "timed": 12
+    },
+    {
+      "bank": "建设银行",
+      "slug": "ccb",
+      "count": 14,
+      "timed": 9
+    },
+    {
+      "bank": "浦发银行",
+      "slug": "spdb",
+      "count": 11,
+      "timed": 9
+    },
+    {
+      "bank": "民生银行",
+      "slug": "cmbc",
+      "count": 8,
+      "timed": 6
+    },
+    {
+      "bank": "华夏银行",
+      "slug": "hxb",
+      "count": 8,
+      "timed": 5
+    },
+    {
+      "bank": "中信银行",
+      "slug": "citic",
+      "count": 6,
+      "timed": 3
+    },
+    {
+      "bank": "上海银行",
+      "slug": "bos",
+      "count": 4,
+      "timed": 2
+    },
+    {
+      "bank": "交通银行",
+      "slug": "bocom",
+      "count": 3,
+      "timed": 3
+    },
+    {
+      "bank": "光大银行",
+      "slug": "ceb",
+      "count": 3,
+      "timed": 3
+    },
+    {
+      "bank": "广发银行",
+      "slug": "cgb",
+      "count": 3,
+      "timed": 2
+    },
+    {
+      "bank": "浙商银行",
+      "slug": "czbank",
+      "count": 3,
+      "timed": 2
+    },
+    {
+      "bank": "银联云闪付",
+      "slug": "unionpay",
+      "count": 3,
+      "timed": 3
+    },
+    {
+      "bank": "平安银行",
+      "slug": "pingan",
+      "count": 2,
+      "timed": 2
+    },
+    {
+      "bank": "招商银行",
+      "slug": "cmb",
+      "count": 2,
+      "timed": 1
+    },
+    {
+      "bank": "其他优惠",
+      "slug": "other",
+      "count": 1,
+      "timed": 1
+    },
+    {
+      "bank": "北京银行",
+      "slug": "bob",
+      "count": 1,
+      "timed": 1
+    }
+  ],
+  "remind_minutes": 10
+}

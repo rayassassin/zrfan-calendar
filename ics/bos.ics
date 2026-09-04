@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//zrfan card guide//ZH-CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:刷卡指南·上海银行
+X-WR-CALDESC:上海银行信用卡/借记卡优惠提醒，共 4 项（2 
+ 项定点提醒）。数据来源 zrfan.com 每日刷卡指南
+X-WR-TIMEZONE:Asia/Shanghai
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:ce8a75c1906ecbbee9f84fb1e9c18c26@zrfan-card-guide
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20261101
+SUMMARY:上海银行｜12306（期内可参与）
+DESCRIPTION:12306使用支付宝选择上海银行信用卡、借记卡
+ 满60元随机减至高10元（日8k名额，日各1次月各4次，10
+ 月31日截止）\n\n活动截止：2026-10-31\n来源：2026-9-4日周
+ 五刷卡指南 https://www.zrfan.com/8857.html
+TRANSP:TRANSPARENT
+URL:https://www.zrfan.com/8857.html
+CATEGORIES:上海银行
+END:VEVENT
+BEGIN:VEVENT
+UID:b76de992ba78f87d527dab080e5bb923@zrfan-card-guide
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20270101
+SUMMARY:上海银行｜顺丰（期内可参与）
+DESCRIPTION:顺丰APP使用支付宝选择上海银行信用卡支付，
+ 满12元随机减至高3元（限量，日1次月8次，12月31日截止
+ ）\n\n活动截止：2026-12-31\n来源：2026-9-4日周五刷卡指南
+  https://www.zrfan.com/8857.html
+TRANSP:TRANSPARENT
+URL:https://www.zrfan.com/8857.html
+CATEGORIES:上海银行
+END:VEVENT
+BEGIN:VEVENT
+UID:591b29fa94233b7b89acaa894a854730@zrfan-card-guide
+DTSTART:20260904T020000Z
+DTEND:20260904T023000Z
+RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
+SUMMARY:[每日] 上海银行｜10:00 抖音、京东、拼多多
+DESCRIPTION:每日10点起，指定商户选择上海银行信用卡支
+ 付（日各1次月各4次，26年9月30日截止）\n抖音满199元随
+ 机减1-10元（日1500名额）\n京东满299元随机减1-99元（日1
+ k名额）\n拼多多满60元随机减1-10元（日2k名额）\n\n活动
+ 截止：2026-09-30\n来源：2026-9-4日周五刷卡指南 https://www.
+ zrfan.com/8857.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[每日] 上海银行｜10:00 抖音、京东、拼多多
+END:VALARM
+URL:https://www.zrfan.com/8857.html
+CATEGORIES:上海银行
+END:VEVENT
+BEGIN:VEVENT
+UID:c39d98e10137e6ccbe5099cd7c063946@zrfan-card-guide
+DTSTART:20260904T020000Z
+DTEND:20260904T023000Z
+RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
+SUMMARY:[每日] 上海银行｜10:00 携程、去哪儿
+DESCRIPTION:每日10点起，携程、去哪儿APP使用上海银行62信
+ 用卡支付，满299元随机减5-99元（日270、55名额，各2次
+ ，12月31日截止）\n\n活动截止：2026-12-31\n来源：2026-9-4
+ 日周五刷卡指南 https://www.zrfan.com/8857.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[每日] 上海银行｜10:00 携程、去哪儿
+END:VALARM
+URL:https://www.zrfan.com/8857.html
+CATEGORIES:上海银行
+END:VEVENT
+END:VCALENDAR

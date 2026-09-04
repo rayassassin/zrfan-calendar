@@ -16,7 +16,9 @@ cd "$REPO_DIR"
 git fetch origin gh-pages --depth 1
 git reset --hard origin/gh-pages >/dev/null
 # 清空除 .git 外的内容
-find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name '.nojekyll' -exec rm -rf {} +
+# 强制 .nojekyll 存在，跳过 Jekyll 构建（我们交付的是纯静态文件）
+touch "$REPO_DIR/.nojekyll"
 # 复制最新 build
 cp -r "$BUILD_DIR"/. .
 git add -A

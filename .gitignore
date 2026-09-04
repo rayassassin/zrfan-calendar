@@ -3,6 +3,7 @@ cache/
 raw/
 logs/
 build/
+state/
 
 __pycache__/
 *.pyc

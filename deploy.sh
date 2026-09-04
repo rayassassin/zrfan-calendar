@@ -2,17 +2,18 @@
 # zrfan 刷卡指南日历 —— 服务器一键部署
 #
 # 用法（在目标服务器上执行）：
-#   bash deploy.sh [安装目录] [端口] [每天更新时间(24小时制)]
+#   bash deploy.sh [安装目录] [端口]
 # 例：
-#   bash deploy.sh /opt/zrfan-calendar 8080 7
+#   bash deploy.sh /opt/zrfan-calendar 8080
 #
-# 脚本只做这些事：拷贝代码 -> 试跑一次 -> 启动静态服务 -> 写 crontab
+# 脚本只做这些事：拷贝代码 -> 试跑一次 -> 启动静态服务 -> 写 crontab。
+# 定时策略固定为「0 点主更新 + 6 点兜底」（见 catchup_if_missed.sh）。
 # 不会改动系统与 nginx 的既有配置；没有 nginx 时退化为 Python 静态服务。
+# 注意：推送到 GitHub Pages 需先在服务器配好仓库 Deploy Key（见 README 方案 B）。
 set -euo pipefail
 
 INSTALL_DIR="${1:-/opt/zrfan-calendar}"
 PORT="${2:-8080}"
-RUN_HOUR="${3:-7}"
 SRC_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 say() { printf '\033[1;36m==> %s\033[0m\n' "$*"; }
@@ -27,9 +28,12 @@ ok "python3: $($PY -V 2>&1), curl: $(command -v curl)"
 
 say "安装到 $INSTALL_DIR"
 mkdir -p "$INSTALL_DIR"/{cache,raw,logs}
-for f in crawler.py parser.py ics_gen.py page.py validate.py main.py serve.py; do
+for f in crawler.py parser.py ics_gen.py page.py validate.py main.py serve.py \
+         push_pages.sh update_and_push.sh catchup_if_missed.sh; do
   cp "$SRC_DIR/$f" "$INSTALL_DIR/$f"
 done
+chmod +x "$INSTALL_DIR"/*.sh
+mkdir -p "$INSTALL_DIR/state"
 ok "代码已就位"
 
 say "首次抓取并生成（约需 10-20 秒）"
@@ -79,11 +83,13 @@ if [ "$USING_SYSTEMD" = "0" ]; then
   ok "已用 nohup 启动，PID $(cat "$INSTALL_DIR/.serve.pid")"
 fi
 
-say "配置每日更新（crontab，$RUN_HOUR:05）"
-CRON_LINE="5 $RUN_HOUR * * * cd $INSTALL_DIR && $PY main.py -n 7 >> $INSTALL_DIR/logs/cron.log 2>&1"
-( crontab -l 2>/dev/null | grep -v 'zrfan-calendar\|main.py -n' ; echo "$CRON_LINE" ) | crontab -
+say "配置定时更新（0 点主更新 + 6 点兜底）"
+CRON_MAIN="0 0 * * * cd $INSTALL_DIR && bash $INSTALL_DIR/update_and_push.sh >> $INSTALL_DIR/logs/cron.log 2>&1"
+CRON_CATCH="0 6 * * * cd $INSTALL_DIR && bash $INSTALL_DIR/catchup_if_missed.sh >> $INSTALL_DIR/logs/cron.log 2>&1"
+( crontab -l 2>/dev/null | grep -v 'zrfan-calendar\|update_and_push\|catchup_if_missed' ; echo "$CRON_MAIN" ; echo "$CRON_CATCH" ) | crontab -
 ok "crontab 已写入："
-crontab -l | grep 'main.py' | sed 's/^/    /'
+crontab -l | grep -E 'update_and_push|catchup_if_missed' | sed 's/^/    /'
+echo "    说明：0 点主更新；若当天指南还没发布，6 点会自动补抓一次"
 
 IP="$(curl -s --max-time 5 ifconfig.me 2>/dev/null || hostname -I | awk '{print $1}')"
 say "完成"

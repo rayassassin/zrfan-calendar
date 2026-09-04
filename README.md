@@ -72,11 +72,12 @@ build/
 ## 部署到服务器
 
 ```bash
-bash deploy.sh /opt/zrfan-calendar 8080 7
-#               安装目录         端口  每天 7:05 更新
+bash deploy.sh /opt/zrfan-calendar 8080
+#               安装目录         端口
 ```
 
-脚本会：拷贝代码 → 试跑一次 → 用 systemd（或 nohup）启动静态服务 → 写入 crontab。
+脚本会：拷贝代码 → 试跑一次 → 用 systemd（或 nohup）启动静态服务 →
+写入 crontab（0 点主更新 + 6 点兜底）。
 
 ### Google 日历必须走 HTTPS
 
@@ -100,9 +101,13 @@ zrfan.com 屏蔽了境外访问，GitHub Actions 的美国节点连不上它
 https://<你的用户名>.github.io/zrfan-calendar/ics/spdb.ics
 ```
 
-链路：`crontab` 每天 7:05 跑 `update_and_push.sh`
+链路：`crontab` 每天 **0 点**跑 `update_and_push.sh`（主更新）
 → `main.py` 抓取生成 `build/` → `push_pages.sh` 用 **Deploy Key** 推到 `gh-pages` 分支
 → GitHub Pages 自动重新部署。
+
+**6 点兜底**：zrfan.com 当天指南的发布时间不固定，0 点时可能还没上线。
+`catchup_if_missed.sh` 会在 6 点检查 `state/latest_article_date`——若最新文章仍不是当天，
+就用 `--force` 绕过缓存强制补抓一次；已是当天则跳过，不重复抓。
 
 - 服务器推送用**仓库 Deploy Key**（`/root/.ssh/zrfan_deploy`，仅授权本仓库、可写），
   服务器上不存放 GitHub 账号 token

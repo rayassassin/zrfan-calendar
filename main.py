@@ -79,6 +79,14 @@ def run(n_articles=7, out_dir=None, force=False, remind=10):
     with open(os.path.join(out_dir, 'meta.json'), 'w', encoding='utf-8') as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
 
+    # 记录本次抓到的最新文章日期，供「6 点兜底」判断当天指南是否已发布
+    latest = date(arts[-1]['year'], arts[-1]['month'], arts[-1]['day'])
+    state_dir = os.path.join(HERE, 'state')
+    os.makedirs(state_dir, exist_ok=True)
+    with open(os.path.join(state_dir, 'latest_article_date'), 'w', encoding='utf-8') as f:
+        f.write(latest.isoformat())
+    print(f'      最新文章日期：{latest.isoformat()}')
+
     print('=' * 56)
     print(f'完成：{len(cals)} 个日历 / {len(sch)} 项活动 / 输出目录 {out_dir}')
     return 0

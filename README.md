@@ -90,14 +90,23 @@ cp nginx.conf.example /etc/nginx/conf.d/zrfan-calendar.conf
 # 改里面的域名和证书路径，然后 nginx -t && nginx -s reload
 ```
 
-**B. 只有裸 IP，没有域名** —— 用免费的 Pages 托管
+**B. 只有裸 IP，没有域名** —— 服务器抓取 + GitHub Pages 托管（本项目实际采用）
 
-把仓库推到 GitHub，开启 Actions，`.github/workflows/update.yml`
-会每天自动抓取并把 `build/` 发布到 GitHub Pages，自带 HTTPS：
+zrfan.com 屏蔽了境外访问，GitHub Actions 的美国节点连不上它
+（`curl: (7) Failed to connect`，TCP 都建立不了，`-k` 也救不了）。
+所以抓取放在国内服务器做，再把结果推到 GitHub Pages 托管（自带 HTTPS）：
 
 ```
 https://<你的用户名>.github.io/zrfan-calendar/ics/spdb.ics
 ```
+
+链路：`crontab` 每天 7:05 跑 `update_and_push.sh`
+→ `main.py` 抓取生成 `build/` → `push_pages.sh` 用 **Deploy Key** 推到 `gh-pages` 分支
+→ GitHub Pages 自动重新部署。
+
+- 服务器推送用**仓库 Deploy Key**（`/root/.ssh/zrfan_deploy`，仅授权本仓库、可写），
+  服务器上不存放 GitHub 账号 token
+- 曾经的 Actions 抓取 workflow 已移除（美国节点连不上 zrfan.com，无意义）
 
 **C. 只想本地用** —— 不下发订阅，直接导入
 
@@ -127,6 +136,8 @@ Google 日历 → 设置 → 导入和导出 → 从计算机导入 → 选 `bui
 | `validate.py` | 校验 ICS 结构、行长、转义、UID 唯一性 |
 | `serve.py` | 静态服务，修正 `.ics` 的 MIME 类型 |
 | `main.py` | 串联以上全部 |
+| `push_pages.sh` | 把 `build/` 推到 `gh-pages` 分支（Deploy Key 认证） |
+| `update_and_push.sh` | 每日定时入口：抓取 → 推送，由 crontab 调用 |
 
 ## 调参
 

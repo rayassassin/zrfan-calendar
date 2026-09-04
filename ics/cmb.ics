@@ -10,16 +10,16 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:2297781a04f454e7b11112f36c126fa7@zrfan-card-guide
-DTSTART;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20270101
 SUMMARY:招商银行｜淘宝闪购（期内可参与）
 DESCRIPTION:淘宝闪购（饿了么app或淘宝-闪购频道）使用银
  联通道，使用掌上生活APP选择招行62信用卡支付，满10-2
  元（日5k名额，月1次共6次，12月31日截止）\n\n活动截止
- ：2026-12-31\n来源：2026-9-4日周五刷卡指南 https://www.zrfan.
- com/8857.html
+ ：2026-12-31\n来源：2026-9-5日周六刷卡指南 https://www.zrfan.
+ com/8858.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:招商银行
 END:VEVENT
 BEGIN:VEVENT

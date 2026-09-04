@@ -10,7 +10,7 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:c288bdd06a003b55b02f4e5045fa7b61@zrfan-card-guide
-DTSTART;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20270401
 SUMMARY:邮储银行｜12306、京东、同程、小红书、EMS、淘宝
  、拼多多（期内可参与）
@@ -23,63 +23,63 @@ DESCRIPTION:指定商户使用云闪付APP，选择邮储信用卡支付
  机减1-66元（日720名额）\nEMS云闪付APP扫付款码满10元随
  机减1-66元（日120名额）\n淘宝APP满200-10元（日732名额）
  \n拼多多APP满10元随机减1-66元（日3072名额）\n\n活动截
- 止：2027-03-31\n来源：2026-9-4日周五刷卡指南 https://www.zrf
- an.com/8857.html
+ 止：2027-03-31\n来源：2026-9-5日周六刷卡指南 https://www.zrf
+ an.com/8858.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:f42dcd906dda69c84442fabc08f3f633@zrfan-card-guide
-DTSTART;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20270401
 SUMMARY:邮储银行｜中石化（期内可参与）
 DESCRIPTION:易捷加油石化钱包充值，使用云闪付选择邮储
  信用卡支付，满200元随机减3-66元（日407名额，月1次，
  续期至27年3月31日截止，首次开通自动充值还有满200-15
- 元，日102名额）\n\n活动截止：2027-03-31\n来源：2026-9-4日
- 周五刷卡指南 https://www.zrfan.com/8857.html
+ 元，日102名额）\n\n活动截止：2027-03-31\n来源：2026-9-5日
+ 周六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:e78d724b5940b5e0ddc61547d92ee109@zrfan-card-guide
-DTSTART;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20270301
 SUMMARY:邮储银行｜携程、去哪儿（期内可参与）
 DESCRIPTION:携程、去哪儿使用邮储信用卡支付，满300-6元
  （日各200名额，月各1次，27年2月28日截止）\n\n活动截
- 止：2027-02-28\n来源：2026-9-4日周五刷卡指南 https://www.zrf
- an.com/8857.html
+ 止：2027-02-28\n来源：2026-9-5日周六刷卡指南 https://www.zrf
+ an.com/8858.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:f3ee180b7b383d93ce5746f97fe0bd9b@zrfan-card-guide
-DTSTART;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20270101
 SUMMARY:邮储银行｜肯德基（期内可参与）
 DESCRIPTION:肯德基使用支付宝，选择邮储信用卡支付，满3
  6-6元（39w+名额，月1次），还可享满1.01-1元（183w名额，
  日1次）（26年12月31日截止）\n\n活动截止：2026-12-31\n来
- 源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857.html
+ 源：2026-9-5日周六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:b7a123b66b0bd212f03aacffd6daabfa@zrfan-card-guide
-DTSTART:20260904T000000Z
-DTEND:20260904T003000Z
+DTSTART:20260905T000000Z
+DTEND:20260905T003000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 邮储银行｜08:00 车主卡
 DESCRIPTION:使用邮储车主卡每月累计消费满1k元，次月5日8
  点起，邮储银行APP-信用卡-活动礼遇-车主卡活动，可领
  满200-30元中石油充值支付券（月普卡1800张、金卡7300张
  、白金卡7600张，26年12月31日截止）\n\n活动截止：2026-12
- -31\n来源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857.h
+ -31\n来源：2026-9-5日周六刷卡指南 https://www.zrfan.com/8858.h
  tml
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -87,72 +87,72 @@ ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 邮储银行｜08:00 车主卡
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:f9ac564987fab5fbdd5374931f827cd8@zrfan-card-guide
-DTSTART:20260904T010000Z
-DTEND:20260904T013000Z
+DTSTART:20260905T010000Z
+DTEND:20260905T013000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 邮储银行｜09:00 万达
 DESCRIPTION:每日9点起，万达广场使用支付宝选择邮储信用
  卡支付（26年12月31日截止）\n①满50-5元、满10-1元（月
  各1次）\n②微信小程序停车缴费满2-1元（月1次）\n\n活
- 动截止：2026-12-31\n来源：2026-9-4日周五刷卡指南 https://w
- ww.zrfan.com/8857.html
+ 动截止：2026-12-31\n来源：2026-9-5日周六刷卡指南 https://w
+ ww.zrfan.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 邮储银行｜09:00 万达
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:ea12b3858f8e459879ce75c248d40eb0@zrfan-card-guide
-DTSTART:20260904T010000Z
-DTEND:20260904T013000Z
+DTSTART:20260905T010000Z
+DTEND:20260905T013000Z
 RRULE:FREQ=DAILY;UNTIL=20261130T155959Z
 SUMMARY:[每日] 邮储银行｜09:00 借记卡消费抽奖
 DESCRIPTION:邮储银行APP-活动专区-支付达标享好礼，报名
  后使用邮储借记卡快捷消费满3k-6k-1w，次月10日起可抽1-
  500元微信立减金（11月30日截止）\n\n活动截止：2026-11-30
- \n来源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857.html
+ \n来源：2026-9-5日周六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 邮储银行｜09:00 借记卡消费抽奖
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:592a1c8010d5102ba641e27e1935d2db@zrfan-card-guide
-DTSTART:20260904T010000Z
-DTEND:20260904T013000Z
+DTSTART:20260905T010000Z
+DTEND:20260905T013000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 邮储银行｜09:00 微商圈
 DESCRIPTION:每日9点起，指定合作商户（可邮储APP定位本地
  看有没有）使用支付宝选择邮储信用卡支付，满50-5元
  （共45w名额，月1次）满10-1元（共150w名额，日1次月6次
  ）（12月31日截止）\n\n活动截止：2026-12-31\n来源：2026-9-
- 4日周五刷卡指南 https://www.zrfan.com/8857.html
+ 5日周六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 邮储银行｜09:00 微商圈
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:51f09dd13cd991a34377eaf833259b59@zrfan-card-guide
-DTSTART:20260904T010000Z
-DTEND:20260904T013000Z
+DTSTART:20260905T010000Z
+DTEND:20260905T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 邮储银行｜09:00 越刷越精彩
 DESCRIPTION:邮储银行信用卡APP-热门活动（或活动礼遇）-
@@ -162,27 +162,27 @@ DESCRIPTION:邮储银行信用卡APP-热门活动（或活动礼遇）-
  元）\n②满2w元领1.2w积分或10元微信立减金\n③满3w元领2
  0元微信立减金\n④月消费前6k名可得100元微信立减金（
  名额有限，先到先得）\n\n活动截止：2026-09-30\n来源：20
- 26-9-4日周五刷卡指南 https://www.zrfan.com/8857.html
+ 26-9-5日周六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 邮储银行｜09:00 越刷越精彩
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:f61a7b3e07428cfa211ad048474e41cf@zrfan-card-guide
-DTSTART:20260904T013000Z
-DTEND:20260904T020000Z
+DTSTART:20260905T013000Z
+DTEND:20260905T020000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 邮储银行｜09:30 万达
 DESCRIPTION:每日9点30分起，万达广场（26年12月31日截止）
  \n③消费每满6天有满9.9元消费，邮储APP-信用卡-周周享
  可领满50-5元支付宝券（月2次）\n③当月消费满6k元，次
  月周六领满50-25元优惠券（月1次）\n\n活动截止：2026-12-
- 31\n来源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857.ht
+ 31\n来源：2026-9-5日周六刷卡指南 https://www.zrfan.com/8858.ht
  ml
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -190,7 +190,7 @@ ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 邮储银行｜09:30 万达
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
@@ -203,22 +203,24 @@ DESCRIPTION:上月消费达标（一般为消费满6k元，有的券为
  其它较低门槛），周六9点30分起，邮储信用卡APP（邮储
  银行APP）-超值优惠券，可领各种5折券、1元购券等（上
  月达标可领，本季度活动续期）\n支付宝APP-搜-支付有
- 礼，每周末领碰一碰红包\n淘宝-闪购（支付宝-闪购）
- ，每日可领大额红包，千问APP下单有随机减\n\n来源：20
- 26-8-29日周六刷卡指南 https://www.zrfan.com/8848.html
+ 礼，每周末领碰一碰红包\n注意查看建设银行信用卡短
+ 信，有特邀消费达标得积分活动（11月截止）\n淘宝-闪
+ 购（支付宝-闪购），每日可领大额红包，千问APP下单
+ 有随机减\n\n来源：2026-9-5日周六刷卡指南 https://www.zrfan
+ .com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周六周日] 邮储银行｜09:30 周六5折券
 END:VALARM
-URL:https://www.zrfan.com/8848.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:a296be75689f0b56ee2c3e97ccd598bf@zrfan-card-guide
-DTSTART:20260904T013000Z
-DTEND:20260904T020000Z
+DTSTART:20260905T013000Z
+DTEND:20260905T020000Z
 RRULE:FREQ=DAILY;UNTIL=20261031T155959Z
 SUMMARY:[每日] 邮储银行｜09:30 好想来
 DESCRIPTION:每日9点30分起，邮储信用卡APP-超值优惠券（或
@@ -227,21 +229,21 @@ DESCRIPTION:每日9点30分起，邮储信用卡APP-超值优惠券（或
  想来指定商户，使用支付宝选择邮储信用卡支付，满50-
  5元（月1次）满10-1元（日1次月6次）\n③当月消费满6k元
  ，次月周六领满50-25元优惠券（月1次）\n\n活动截止：20
- 26-10-31\n来源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8
- 857.html
+ 26-10-31\n来源：2026-9-5日周六刷卡指南 https://www.zrfan.com/8
+ 858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 邮储银行｜09:30 好想来
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:309d7fe2638d137cc1874b79357e3535@zrfan-card-guide
-DTSTART:20260904T013000Z
-DTEND:20260904T020000Z
+DTSTART:20260905T013000Z
+DTEND:20260905T020000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 邮储银行｜09:30 永辉、大润发
 DESCRIPTION:每日9点30分起，邮储信用卡APP-超值优惠券（或
@@ -250,62 +252,62 @@ DESCRIPTION:每日9点30分起，邮储信用卡APP-超值优惠券（或
  \n②永辉大润发指定商户，使用支付宝选择邮储信用卡
  支付，满50-5元（月1次）\n③当月消费满6k元，次月周六
  领满50-25元优惠券（月1次）\n\n活动截止：2026-12-31\n来
- 源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857.html
+ 源：2026-9-5日周六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 邮储银行｜09:30 永辉、大润发
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:2881de7c8595555ba501907e8d6a962c@zrfan-card-guide
-DTSTART:20260904T013000Z
-DTEND:20260904T020000Z
+DTSTART:20260905T013000Z
+DTEND:20260905T020000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 邮储银行｜09:30 肯德基
 DESCRIPTION:每日9点30分起，当月消费6天且每日满9.9元，邮
  储信用卡APP-超值优惠券（或搜肯德基），可领6元支付
  宝代金券（12200名额，月2次，12月31日截止）\n当月消费
  满6k元，次月周六领满50-25元优惠券（月1次）\n\n活动截
- 止：2026-12-31\n来源：2026-9-4日周五刷卡指南 https://www.zrf
- an.com/8857.html
+ 止：2026-12-31\n来源：2026-9-5日周六刷卡指南 https://www.zrf
+ an.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 邮储银行｜09:30 肯德基
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:1d4dbb88ab7cd4222fe78b7a2093e5a4@zrfan-card-guide
-DTSTART:20260904T013000Z
-DTEND:20260904T020000Z
+DTSTART:20260905T013000Z
+DTEND:20260905T020000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 邮储银行｜09:30 蜜雪冰城
 DESCRIPTION:每日9点30分起，邮储信用卡APP-超值优惠券（或
  搜-蜜雪冰城，26年9月30日截止）\n①首次1分购2元蜜雪
  冰城券\n②消费每满6天有满9.9元消费，可1分购买5元蜜
  雪冰城券（月2次）\n③周六可5元购买2张5元代金券（月
- 2次）\n\n活动截止：2026-09-30\n来源：2026-9-4日周五刷卡
- 指南 https://www.zrfan.com/8857.html
+ 2次）\n\n活动截止：2026-09-30\n来源：2026-9-5日周六刷卡
+ 指南 https://www.zrfan.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 邮储银行｜09:30 蜜雪冰城
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:f3f40e3456001d9610e89ba3b5c1f491@zrfan-card-guide
-DTSTART:20260904T013000Z
-DTEND:20260904T020000Z
+DTSTART:20260905T013000Z
+DTEND:20260905T020000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 邮储银行｜09:30 霸王茶姬
 DESCRIPTION:每日9点30分起，邮储信用卡APP-超值优惠券（或
@@ -313,20 +315,20 @@ DESCRIPTION:每日9点30分起，邮储信用卡APP-超值优惠券（或
  金券，每日13.8元购16元代金券\n②消费每满6天有满9.9元
  消费，可8.8元购16元霸王茶姬券（月2次）\n③周六可16
  元购2杯伯牙绝弦（月2次）\n\n活动截止：2026-09-30\n来源
- ：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857.html
+ ：2026-9-5日周六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 邮储银行｜09:30 霸王茶姬
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:邮储银行
 END:VEVENT
 BEGIN:VEVENT
 UID:adfbb4d3c7dbd43838966b91070265d2@zrfan-card-guide
-DTSTART:20260904T020000Z
-DTEND:20260904T023000Z
+DTSTART:20260911T020000Z
+DTEND:20260911T023000Z
 RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20261231T155959Z
 SUMMARY:[周五] 邮储银行｜10:00 借记卡抖音、京东、拼多
  多、淘宝

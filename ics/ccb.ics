@@ -10,73 +10,73 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:5f98e496164ce1a33b20df9e71a7e791@zrfan-card-guide
-DTSTART;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20270101
 SUMMARY:建设银行｜减1元（期内可参与）
 DESCRIPTION:线上aPP使用银联通道，选择建设APP使用建行62
  卡支付，满1.01-1元（限量，月4次，26年12月31日截止，
  首次开通满50-10元）\n\n活动截止：2026-12-31\n来源：2026-9
- -4日周五刷卡指南 https://www.zrfan.com/8857.html
+ -5日周六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
 UID:bdb4d538fabf9c00e276a801a53b8cbd@zrfan-card-guide
-DTSTART;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20270521
 SUMMARY:建设银行｜唯品会分期（期内可参与）
 DESCRIPTION:唯品会使用建行62信用卡分期支付，满500-20元
  （月1k名额）、满1500-60元（月800名额）、满4k-160元（月
  350名额）（月各1次，27年5月20日截止，每月初一次性放
- 名额）\n\n活动截止：2027-05-20\n来源：2026-9-4日周五刷卡
- 指南 https://www.zrfan.com/8857.html
+ 名额）\n\n活动截止：2027-05-20\n来源：2026-9-5日周六刷卡
+ 指南 https://www.zrfan.com/8858.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
 UID:07bfa3356e16a2e2c8884d032182c475@zrfan-card-guide
-DTSTART;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20261001
 SUMMARY:建设银行｜抖音联名卡（期内可参与）
 DESCRIPTION:龙卡抖音联名卡通过抖音支付任意消费1笔，可
  得2张抖音满100-10元支付券（26年9月30日截止）\n\n活动
- 截止：2026-09-30\n来源：2026-9-4日周五刷卡指南 https://www.
- zrfan.com/8857.html
+ 截止：2026-09-30\n来源：2026-9-5日周六刷卡指南 https://www.
+ zrfan.com/8858.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
 UID:ca1b3eba7e8458db539c11f5ad5ecc38@zrfan-card-guide
-DTSTART;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20270101
 SUMMARY:建设银行｜携程、去哪儿（期内可参与）
 DESCRIPTION:携程、去哪儿使用建行卡支付，满300元随机减5
  -56元（月各1次，12月31日截止）\n\n活动截止：2026-12-31\n
- 来源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857.html
+ 来源：2026-9-5日周六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
 UID:975bc718afe139b15952b88352033268@zrfan-card-guide
-DTSTART;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20261001
 SUMMARY:建设银行｜淘宝分期（期内可参与）
 DESCRIPTION:淘宝使用建行62信用卡分期支付，满500-20元，
  满1500-75元（月3w名额，月各1次，9月30日截止）\n\n活动
- 截止：2026-09-30\n来源：2026-9-4日周五刷卡指南 https://www.
- zrfan.com/8857.html
+ 截止：2026-09-30\n来源：2026-9-5日周六刷卡指南 https://www.
+ zrfan.com/8858.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
 UID:6432b3643a4d979203ea20cc85add69c@zrfan-card-guide
-DTSTART:20260904T010000Z
-DTEND:20260904T013000Z
+DTSTART:20260905T010000Z
+DTEND:20260905T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 建设银行｜09:00 100元京东
 DESCRIPTION:建行生活APP-热门活动-时光好礼月月享（9月）
@@ -86,21 +86,21 @@ DESCRIPTION:建行生活APP-热门活动-时光好礼月月享（9月）
  ①月满3k元且满5笔得20元京东专区券（月6w名额）\n②月
  满6k元且满5笔得50元京东专区券（月5.6w名额）\n③月满1
  .5w元且满5笔得100元京东专区券（月3.3w名额）\n\n活动截
- 止：2026-09-30\n来源：2026-9-4日周五刷卡指南 https://www.zrf
- an.com/8857.html
+ 止：2026-09-30\n来源：2026-9-5日周六刷卡指南 https://www.zrf
+ an.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 建设银行｜09:00 100元京东
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
 UID:1cd42e6bf18bbee7752bf2ea4449eb6a@zrfan-card-guide
-DTSTART:20260904T010000Z
-DTEND:20260904T013000Z
+DTSTART:20260905T010000Z
+DTEND:20260905T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 建设银行｜09:00 100元京东（9月）
 DESCRIPTION:建行生活APP-热门活动-时光好礼月月享（9月）
@@ -110,49 +110,49 @@ DESCRIPTION:建行生活APP-热门活动-时光好礼月月享（9月）
  ①月满3k元且满5笔得20元京东专区券（月6w名额）\n②月
  满6k元且满5笔得50元京东专区券（月5.6w名额）\n③月满1
  .5w元且满5笔得100元京东专区券（月3.3w名额）\n\n活动截
- 止：2026-09-30\n来源：2026-9-4日周五刷卡指南 https://www.zrf
- an.com/8857.html
+ 止：2026-09-30\n来源：2026-9-5日周六刷卡指南 https://www.zrf
+ an.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 建设银行｜09:00 100元京东（9月）
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
 UID:469faa83825f55d8fadefee16c3c4bd7@zrfan-card-guide
-DTSTART:20260904T010000Z
-DTEND:20260904T013000Z
+DTSTART:20260905T010000Z
+DTEND:20260905T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 建设银行｜09:00 品牌聚惠
 DESCRIPTION:建行生活APP-限时好券（或建行生活APP-搜索相
  关商户，或搜-品牌聚惠）每日7点或9点起，可根据地区
  不同，购买星巴克、必胜客、肯德基、海底捞等诸多优
  惠券（若有美食类刚需，建议搜一下，超百家商户，9
- 月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-4日周
- 五刷卡指南 https://www.zrfan.com/8857.html
+ 月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-5日周
+ 六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 建设银行｜09:00 品牌聚惠
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
 UID:fc41cdaa16185dea32646b7d6146a7de@zrfan-card-guide
-DTSTART:20260904T010000Z
-DTEND:20260904T013000Z
+DTSTART:20260905T010000Z
+DTEND:20260905T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 建设银行｜09:00 支付达标赢好礼（特邀）
 DESCRIPTION:建设银行APP-搜-惠省钱-支付达标赢好礼（特邀
  用户可见），报名后使用快捷支付消费达标，次月9日9
  点起，可抽1-666元立减金，还有加码福利，消费笔数达
  标额外抽1次（9月30日截止）\n\n活动截止：2026-09-30\n来
- 源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857.html
+ 源：2026-9-5日周六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -160,7 +160,7 @@ TRIGGER:-PT10M
 DESCRIPTION:[每日] 建设银行｜09:00 支付达标赢好礼（特邀
  ）
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
@@ -175,20 +175,20 @@ DESCRIPTION:建设银行APP-信用卡-最新优惠-更多-时光好礼，
  费满16元，额外得100积分（日1次，10w份）\n③当周消费
  满3笔累计200元，可得1k积分（14w份）\n④每周都消费达
  标，可得1k积分（5w份）\n\n活动截止：2026-09-30\n来源：2
- 026-9-4日周五刷卡指南 https://www.zrfan.com/8857.html
+ 026-9-5日周六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周六] 建设银行｜09:00 消费积分
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
 UID:c4f4cf9dbf0b5eea7c2f2d6bfb2853cb@zrfan-card-guide
-DTSTART:20260904T010000Z
-DTEND:20260904T013000Z
+DTSTART:20260905T010000Z
+DTEND:20260905T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260906T155959Z
 SUMMARY:[每日] 建设银行｜09:00 点亮城市
 DESCRIPTION:建行生活APP-搜-点亮城市，点击参与游戏后，
@@ -200,21 +200,21 @@ DESCRIPTION:建行生活APP-搜-点亮城市，点击参与游戏后，
  领100体力（还有办卡绑卡等特殊任务）\n建筑奖励：龙
  门石窟得10元、象鼻山16元、雷峰塔16元、老虎滩26元、
  大熊猫基地26元、崂山36元、大政殿36元、故宫46元\n\n活
- 动截止：2026-09-06\n来源：2026-9-4日周五刷卡指南 https://w
- ww.zrfan.com/8857.html
+ 动截止：2026-09-06\n来源：2026-9-5日周六刷卡指南 https://w
+ ww.zrfan.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 建设银行｜09:00 点亮城市
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
 UID:72fe82d322f60deba5f08ceeb6e395b6@zrfan-card-guide
-DTSTART:20260904T010000Z
-DTEND:20260904T013000Z
+DTSTART:20260905T010000Z
+DTEND:20260905T013000Z
 RRULE:FREQ=DAILY;UNTIL=20261031T155959Z
 SUMMARY:[每日] 建设银行｜09:00 龙标电影卡买一赠一
 DESCRIPTION:使用建行龙卡龙标电影卡，银联渠道每月消费
@@ -222,7 +222,7 @@ DESCRIPTION:使用建行龙卡龙标电影卡，银联渠道每月消费
  优惠票价低的一张上限50元，26年10月31日截止）\n建行AP
  P-信用卡-最新优惠-更多-龙标电影月月消费，显示剩余
  名额，若达标且有名额，会自动到账\n\n活动截止：2026-
- 10-31\n来源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857
+ 10-31\n来源：2026-9-5日周六刷卡指南 https://www.zrfan.com/8858
  .html
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -230,7 +230,7 @@ ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 建设银行｜09:00 龙标电影卡买一赠一
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
@@ -242,15 +242,15 @@ SUMMARY:[周六] 建设银行｜09:30 中石化72元
 DESCRIPTION:周六9点30分起，建行生活APP-热门活动-惠游中
  华中石化，可领石化钱包充值满600-56元微信立减金（日
  1.1w张）平常日还有满200-16元（日2300张）（月各1次，12
- 月31日截止）\n\n活动截止：2026-12-31\n来源：2026-8-29日周
- 六刷卡指南 https://www.zrfan.com/8848.html
+ 月31日截止）\n\n活动截止：2026-12-31\n来源：2026-9-5日周
+ 六刷卡指南 https://www.zrfan.com/8858.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周六] 建设银行｜09:30 中石化72元
 END:VALARM
-URL:https://www.zrfan.com/8848.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 BEGIN:VEVENT
@@ -264,7 +264,7 @@ DESCRIPTION:每日11点起，华润万象生活指定商圈使用云闪
  ，查询门店及剩余名额，9月30日截止）\n①满300元随机
  减26-66元（日310名额，月1次共6次）\n②周五周六周日满
  2k-166元（日750名额，月1次共3次）\n\n活动截止：2026-09-3
- 0\n来源：2026-9-4日周五刷卡指南 https://www.zrfan.com/8857.htm
+ 0\n来源：2026-9-5日周六刷卡指南 https://www.zrfan.com/8858.htm
  l
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -272,7 +272,7 @@ ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周六周日] 建设银行｜11:00 华润
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8858.html
 CATEGORIES:建设银行
 END:VEVENT
 END:VCALENDAR

@@ -10,20 +10,20 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:35152d764d92b3729714f60ef8ea8228@zrfan-card-guide
-DTSTART;VALUE=DATE:20260905
+DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20261001
 SUMMARY:中国银行｜奈雪（期内可参与）
 DESCRIPTION:奈雪微信小程序使用中行信用卡支付，满9.9元
  随机减至高2元（日600名额，月4次，9月30日截止）\n\n活
- 动截止：2026-09-30\n来源：2026-9-5日周六刷卡指南 https://w
- ww.zrfan.com/8858.html
+ 动截止：2026-09-30\n来源：2026-9-6日周日刷卡指南 https://w
+ ww.zrfan.com/8859.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8858.html
+URL:https://www.zrfan.com/8859.html
 CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:b52341818858cebe14d5ca8602f694ae@zrfan-card-guide
-DTSTART;VALUE=DATE:20260905
+DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20261001
 SUMMARY:中国银行｜携程、去哪儿、京东、淘宝、唯品会
  分期（期内可参与）
@@ -35,15 +35,15 @@ DESCRIPTION:指定APP使用中行信用卡分期支付（9月30日截止
  满5k-100元（6k名额）\n淘宝分期满300-10元（7w名额）满1k-
  30元（7k名额）满3k-90元（1k名额）\n唯品会分期满500-20
  元（1500名额）满1500-50元（600名额）满5k-200元（300名额
- ）\n\n活动截止：2026-09-30\n来源：2026-9-5日周六刷卡指南
-  https://www.zrfan.com/8858.html
+ ）\n\n活动截止：2026-09-30\n来源：2026-9-6日周日刷卡指南
+  https://www.zrfan.com/8859.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8858.html
+URL:https://www.zrfan.com/8859.html
 CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:eeb17c99569fb4c602c2ff55f96afffd@zrfan-card-guide
-DTSTART;VALUE=DATE:20260905
+DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20261001
 SUMMARY:中国银行｜携程、去哪儿、京东分期（期内可参
  与）
@@ -60,67 +60,67 @@ CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:91088df3f509de25c1a0dcd3802766ab@zrfan-card-guide
-DTSTART:20260904T230000Z
-DTEND:20260904T233000Z
+DTSTART:20260905T230000Z
+DTEND:20260905T233000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 中国银行｜07:00 瑞幸
 DESCRIPTION:每日7点其，瑞幸使用微信支付，选择中行信用
  卡支付，满9.9元随机减至高2元（日3w名额，日1次，9月3
- 0日截止）\n\n活动截止：2026-09-30\n来源：2026-9-5日周六
- 刷卡指南 https://www.zrfan.com/8858.html
+ 0日截止）\n\n活动截止：2026-09-30\n来源：2026-9-6日周日
+ 刷卡指南 https://www.zrfan.com/8859.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 中国银行｜07:00 瑞幸
 END:VALARM
-URL:https://www.zrfan.com/8858.html
+URL:https://www.zrfan.com/8859.html
 CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:80621c5c35109cd3e55fcb086bc3b3ef@zrfan-card-guide
-DTSTART:20260905T000000Z
-DTEND:20260905T003000Z
+DTSTART:20260906T000000Z
+DTEND:20260906T003000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 中国银行｜08:00 满30-10元
 DESCRIPTION:每日8点起，线上商户使用银联选择中行APP、线
  下商户使用中行APP银联二维码，选择中行62信用卡支付
  ，满30-10元（日1280名额，月1次共2次）满10元随机减0.88-
  88元（日2640名额，日1次月4次）（12月31日截止）\n\n活
- 动截止：2026-12-31\n来源：2026-9-5日周六刷卡指南 https://w
- ww.zrfan.com/8858.html
+ 动截止：2026-12-31\n来源：2026-9-6日周日刷卡指南 https://w
+ ww.zrfan.com/8859.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 中国银行｜08:00 满30-10元
 END:VALARM
-URL:https://www.zrfan.com/8858.html
+URL:https://www.zrfan.com/8859.html
 CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:c78003bfeab742e71e81671cc8b3c856@zrfan-card-guide
-DTSTART:20260905T010000Z
-DTEND:20260905T013000Z
+DTSTART:20260906T010000Z
+DTEND:20260906T013000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 中国银行｜09:00 5倍福气值
 DESCRIPTION:微信、京东、淘宝消费使用云闪付APP选择中行6
  2信用卡支付，享5倍福气值月上限2w值（12月31日截止）
- \n\n活动截止：2026-12-31\n来源：2026-9-5日周六刷卡指南 ht
- tps://www.zrfan.com/8858.html
+ \n\n活动截止：2026-12-31\n来源：2026-9-6日周日刷卡指南 ht
+ tps://www.zrfan.com/8859.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 中国银行｜09:00 5倍福气值
 END:VALARM
-URL:https://www.zrfan.com/8858.html
+URL:https://www.zrfan.com/8859.html
 CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:a7b7995e9ab35e270ad35fc222f6b91c@zrfan-card-guide
-DTSTART:20260905T010000Z
-DTEND:20260905T013000Z
+DTSTART:20260906T010000Z
+DTEND:20260906T013000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 中国银行｜09:00 卓越plus信用卡（新卡介绍
  ）
@@ -133,7 +133,7 @@ DESCRIPTION:上月介绍的卓越plus卡（中行app-搜-卓越），正
  值奖励\n⑤激活次2个月内快捷消费享3倍积分月上限5w分
  \n20元购买3倍积分权益月上限5w分上线（5w积分大概价值
  六七十块，11月30日截止）\n\n活动截止：2026-12-31\n来源
- ：2026-9-5日周六刷卡指南 https://www.zrfan.com/8858.html
+ ：2026-9-6日周日刷卡指南 https://www.zrfan.com/8859.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -141,59 +141,59 @@ TRIGGER:-PT10M
 DESCRIPTION:[每日] 中国银行｜09:00 卓越plus信用卡（新卡介
  绍）
 END:VALARM
-URL:https://www.zrfan.com/8858.html
+URL:https://www.zrfan.com/8859.html
 CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:b6818a855677c71121103ccb1490b149@zrfan-card-guide
-DTSTART:20260905T010000Z
-DTEND:20260905T013000Z
+DTSTART:20260906T010000Z
+DTEND:20260906T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 中国银行｜09:00 汽车卡30元
 DESCRIPTION:每月中行汽车主题卡累计消费满3k元，次月12日
  可中行app-我的-我的权益-待领取礼包，领3张100-10元加
  油或3张20-10元充电支付券（月2w份，月1次共3次，26年9
- 月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-5日周
- 六刷卡指南 https://www.zrfan.com/8858.html
+ 月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-6日周
+ 日刷卡指南 https://www.zrfan.com/8859.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 中国银行｜09:00 汽车卡30元
 END:VALARM
-URL:https://www.zrfan.com/8858.html
+URL:https://www.zrfan.com/8859.html
 CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:e8baabbf04557b607d9aef7c193c6dc6@zrfan-card-guide
-DTSTART:20260905T010000Z
-DTEND:20260905T013000Z
+DTSTART:20260906T010000Z
+DTEND:20260906T013000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 中国银行｜09:00 线条小狗卡权益
 DESCRIPTION:使用中行线条小狗卡单笔消费满66元，可抽2-66
  元微信立减金（月3w名额，月4次，12月31日截止）\n建设
- 银行\n\n活动截止：2026-12-31\n来源：2026-9-5日周六刷卡指
- 南 https://www.zrfan.com/8858.html
+ 银行\n\n活动截止：2026-12-31\n来源：2026-9-6日周日刷卡指
+ 南 https://www.zrfan.com/8859.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 中国银行｜09:00 线条小狗卡权益
 END:VALARM
-URL:https://www.zrfan.com/8858.html
+URL:https://www.zrfan.com/8859.html
 CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:50f9f295b023935f1354597808bf1c24@zrfan-card-guide
-DTSTART:20260905T010000Z
-DTEND:20260905T013000Z
+DTSTART:20260906T010000Z
+DTEND:20260906T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 中国银行｜09:00 财富、私行卡消费福气值
 DESCRIPTION:中行长城财富信用卡、私行信用卡累计消费满5
  w元得8w福气值、满8w元得15w福气值、满20w元得40w福气值
  、满50w元得120w福气值（9月30日截止）\n\n活动截止：2026
- -09-30\n来源：2026-9-5日周六刷卡指南 https://www.zrfan.com/885
- 8.html
+ -09-30\n来源：2026-9-6日周日刷卡指南 https://www.zrfan.com/885
+ 9.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -201,7 +201,7 @@ TRIGGER:-PT10M
 DESCRIPTION:[每日] 中国银行｜09:00 财富、私行卡消费福气
  值
 END:VALARM
-URL:https://www.zrfan.com/8858.html
+URL:https://www.zrfan.com/8859.html
 CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
@@ -225,27 +225,27 @@ CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:ad0d69d63908d9bdd3abc1a88fc3cb68@zrfan-card-guide
-DTSTART:20260905T020000Z
-DTEND:20260905T023000Z
+DTSTART:20260912T020000Z
+DTEND:20260912T023000Z
 RRULE:FREQ=WEEKLY;BYDAY=SA,SU;UNTIL=20261231T155959Z
 SUMMARY:[周六周日] 中国银行｜10:00 抖音以旧换新
 DESCRIPTION:周六周日10点起，抖音APP购买以旧换新品类，
  使用中行信用卡支付，满2k-10元（日200名额，月1次，12
- 月31日截止）\n\n活动截止：2026-12-31\n来源：2026-9-5日周
- 六刷卡指南 https://www.zrfan.com/8858.html
+ 月31日截止）\n\n活动截止：2026-12-31\n来源：2026-9-6日周
+ 日刷卡指南 https://www.zrfan.com/8859.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周六周日] 中国银行｜10:00 抖音以旧换新
 END:VALARM
-URL:https://www.zrfan.com/8858.html
+URL:https://www.zrfan.com/8859.html
 CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:45f3516964540eed9f02a0808a5aa38e@zrfan-card-guide
-DTSTART:20260905T020000Z
-DTEND:20260905T023000Z
+DTSTART:20260912T020000Z
+DTEND:20260912T023000Z
 RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261231T155959Z
 SUMMARY:[周六] 中国银行｜10:00 美团外卖
 DESCRIPTION:周六10点起，美团外卖使用中行信用卡支付，
@@ -263,43 +263,43 @@ CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:c7e19d0bd94c93fd1cee31d1487bf232@zrfan-card-guide
-DTSTART:20260905T020000Z
-DTEND:20260905T023000Z
+DTSTART:20260906T020000Z
+DTEND:20260906T023000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 中国银行｜10:00 越刷月返（9月）
 DESCRIPTION:中国银行信用卡官方微信-活动服务-活动报名
  ，报名后使用中行每月消费至少5笔，且累计消费满1w-3w
  -5w，10月15日10点起可抽10元-99元-399元-999元微信券包（
  各8.2w-8k-2k-500份）（1w最高99，3w最高399，5w最高999，9月3
- 0日截止）\n\n活动截止：2026-09-30\n来源：2026-9-5日周六
- 刷卡指南 https://www.zrfan.com/8858.html
+ 0日截止）\n\n活动截止：2026-09-30\n来源：2026-9-6日周日
+ 刷卡指南 https://www.zrfan.com/8859.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 中国银行｜10:00 越刷月返（9月）
 END:VALARM
-URL:https://www.zrfan.com/8858.html
+URL:https://www.zrfan.com/8859.html
 CATEGORIES:中国银行
 END:VEVENT
 BEGIN:VEVENT
 UID:5f085932c52085b7f7d51dfcd705fe04@zrfan-card-guide
-DTSTART:20260905T040000Z
-DTEND:20260905T043000Z
+DTSTART:20260906T040000Z
+DTEND:20260906T043000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 中国银行｜12:00 抖音
 DESCRIPTION:每日12点起，抖音使用中行信用卡支付（月各1
  次，9月30日截止）\n满20元随机减至高6元（日3w名额）\n
  满200元随机减至高20元（日1.5w名额）\n满500元随机减至
  高30元（日3k名额）\n\n活动截止：2026-09-30\n来源：2026-9-
- 5日周六刷卡指南 https://www.zrfan.com/8858.html
+ 6日周日刷卡指南 https://www.zrfan.com/8859.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 中国银行｜12:00 抖音
 END:VALARM
-URL:https://www.zrfan.com/8858.html
+URL:https://www.zrfan.com/8859.html
 CATEGORIES:中国银行
 END:VEVENT
 END:VCALENDAR

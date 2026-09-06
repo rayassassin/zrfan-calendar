@@ -4,22 +4,22 @@ PRODID:-//zrfan card guide//ZH-CN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:刷卡指南·农业银行
-X-WR-CALDESC:农业银行信用卡/借记卡优惠提醒，共 27 项（1
+X-WR-CALDESC:农业银行信用卡/借记卡优惠提醒，共 26 项（1
  3 项定点提醒）。数据来源 zrfan.com 每日刷卡指南
 X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:0db900866f4f8ea1488d523f406ba357@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20261001
 SUMMARY:农业银行｜中石化（期内可参与）
 DESCRIPTION:易捷加油APP充值石化钱包及加油卡，通过云闪
  付或农行APP使用农行62信用卡支付，满500元随机减5-88元
  （月5w名额，月1次，9月30日截止）\n\n活动截止：2026-09-
- 30\n来源：2026-9-6日周日刷卡指南 https://www.zrfan.com/8859.ht
+ 30\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860.ht
  ml
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
@@ -47,50 +47,34 @@ CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:d44a8d02a2743116246b18972461b748@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20261001
 SUMMARY:农业银行｜京东支付返50元（期内可参与）
 DESCRIPTION:农行银联信用卡使用京东支付，单笔满5k元返50
  元（共1w名额，仅1次，农行APP-信用卡-优惠-消费礼，可
  查看剩余名额，9月30日截止）\n\n活动截止：2026-09-30\n
- 来源：2026-9-6日周日刷卡指南 https://www.zrfan.com/8859.html
+ 来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:b259700943efa44e9299dbf710118d05@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20261001
 SUMMARY:农业银行｜充电（期内可参与）
 DESCRIPTION:农业银行APP-信用卡-优惠，报名后使用农行62信
  用卡在特来电、星星充电、新电途、滴滴充电，通过云
  闪付扫码启动充电，满30元随机返1-6元（3w名额，月1次
- ，9月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-6日
- 周日刷卡指南 https://www.zrfan.com/8859.html
+ ，9月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-7日
+ 周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
-CATEGORIES:农业银行
-END:VEVENT
-BEGIN:VEVENT
-UID:1c855f1c7738043dd35c9300ebcd92bc@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
-DTEND;VALUE=DATE:20270401
-SUMMARY:农业银行｜小米之家分期（期内可参与）
-DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
- 用卡分期支付（云闪付搜索-小米，可查询剩余名额）\n
- 农业银行满1500-50元、满5k-150元（8月31日截止）\n民生银
- 行满2k-50元、满5k-100元（26年11月30日截止）\n中信银行
- 满1500-45元、满3500-100元、满6k-180元（27年3月31日截止）
- \n\n活动截止：2027-03-31\n来源：2026-8-31日周一刷卡指南 h
- ttps://www.zrfan.com/8850.html
-TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8850.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:6dd296d1e65a61da3d69893fc437ab6e@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20270401
 SUMMARY:农业银行｜小米之家分期（期内可参与）
 DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
@@ -99,10 +83,10 @@ DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
  银行满3k-100元（12月31日截止）\n民生银行满2k-50元、满5
  k-100元（26年11月30日截止）\n中信银行满1500-45元、满3500
  -100元、满6k-180元（27年3月31日截止）\n\n活动截止：2027-
- 03-31\n来源：2026-9-6日周日刷卡指南 https://www.zrfan.com/8859
+ 03-31\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860
  .html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
@@ -126,7 +110,7 @@ CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:1b97d0a0d6b4aa039723f8d1ec4bdd80@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20261001
 SUMMARY:农业银行｜抖音2倍积分（期内可参与）
 DESCRIPTION:农行APP-信用卡-优惠-积分礼，报名后在抖音消
@@ -139,95 +123,95 @@ CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:9715b48e27130e831575553be1a1559a@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20261001
 SUMMARY:农业银行｜掌银缴费（期内可参与）
 DESCRIPTION:农业银行APP-信用卡-优惠-缴费有礼，可领指定
  商户满50随机返1-10元、满200返10元券（9月30日截止）\n\n
- 活动截止：2026-09-30\n来源：2026-9-6日周日刷卡指南 https:
- //www.zrfan.com/8859.html
+ 活动截止：2026-09-30\n来源：2026-9-7日周一刷卡指南 https:
+ //www.zrfan.com/8860.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:f1350b3bebb5c73095895f62d9838a94@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20261011
 SUMMARY:农业银行｜携程、去哪儿（期内可参与）
 DESCRIPTION:携程、去哪儿使用农行62信用卡支付（各1次，1
  0月10日截止）\n①全场满100元随机减2-50元\n②携程旅游
  线路满3k-30元\n③去哪儿酒店满300-8元、携程酒店满500-10
  元\n④携程门票满100-5元\n\n活动截止：2026-10-10\n来源：2
- 026-9-6日周日刷卡指南 https://www.zrfan.com/8859.html
+ 026-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:39e07a49eacec5ae7add088c81db1ce2@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260923
 SUMMARY:农业银行｜携程、去哪儿分期（期内可参与）
 DESCRIPTION:携程、去哪儿使用分期支付，选择农行信用卡
  支付，满300-10元、满500-20元、满1k-30元、满2k-50元（限
  量，各1次，9月22日截止）\n\n活动截止：2026-09-22\n来源
- ：2026-9-6日周日刷卡指南 https://www.zrfan.com/8859.html
+ ：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:68007411007e8419526a1fcbba2ac797@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20261001
 SUMMARY:农业银行｜携程分期（期内可参与）
 DESCRIPTION:携程APP使用分期支付，选择农行信用卡支付，
  满800元随机减9-99元（共8k名额，进1次，9月30日截止）\n
- \n活动截止：2026-09-30\n来源：2026-9-6日周日刷卡指南 http
- s://www.zrfan.com/8859.html
+ \n活动截止：2026-09-30\n来源：2026-9-7日周一刷卡指南 http
+ s://www.zrfan.com/8860.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:1efc2183ad7d4d9bb324ca6c4320175a@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20261001
 SUMMARY:农业银行｜支付宝缴费（期内可参与）
 DESCRIPTION:支付宝-生活缴费，使用农行信用卡支付，满100
  元随机减0.3-20元（月90w名额，月1次，9月30日截止）\n\n
- 活动截止：2026-09-30\n来源：2026-9-6日周日刷卡指南 https:
- //www.zrfan.com/8859.html
+ 活动截止：2026-09-30\n来源：2026-9-7日周一刷卡指南 https:
+ //www.zrfan.com/8860.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:86b1af6f3ab5a9a2c45cad00625f2119@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260921
 SUMMARY:农业银行｜消费5k返20元（期内可参与）
 DESCRIPTION:农业银行APP-信用卡-优惠专区-消费礼，微信支
  付，报名后使用农行信用卡通过微信支付消费满5k元返2
  0元刷卡金（6w名额，3日有效，9月20日截止，若无名额
- ，明日再看）\n\n活动截止：2026-09-20\n来源：2026-9-6日周
- 日刷卡指南 https://www.zrfan.com/8859.html
+ ，明日再看）\n\n活动截止：2026-09-20\n来源：2026-9-7日周
+ 一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:05727a6d8e2a94998c219db8c30c741b@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20261101
 SUMMARY:农业银行｜盲盒开开乐（期内可参与）
 DESCRIPTION:农行APP-信用卡-精彩活动-谷子专区-先抽奖再购
  物-潮玩盲盒开开乐，可抽0.3-16元刷卡金券等（仅1次，4
  0w名额，10月31日截止）\n\n活动截止：2026-10-31\n来源：20
- 26-9-6日周日刷卡指南 https://www.zrfan.com/8859.html
+ 26-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
@@ -252,34 +236,34 @@ CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:57ce64b4011cb134f95bd3870bdc73c5@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20261001
 SUMMARY:农业银行｜美团出行（期内可参与）
 DESCRIPTION:美团点评预定出行类（机票、火车票、酒店民
  宿、景点门票）使用农行62信用卡支付，满300-3元（共12
  w名额，月1次，9月30日截止）\n\n活动截止：2026-09-30\n来
- 源：2026-9-6日周日刷卡指南 https://www.zrfan.com/8859.html
+ 源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:f3df527fa433f4c9c57de790256f7d0a@zrfan-card-guide
-DTSTART:20260905T230000Z
-DTEND:20260905T233000Z
+DTSTART:20260906T230000Z
+DTEND:20260906T233000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 农业银行｜07:00 盲盒
 DESCRIPTION:每日7点起，农行APP-信用卡-旅游节-精彩盲盒，
  可抽0.6-666元刷卡金（月10w名额，月1次，9月30日截止）
- \n\n活动截止：2026-09-30\n来源：2026-9-6日周日刷卡指南 ht
- tps://www.zrfan.com/8859.html
+ \n\n活动截止：2026-09-30\n来源：2026-9-7日周一刷卡指南 ht
+ tps://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 农业银行｜07:00 盲盒
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
@@ -291,20 +275,20 @@ SUMMARY:[周一] 农业银行｜08:00 星巴克
 DESCRIPTION:周一8点起，上月1日-25日消费满5k元，农行APP-
  信用卡-优惠，可领星巴克满40元返10元刷卡金券（限量
  ，续期至9月30日截止）\n\n活动截止：2026-09-30\n来源：20
- 26-8-31日周一刷卡指南 https://www.zrfan.com/8850.html
+ 26-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周一] 农业银行｜08:00 星巴克
 END:VALARM
-URL:https://www.zrfan.com/8850.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:aff617e997c538d2521de3bc5beb40ab@zrfan-card-guide
-DTSTART:20260906T010000Z
-DTEND:20260906T013000Z
+DTSTART:20260907T010000Z
+DTEND:20260907T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 农业银行｜09:00 京东支付返50元
 DESCRIPTION:农行银联信用卡使用京东支付，单笔满5k元返50
@@ -322,86 +306,86 @@ CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:51941fb2bf7114de8889fba0aad76e48@zrfan-card-guide
-DTSTART:20260906T010000Z
-DTEND:20260906T013000Z
-RRULE:FREQ=DAILY;UNTIL=20261006T155959Z
+DTSTART:20260907T010000Z
+DTEND:20260907T013000Z
+RRULE:FREQ=DAILY;UNTIL=20261007T155959Z
 SUMMARY:[每日] 农业银行｜09:00 加油返现
 DESCRIPTION:上月消费满3k元领指定中石化中石油加油买单
  满200元返15元（可能有银联随机减，建议超200元）\n\n来
- 源：2026-9-6日周日刷卡指南 https://www.zrfan.com/8859.html
+ 源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 农业银行｜09:00 加油返现
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:d1c3a32bf884aa6c75eda1dc20c20a6b@zrfan-card-guide
-DTSTART:20260906T010000Z
-DTEND:20260906T013000Z
+DTSTART:20260907T010000Z
+DTEND:20260907T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 农业银行｜09:00 手机pay返现
 DESCRIPTION:农业信用卡使用银联手机pay境内消费享1%返现
  ，单笔上限10元月上限50元（月20w奖池，9月30日截止，
  农业银行APP-信用卡-优惠-消费礼，可查看剩余名额）\n
- \n活动截止：2026-09-30\n来源：2026-9-6日周日刷卡指南 http
- s://www.zrfan.com/8859.html
+ \n活动截止：2026-09-30\n来源：2026-9-7日周一刷卡指南 http
+ s://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 农业银行｜09:00 手机pay返现
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:a11d19daa298fa101d2fd63ad2edaa50@zrfan-card-guide
-DTSTART:20260906T010000Z
-DTEND:20260906T013000Z
+DTSTART:20260907T010000Z
+DTEND:20260907T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 农业银行｜09:00 月月返现
 DESCRIPTION:农业银行APP-信用卡-优惠专区-热门活动，月月
  返现，报名后，每月累计消费满5k、1w、3w可抽3倍积分
  券、至高300元刷卡金（可同时参加，续期至9月30日截止
- ）\n\n活动截止：2026-09-30\n来源：2026-9-6日周日刷卡指南
-  https://www.zrfan.com/8859.html
+ ）\n\n活动截止：2026-09-30\n来源：2026-9-7日周一刷卡指南
+  https://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 农业银行｜09:00 月月返现
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:7194245b5add4d2f18e620c4a363d18e@zrfan-card-guide
-DTSTART:20260906T010000Z
-DTEND:20260906T013000Z
-RRULE:FREQ=DAILY;UNTIL=20261006T155959Z
+DTSTART:20260907T010000Z
+DTEND:20260907T013000Z
+RRULE:FREQ=DAILY;UNTIL=20261007T155959Z
 SUMMARY:[每日] 农业银行｜09:00 浓情红包
 DESCRIPTION:每月农行银行APP-信用卡-优惠专区-浓情相伴，
  报名后，每日单笔满18元的线上消费可享随机返现（日1
- 次，非皇冠需要月月报名）\n\n来源：2026-9-6日周日刷卡
- 指南 https://www.zrfan.com/8859.html
+ 次，非皇冠需要月月报名）\n\n来源：2026-9-7日周一刷卡
+ 指南 https://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 农业银行｜09:00 浓情红包
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:03d72672cd1a0ae4408bf2b0612070c2@zrfan-card-guide
-DTSTART:20260906T020000Z
-DTEND:20260906T023000Z
-RRULE:FREQ=DAILY;UNTIL=20261006T155959Z
+DTSTART:20260907T020000Z
+DTEND:20260907T023000Z
+RRULE:FREQ=DAILY;UNTIL=20261007T155959Z
 SUMMARY:[每日] 农业银行｜10:00 会员日里程、生日月多倍
  积分
 DESCRIPTION:9月6日起，农业银行APP-信用卡-优惠专区-会员
@@ -421,41 +405,41 @@ CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:ea2ade1c9b7af511353b5ac6e013b756@zrfan-card-guide
-DTSTART:20260906T020000Z
-DTEND:20260906T023000Z
+DTSTART:20260907T020000Z
+DTEND:20260907T023000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 农业银行｜10:00 抖音团购
 DESCRIPTION:每日10点其，抖音购买团购优惠券，使用农行62
  信用卡支付，满50元随机减至高28元（月100w名额，月2次
- ，9月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-6日
- 周日刷卡指南 https://www.zrfan.com/8859.html
+ ，9月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-7日
+ 周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 农业银行｜10:00 抖音团购
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:fa15851284113e33922bade5d918390a@zrfan-card-guide
-DTSTART:20260906T020000Z
-DTEND:20260906T023000Z
+DTSTART:20260907T020000Z
+DTEND:20260907T023000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 农业银行｜10:00 茶饮优惠享
 DESCRIPTION:每日10点起，农业银行APP-生活-优惠卡券-茶影
  优惠享，购买指定卡券（必胜客麦当劳百果园、哈根达
  斯星巴克奈雪瑞幸等）享至高立减10元（限量，月1次，
- 9月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-6日周
- 日刷卡指南 https://www.zrfan.com/8859.html
+ 9月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-7日周
+ 一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 农业银行｜10:00 茶饮优惠享
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:农业银行
 END:VEVENT
 END:VCALENDAR

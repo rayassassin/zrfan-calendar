@@ -10,28 +10,28 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:66f814166603aabdd9fc30ae0d7f0508@zrfan-card-guide
-DTSTART:20260905T160000Z
-DTEND:20260905T163000Z
+DTSTART:20260906T160000Z
+DTEND:20260906T163000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 银联云闪付｜00:00 高铁机场贵宾厅
 DESCRIPTION:每日0点起，云闪付APP-搜-权益精选，国内机场
  贵宾或高铁贵宾权益，62钻石卡以上卡片可购买单人、
  三人服务（当日有效，机场高铁日各400单，12月31日截
- 止）\n\n活动截止：2026-12-31\n来源：2026-9-6日周日刷卡指
- 南 https://www.zrfan.com/8859.html
+ 止）\n\n活动截止：2026-12-31\n来源：2026-9-7日周一刷卡指
+ 南 https://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 银联云闪付｜00:00 高铁机场贵宾厅
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:银联云闪付
 END:VEVENT
 BEGIN:VEVENT
 UID:a2bc49981c62375cb062dddb4a7a2369@zrfan-card-guide
-DTSTART:20260906T010000Z
-DTEND:20260906T013000Z
+DTSTART:20260907T010000Z
+DTEND:20260907T013000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 银联云闪付｜09:00 无界卡各种权益
 DESCRIPTION:云闪付APP搜索-无界-进入无界卡页面-点击下方
@@ -40,34 +40,34 @@ DESCRIPTION:云闪付APP搜索-无界-进入无界卡页面-点击下方
  用卡消费10笔的50-5元券\n③信用卡消费15笔可抽随机红
  包、会员月卡或季卡\n④借记卡消费5笔抽最高62元红包
  \n⑤借记卡消费15笔可抽随机红包、会员月卡\n\n活动截
- 止：2026-12-31\n来源：2026-9-6日周日刷卡指南 https://www.zrf
- an.com/8859.html
+ 止：2026-12-31\n来源：2026-9-7日周一刷卡指南 https://www.zrf
+ an.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 银联云闪付｜09:00 无界卡各种权益
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:银联云闪付
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6971d1b5a5b163db7106d9d302b9b7@zrfan-card-guide
-DTSTART:20260906T010000Z
-DTEND:20260906T013000Z
+DTSTART:20260907T010000Z
+DTEND:20260907T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 银联云闪付｜09:00 玩赚中心
 DESCRIPTION:云闪付APP-搜-玩赚中心，报名后，完成各种任
  务，可抽18积点、0.15-620元立减金等（9月30日截止）\n以
  下是常规活动\n工商银行\n\n活动截止：2026-09-30\n来源：
- 2026-9-6日周日刷卡指南 https://www.zrfan.com/8859.html
+ 2026-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 银联云闪付｜09:00 玩赚中心
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:银联云闪付
 END:VEVENT
 END:VCALENDAR

@@ -10,34 +10,34 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:8307898f33e7ea571109970dad5a2a65@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20270101
 SUMMARY:广发银行｜天天5折（期内可参与）
 DESCRIPTION:发现精彩APP-饭票，定位本地多种商户饭票5折
  起（12月31日截止）\n\n活动截止：2026-12-31\n来源：2026-9-
- 6日周日刷卡指南 https://www.zrfan.com/8859.html
+ 7日周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:广发银行
 END:VEVENT
 BEGIN:VEVENT
 UID:d267f8a4e7be4a2bb6b0c9d8508fac13@zrfan-card-guide
-DTSTART:20260906T010000Z
-DTEND:20260906T013000Z
-RRULE:FREQ=DAILY;UNTIL=20261006T155959Z
+DTSTART:20260907T010000Z
+DTEND:20260907T013000Z
+RRULE:FREQ=DAILY;UNTIL=20261007T155959Z
 SUMMARY:[每日] 广发银行｜09:00 云闪付信用卡
 DESCRIPTION:广发云闪付信用卡，云闪付APP支付享3%返利，
  微信支付宝享1%返利（办理分期满3k元次月享5%返利），
  单日20元单月100元（办理分期满3k元次月日20元月100元）
- \n兴业银行\n\n来源：2026-9-6日周日刷卡指南 https://www.zrf
- an.com/8859.html
+ \n兴业银行\n\n来源：2026-9-7日周一刷卡指南 https://www.zrf
+ an.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 广发银行｜09:00 云闪付信用卡
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:广发银行
 END:VEVENT
 BEGIN:VEVENT

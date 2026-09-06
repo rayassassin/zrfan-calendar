@@ -4,29 +4,13 @@ PRODID:-//zrfan card guide//ZH-CN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:刷卡指南·民生银行
-X-WR-CALDESC:民生银行信用卡/借记卡优惠提醒，共 8 项（6 
+X-WR-CALDESC:民生银行信用卡/借记卡优惠提醒，共 7 项（6 
  项定点提醒）。数据来源 zrfan.com 每日刷卡指南
 X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
-UID:b17b1f29caea4457b87b021b475d626b@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
-DTEND;VALUE=DATE:20270401
-SUMMARY:民生银行｜小米之家分期（期内可参与）
-DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
- 用卡分期支付（云闪付搜索-小米，可查询剩余名额）\n
- 农业银行满1500-50元、满5k-150元（8月31日截止）\n民生银
- 行满2k-50元、满5k-100元（26年11月30日截止）\n中信银行
- 满1500-45元、满3500-100元、满6k-180元（27年3月31日截止）
- \n\n活动截止：2027-03-31\n来源：2026-8-31日周一刷卡指南 h
- ttps://www.zrfan.com/8850.html
-TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8850.html
-CATEGORIES:民生银行
-END:VEVENT
-BEGIN:VEVENT
 UID:529e30b931f1e921849958cc64ea4f8b@zrfan-card-guide
-DTSTART;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20270401
 SUMMARY:民生银行｜小米之家分期（期内可参与）
 DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
@@ -35,16 +19,16 @@ DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
  银行满3k-100元（12月31日截止）\n民生银行满2k-50元、满5
  k-100元（26年11月30日截止）\n中信银行满1500-45元、满3500
  -100元、满6k-180元（27年3月31日截止）\n\n活动截止：2027-
- 03-31\n来源：2026-9-6日周日刷卡指南 https://www.zrfan.com/8859
+ 03-31\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860
  .html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:民生银行
 END:VEVENT
 BEGIN:VEVENT
 UID:37c9f34d0358e241e542804056f27948@zrfan-card-guide
-DTSTART:20260905T160000Z
-DTEND:20260905T163000Z
+DTSTART:20260912T160000Z
+DTEND:20260912T163000Z
 RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20261231T155959Z
 SUMMARY:[周日] 民生银行｜00:00 微信支付各种减
 DESCRIPTION:周日，指定商户门店、APP或微信小程序，使用
@@ -101,21 +85,21 @@ CATEGORIES:民生银行
 END:VEVENT
 BEGIN:VEVENT
 UID:4bc8bc44c97a7304c57c66bc54076a74@zrfan-card-guide
-DTSTART:20260905T230000Z
-DTEND:20260905T233000Z
+DTSTART:20260906T230000Z
+DTEND:20260906T233000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 民生银行｜07:00 中石化、中石油
 DESCRIPTION:每日7点起，中石化、中石油使用支付宝付款码
  或碰一下，选择民生信用卡支付，满200-5元（日800名额
  ，月2次，9月30日截止）\n\n活动截止：2026-09-30\n来源：2
- 026-9-6日周日刷卡指南 https://www.zrfan.com/8859.html
+ 026-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 民生银行｜07:00 中石化、中石油
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:民生银行
 END:VEVENT
 BEGIN:VEVENT
@@ -140,9 +124,9 @@ CATEGORIES:民生银行
 END:VEVENT
 BEGIN:VEVENT
 UID:b833f5d901c79773729d4245773cb12a@zrfan-card-guide
-DTSTART:20260906T010000Z
-DTEND:20260906T013000Z
-RRULE:FREQ=DAILY;UNTIL=20261006T155959Z
+DTSTART:20260907T010000Z
+DTEND:20260907T013000Z
+RRULE:FREQ=DAILY;UNTIL=20261007T155959Z
 SUMMARY:[每日] 民生银行｜09:00 山姆联名卡（新卡介绍）
 DESCRIPTION:①山姆会员店指定消费，卓越会员享2%+民生山
  姆联名卡享2%返现（月上限700元）其它消费享0.2%返现（
@@ -151,8 +135,8 @@ DESCRIPTION:①山姆会员店指定消费，卓越会员享2%+民生山
  （月上限50元）\n民生银行全民生活APP-惠买单，可购买
  一些餐饮美食优惠券（平常日力度不大）\n民生银行奈
  雪的茶联名卡每月任意消费3笔次月可领一张电子券（
- 共1年12张）\n中信银行\n\n来源：2026-9-6日周日刷卡指南 
- https://www.zrfan.com/8859.html
+ 共1年12张）\n中信银行\n\n来源：2026-9-7日周一刷卡指南 
+ https://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -160,13 +144,13 @@ TRIGGER:-PT10M
 DESCRIPTION:[每日] 民生银行｜09:00 山姆联名卡（新卡介绍
  ）
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:民生银行
 END:VEVENT
 BEGIN:VEVENT
 UID:5927a56c023d39ab8802a492c4e872aa@zrfan-card-guide
-DTSTART:20260906T040000Z
-DTEND:20260906T043000Z
+DTSTART:20260907T040000Z
+DTEND:20260907T043000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 民生银行｜12:00 中石油、车车卡中石油
 DESCRIPTION:每日12点起，使用指定卡当月消费满1k元，指定
@@ -176,14 +160,14 @@ DESCRIPTION:每日12点起，使用指定卡当月消费满1k元，指定
  石油，查询门店及剩余名额）\n车车豪白满200-100元（月
  2次）钻石白满200-100元（月5次）（全民生活app-搜-车车
  卡，查询门店及剩余名额）\n\n活动截止：2026-12-31\n来
- 源：2026-9-6日周日刷卡指南 https://www.zrfan.com/8859.html
+ 源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 民生银行｜12:00 中石油、车车卡中石油
 END:VALARM
-URL:https://www.zrfan.com/8859.html
+URL:https://www.zrfan.com/8860.html
 CATEGORIES:民生银行
 END:VEVENT
 END:VCALENDAR

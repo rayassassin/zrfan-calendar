@@ -1,0 +1,95 @@
+name: monitor
+
+# 数据新鲜度监控 + 服务器可达性诊断
+# 每天 01:00 UTC（= 09:00 北京时间）检查一次日历数据是否是当天的。
+# 数据过期时任务失败，GitHub 会自动邮件通知仓库所有者。
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检查日历数据新鲜度
+        id: fresh
+        run: |
+          set -uo pipefail
+          URL=https://rayassassin.github.io/zrfan-calendar/meta.json
+          if ! curl -sS --max-time 30 --retry 3 --retry-all-errors -o meta.json "$URL"; then
+            echo "::error::无法获取 meta.json（GitHub Pages 可能异常）"
+            echo "stale=1" >> "$GITHUB_OUTPUT"
+            echo "reason=无法获取 meta.json" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          LATEST=$(python3 -c "import json;print(json.load(open('meta.json'))['articles'][-1]['date'])")
+          TODAY=$(TZ=Asia/Shanghai date +%F)
+          YESTERDAY=$(TZ=Asia/Shanghai date -d 'yesterday' +%F)
+          echo "最新文章日期: $LATEST"
+          echo "今天: $TODAY / 昨天: $YESTERDAY"
+          if [[ "$LATEST" < "$YESTERDAY" ]]; then
+            echo "::error::数据已过期：最新 $LATEST，已落后（今天 $TODAY）"
+            echo "stale=1" >> "$GITHUB_OUTPUT"
+            echo "reason=最新数据为 $LATEST，今天已是 $TODAY" >> "$GITHUB_OUTPUT"
+          else
+            echo "stale=0" >> "$GITHUB_OUTPUT"
+            echo "数据正常"
+          fi
+
+      - name: 诊断服务器可达性
+        id: diag
+        if: always()
+        run: |
+          HOST=59.110.138.163
+          OUT=""
+          echo "--- ICMP ---"
+          if ping -c 3 -W 3 "$HOST" >/dev/null 2>&1; then
+            OUT="${OUT}ICMP: 通\n"; echo "ping 通"
+          else
+            OUT="${OUT}ICMP: 不通\n"; echo "ping 不通"
+          fi
+          echo "--- SSH 端口 2525 ---"
+          BANNER=$(timeout 20 bash -c "exec 3<>/dev/tcp/$HOST/2525 && head -c 60 <&3" 2>/dev/null || true)
+          if [ -n "$BANNER" ]; then
+            OUT="${OUT}SSH 2525: 有 banner（服务正常）\n"; echo "有 banner: $BANNER"
+          else
+            OUT="${OUT}SSH 2525: 无 banner（主机可能卡死或防火墙拦截）\n"; echo "无 banner"
+          fi
+          echo "--- HTTP 8080 ---"
+          CODE=$(curl -s -o /dev/null -w '%{http_code}' --max-time 15 "http://$HOST:8080/" || echo 000)
+          OUT="${OUT}HTTP 8080: $CODE\n"
+          echo "--- 源站 zrfan.com（验证 Actions 能否直连）---"
+          ZC=$(curl -s -o /dev/null -w '%{http_code}' --max-time 25 https://www.zrfan.com/category/zhinan/ || echo 000)
+          OUT="${OUT}zrfan.com: $ZC（Actions 节点）\n"
+          printf "$OUT" > diag.txt
+          printf "diag=%b\n" "$OUT" >> "$GITHUB_OUTPUT"
+
+      - name: 数据过期时建 issue 告警
+        if: steps.fresh.outputs.stale == '1'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REASON: ${{ steps.fresh.outputs.reason }}
+          DIAG: ${{ steps.diag.outputs.diag }}
+        run: |
+          TITLE="⚠️ 刷卡日历更新失败"
+          BODY=$(printf '检测到日历数据未更新。\n\n**原因**：%s\n\n**服务器诊断**：\n```\n%s\n```\n\n**排查建议**：\n1. 登录阿里云控制台确认 ECS 实例状态，必要时强制重启\n2. 重启后检查 `crontab -l` 与 `/opt/zrfan-calendar/logs/cron.log`\n3. 手动执行 `bash /opt/zrfan-calendar/update_and_push.sh` 验证\n\n/cc @rayassassin\n' "$REASON" "$DIAG")
+          EXIST=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$EXIST" ]; then
+            gh issue comment "$EXIST" --repo "$GITHUB_REPOSITORY" --body "$BODY"
+            echo "已在已有 issue #$EXIST 上追加告警"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --body "$BODY"
+            echo "已创建告警 issue"
+          fi
+
+      - name: 数据过期则任务失败（触发邮件通知）
+        if: steps.fresh.outputs.stale == '1'
+        run: |
+          echo "::error::日历数据已过期，请处理后重新运行"
+          exit 1

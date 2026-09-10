@@ -10,8 +10,8 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:2e63a55e7d56e70d7df680fda2ffd357@zrfan-card-guide
-DTSTART:20260906T160000Z
-DTEND:20260906T163000Z
+DTSTART:20260909T160000Z
+DTEND:20260909T163000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 中信银行｜00:00 99365
 DESCRIPTION:动卡空间APP-9分享兑、9元享看、365等入口，每
@@ -20,35 +20,35 @@ DESCRIPTION:动卡空间APP-9分享兑、9元享看、365等入口，每
  减9元、5折购券（三选一）\n满3999元抢兑10元卡券、19元
  购票或减19元、5折购券（三选一）\n满9999元抢兑20元卡
  券、9元购票或减29元、5折购券（三选一）\n\n活动截止
- ：2026-09-30\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.
- com/8860.html
+ ：2026-09-30\n来源：2026-9-10日周四刷卡指南 https://www.zrfan
+ .com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 中信银行｜00:00 99365
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:中信银行
 END:VEVENT
 BEGIN:VEVENT
 UID:1259456cf59d8de6e79ea28536348d93@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20270101
 SUMMARY:中信银行｜信运无界返现（期内可参与）
 DESCRIPTION:使用中信信运无界信用卡（大湾区版）每月消
  费满3k元，次月在携程、山姆、滴滴、大麦APP消费享10%
  返现（月上限100元，26年12月31日截止，注意看申卡有没
  有该活动，本卡通过银联渠道支付港澳车船费还有优惠
- ）\n\n活动截止：2026-12-31\n来源：2026-9-7日周一刷卡指南
-  https://www.zrfan.com/8860.html
+ ）\n\n活动截止：2026-12-31\n来源：2026-9-10日周四刷卡指
+ 南 https://www.zrfan.com/8863.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:中信银行
 END:VEVENT
 BEGIN:VEVENT
 UID:27c8c3ff65512e67002e9ded1371fb51@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20270401
 SUMMARY:中信银行｜小米之家分期（期内可参与）
 DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
@@ -57,10 +57,10 @@ DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
  银行满3k-100元（12月31日截止）\n民生银行满2k-50元、满5
  k-100元（26年11月30日截止）\n中信银行满1500-45元、满3500
  -100元、满6k-180元（27年3月31日截止）\n\n活动截止：2027-
- 03-31\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860
- .html
+ 03-31\n来源：2026-9-10日周四刷卡指南 https://www.zrfan.com/886
+ 3.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:中信银行
 END:VEVENT
 BEGIN:VEVENT
@@ -77,21 +77,21 @@ DESCRIPTION:中信信用卡增值服务，可买多种随心用版本，
  1599-50元）\n③999元购1320元（每月满99-10元、满1599-50元
  两张）\n④1599元购2040元（每月满99-10元、满1599-80元两
  张）\n若有微信大额消费需求可购买，购买后建议制定
- 日历，否则少领2个月就反薅\n浙商银行\n\n来源：2026-9-7
- 日周一刷卡指南 https://www.zrfan.com/8860.html
+ 日历，否则少领2个月就反薅\n浙商银行\n\n来源：2026-9-1
+ 0日周四刷卡指南 https://www.zrfan.com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每月2日] 中信银行｜09:00 随心用
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:中信银行
 END:VEVENT
 BEGIN:VEVENT
 UID:36e45be1cca53cbacbcbfcf6591af6d3@zrfan-card-guide
-DTSTART:20260907T020000Z
-DTEND:20260907T023000Z
+DTSTART:20260910T020000Z
+DTEND:20260910T023000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 中信银行｜10:00 99365
 DESCRIPTION:动卡空间APP-9分享兑、9元享看、365等入口，每
@@ -100,15 +100,15 @@ DESCRIPTION:动卡空间APP-9分享兑、9元享看、365等入口，每
  减9元、5折购券（三选一）\n满3999元抢兑10元卡券、19元
  购票或减19元、5折购券（三选一）\n满9999元抢兑20元卡
  券、9元购票或减29元、5折购券（三选一）\n\n活动截止
- ：2026-09-30\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.
- com/8860.html
+ ：2026-09-30\n来源：2026-9-10日周四刷卡指南 https://www.zrfan
+ .com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 中信银行｜10:00 99365
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:中信银行
 END:VEVENT
 END:VCALENDAR

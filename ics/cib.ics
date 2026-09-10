@@ -10,113 +10,114 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:17c59940f67adb4c57e68972e2570688@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261001
 SUMMARY:兴业银行｜12306（期内可参与）
 DESCRIPTION:12306使用银联通道选择兴业生活APP，使用兴业62
  信用卡支付，满150元随机减2-20元（限量，日1次月4次，
- 9月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-7日周
- 一刷卡指南 https://www.zrfan.com/8860.html
+ 9月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-10日
+ 周四刷卡指南 https://www.zrfan.com/8863.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:6a40d3b3021fbf4b24c57ada7ec066b8@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261001
 SUMMARY:兴业银行｜中石油（期内可参与）
 DESCRIPTION:中油好客e站钱包充值，使用银联通道选择兴业
  生活APP，使用兴业62信用卡支付，满500元随机减10-88元
  （日1k名额，月1次，9月30日截止）\n\n活动截止：2026-09-
- 30\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860.ht
- ml
+ 30\n来源：2026-9-10日周四刷卡指南 https://www.zrfan.com/8863.h
+ tml
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:62ed4e5a3ae5b0a31388cc144ade352f@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261001
 SUMMARY:兴业银行｜京东（期内可参与）
 DESCRIPTION:京东使用银联通道选择兴业生活APP，使用兴业6
  2信用卡支付，满100元随机减2-20元（限量，月1次，续期
- 至9月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-7日
- 周一刷卡指南 https://www.zrfan.com/8860.html
+ 至9月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-10
+ 日周四刷卡指南 https://www.zrfan.com/8863.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:ef68f7cc0e8eb34f7341f43fedfa7ab4@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261001
 SUMMARY:兴业银行｜出行类（期内可参与）
 DESCRIPTION:出行类APP（飞猪、携程、去哪儿、高德、哈啰
  、滴滴、12306、曹操出行同程等），使用银联通道选择
  兴业生活APP，使用兴业62信用卡支付，满100元随机减2-20
  元（限量，周1次，9月30日截止）\n\n活动截止：2026-09-30
- \n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
+ \n来源：2026-9-10日周四刷卡指南 https://www.zrfan.com/8863.htm
+ l
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:6cff34ae4f0119bdc7b4255e89d2c0ae@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20270101
 SUMMARY:兴业银行｜拼多多（期内可参与）
 DESCRIPTION:拼多多使用兴业信用卡支付，满49.9元随机减1-1
  0元（共74.6w名额，月1次，12月31日截止）\n\n活动截止：
- 2026-12-31\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com
- /8860.html
+ 2026-12-31\n来源：2026-9-10日周四刷卡指南 https://www.zrfan.co
+ m/8863.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:fb5d8db60d3b639c4be576b9c8354644@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261001
 SUMMARY:兴业银行｜淘宝天猫、猫超（期内可参与）
 DESCRIPTION:淘宝天猫、淘宝天猫超市、使用银联通道选择
  兴业生活APP，使用兴业62信用卡支付，满100元随机减2-20
  元（限量，月2次、1次，9月30日截止）\n\n活动截止：202
- 6-09-30\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/88
- 60.html
+ 6-09-30\n来源：2026-9-10日周四刷卡指南 https://www.zrfan.com/8
+ 863.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:a39df1eb1c62b03d38d03ad3e3139e08@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261001
 SUMMARY:兴业银行｜生活缴费（期内可参与）
 DESCRIPTION:兴业生活APP-生活缴费，使用兴业62信用卡支付
  ，满50-4元（限量，月1次，9月30日截止）\n\n活动截止：
- 2026-09-30\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com
- /8860.html
+ 2026-09-30\n来源：2026-9-10日周四刷卡指南 https://www.zrfan.co
+ m/8863.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:1d8f248ca811263951aa01376f02d558@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261001
 SUMMARY:兴业银行｜美团（期内可参与）
 DESCRIPTION:兴业生活APP-美团团购，满18元随机减2-88元（日
  5k名额，日1次，9月30日截止）\n\n活动截止：2026-09-30\n
- 来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
+ 来源：2026-9-10日周四刷卡指南 https://www.zrfan.com/8863.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:808dc543152037d73e34afc0b5c242ba@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261001
 SUMMARY:兴业银行｜美团外卖、美团门票、猫眼电影、小
  象超市、淘宝闪购、文旅购票（期内可参与）
@@ -124,28 +125,29 @@ DESCRIPTION:兴业生活APP-美团外卖、美团门票、猫眼电影、
  小象超市、淘宝闪购、文旅购票等场景，满18元随机减2
  -88元（日2k名额，日1次，9月30日截止）\n首购用户还可
  领5折红包上限15元（日500名额）\n\n活动截止：2026-09-30
- \n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860.html
+ \n来源：2026-9-10日周四刷卡指南 https://www.zrfan.com/8863.htm
+ l
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:951bff8dc71caaddeb010b63efac0e45@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261001
 SUMMARY:兴业银行｜话费充值（期内可参与）
 DESCRIPTION:兴业生活APP-手机充值，使用兴业62信用卡支付
  ，满100元随机减3-20元（限量，月1次，9月30日截止）\n\n
- 活动截止：2026-09-30\n来源：2026-9-7日周一刷卡指南 https:
- //www.zrfan.com/8860.html
+ 活动截止：2026-09-30\n来源：2026-9-10日周四刷卡指南 https
+ ://www.zrfan.com/8863.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:1ee21023735724fec619fe3ef7b09081@zrfan-card-guide
-DTSTART:20260907T010000Z
-DTEND:20260907T013000Z
+DTSTART:20260910T010000Z
+DTEND:20260910T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 兴业银行｜09:00 6积分
 DESCRIPTION:兴业生活APP-我的-我的活动-6积分，使用指定兴
@@ -155,69 +157,70 @@ DESCRIPTION:兴业生活APP-我的-我的活动-6积分，使用指定兴
  期至26年9月30日截止）\n指定消费包括：微信支付宝、
  京东苏宁、美团抖音拼多多、云闪付APP主被扫、兴业生
  活APP支付；个别用户还有特邀活动，例如消费满4k元抽
- 指定券包等\n\n活动截止：2026-09-30\n来源：2026-9-7日周一
- 刷卡指南 https://www.zrfan.com/8860.html
+ 指定券包等\n\n活动截止：2026-09-30\n来源：2026-9-10日周
+ 四刷卡指南 https://www.zrfan.com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 兴业银行｜09:00 6积分
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:3c44150497d3a4fa1628824aab64b707@zrfan-card-guide
-DTSTART:20260907T010000Z
-DTEND:20260907T013000Z
+DTSTART:20260910T010000Z
+DTEND:20260910T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 兴业银行｜09:00 美团
 DESCRIPTION:每日9点起，兴业生活APP-美团团购-5折美食，可
  领5折美食红包上限18元（日2k名额，月1次，9月30日截止
- ）\n\n活动截止：2026-09-30\n来源：2026-9-7日周一刷卡指南
-  https://www.zrfan.com/8860.html
+ ）\n\n活动截止：2026-09-30\n来源：2026-9-10日周四刷卡指
+ 南 https://www.zrfan.com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 兴业银行｜09:00 美团
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:55336a5557eca8daae6211f1ebe47ba7@zrfan-card-guide
-DTSTART:20260907T010000Z
-DTEND:20260907T013000Z
+DTSTART:20260910T010000Z
+DTEND:20260910T013000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 兴业银行｜09:00 车主卡
 DESCRIPTION:兴业银行新出车主卡（金卡及白金卡，白金卡6
- 00年费，10w积分可兑，12月31日截止）\n①金卡消费1笔、
- 3笔188元，次月10日领加油充电洗车猫超20元优惠（2次）
- \n②白金卡消费1笔、3笔、5笔188元，次月10日领加油充
- 电洗车猫超50元优惠（3次）\nps：加油券相当于9折，充
- 电及猫超权益好点\n\n活动截止：2026-12-31\n来源：2026-9-7
- 日周一刷卡指南 https://www.zrfan.com/8860.html
+ 00年费，暂时10w积分可兑，续期至26年12月31日截止）\n
+ ①金卡消费1笔、3笔188元，次月10日领加油充电洗车猫
+ 超20元优惠（2次）\n②白金卡消费1笔、3笔、5笔188元，
+ 次月10日领加油充电洗车猫超50元优惠（3次）\nps：加油
+ 券相当于9折，充电及猫超权益好点\n\n活动截止：2026-12
+ -31\n来源：2026-9-10日周四刷卡指南 https://www.zrfan.com/8863.
+ html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 兴业银行｜09:00 车主卡
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:1950b7f630561c675e80f9227fbde148@zrfan-card-guide
-DTSTART:20260908T020000Z
-DTEND:20260908T023000Z
+DTSTART:20260915T020000Z
+DTEND:20260915T023000Z
 RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20261231T155959Z
 SUMMARY:[周二] 兴业银行｜10:00 6元饮品
 DESCRIPTION:周二10点起，兴业生活APP-搜索-6元喝饮品，可6
  元购星巴克礼包券（限量，咖啡类奶茶类各1次，续期
  至12月31日截止）\n本月还有霸王茶姬、tims、茉莉奶白
  、奈雪、喜茶、瑞幸、蜜雪冰城券\n\n活动截止：2026-12-
- 31\n来源：2026-9-1日周二刷卡指南 https://www.zrfan.com/8852.ht
+ 31\n来源：2026-9-8日周二刷卡指南 https://www.zrfan.com/8861.ht
  ml
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -225,7 +228,7 @@ ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周二] 兴业银行｜10:00 6元饮品
 END:VALARM
-URL:https://www.zrfan.com/8852.html
+URL:https://www.zrfan.com/8861.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
@@ -253,42 +256,42 @@ CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:0d23e2cb6d6d6b20aa0f2a45a2b74e9c@zrfan-card-guide
-DTSTART:20260909T020000Z
-DTEND:20260909T023000Z
+DTSTART:20260916T020000Z
+DTEND:20260916T023000Z
 RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20260930T155959Z
 SUMMARY:[周三] 兴业银行｜10:00 外卖免单
 DESCRIPTION:周三10点起，兴业生活APP-搜-淘宝闪购、美团外
  卖，可领外卖免单红包上限30元（日500名额，月1次，9
- 月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-2日周
- 三刷卡指南 https://www.zrfan.com/8854.html
+ 月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-9日周
+ 三刷卡指南 https://www.zrfan.com/8862.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周三] 兴业银行｜10:00 外卖免单
 END:VALARM
-URL:https://www.zrfan.com/8854.html
+URL:https://www.zrfan.com/8862.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:2b12d5536014bf6d3c4981f382587a7b@zrfan-card-guide
-DTSTART:20260907T020000Z
-DTEND:20260907T023000Z
+DTSTART:20260910T020000Z
+DTEND:20260910T023000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 兴业银行｜10:00 天天好券
 DESCRIPTION:每日10点起，兴业生活APP-搜-天天好券，还可7
  折左右购瑞幸、霸王茶姬、蜜雪冰城、奈雪、喜茶券（
  限量，月各5次，续期至12月31日截止）\n可以购买各种
  本地商户优惠券\n可6-8折购买指定商户微信立减金\n\n活
- 动截止：2026-12-31\n来源：2026-9-7日周一刷卡指南 https://w
- ww.zrfan.com/8860.html
+ 动截止：2026-12-31\n来源：2026-9-10日周四刷卡指南 https://
+ www.zrfan.com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 兴业银行｜10:00 天天好券
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
@@ -314,21 +317,21 @@ CATEGORIES:兴业银行
 END:VEVENT
 BEGIN:VEVENT
 UID:4bd7517acb9fc7bfab5e4642333cf11b@zrfan-card-guide
-DTSTART:20260907T060000Z
-DTEND:20260907T063000Z
+DTSTART:20260910T060000Z
+DTEND:20260910T063000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 兴业银行｜14:00 美团
 DESCRIPTION:每日14点起，兴业生活APP-美团团购，6元喝饮品
  领红包（周一9点起上1.1w名额，月1次，9月30日截止）\n
- \n活动截止：2026-09-30\n来源：2026-9-7日周一刷卡指南 http
- s://www.zrfan.com/8860.html
+ \n活动截止：2026-09-30\n来源：2026-9-10日周四刷卡指南 htt
+ ps://www.zrfan.com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 兴业银行｜14:00 美团
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:兴业银行
 END:VEVENT
 END:VCALENDAR

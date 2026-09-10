@@ -10,34 +10,34 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:2297781a04f454e7b11112f36c126fa7@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20270101
 SUMMARY:招商银行｜淘宝闪购（期内可参与）
 DESCRIPTION:淘宝闪购（饿了么app或淘宝-闪购频道）使用银
  联通道，使用掌上生活APP选择招行62信用卡支付，满10-2
  元（日5k名额，月1次共6次，12月31日截止）\n\n活动截止
- ：2026-12-31\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.
- com/8860.html
+ ：2026-12-31\n来源：2026-9-10日周四刷卡指南 https://www.zrfan
+ .com/8863.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:招商银行
 END:VEVENT
 BEGIN:VEVENT
 UID:8ccbbd9a32d135187d0635d4f90c58f4@zrfan-card-guide
-DTSTART:20260909T020000Z
-DTEND:20260909T023000Z
-RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20261009T155959Z
+DTSTART:20260916T020000Z
+DTEND:20260916T023000Z
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20261016T155959Z
 SUMMARY:[周三] 招商银行｜10:00 周三五折
 DESCRIPTION:周三10点起，掌上生活App—精选—饭票—周三
- 餐饮5折优惠\n\n来源：2026-9-2日周三刷卡指南 https://www.z
- rfan.com/8854.html
+ 餐饮5折优惠\n\n来源：2026-9-9日周三刷卡指南 https://www.z
+ rfan.com/8862.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周三] 招商银行｜10:00 周三五折
 END:VALARM
-URL:https://www.zrfan.com/8854.html
+URL:https://www.zrfan.com/8862.html
 CATEGORIES:招商银行
 END:VEVENT
 END:VCALENDAR

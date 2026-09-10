@@ -4,73 +4,99 @@ PRODID:-//zrfan card guide//ZH-CN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:刷卡指南·华夏银行
-X-WR-CALDESC:华夏银行信用卡/借记卡优惠提醒，共 8 项（5 
+X-WR-CALDESC:华夏银行信用卡/借记卡优惠提醒，共 9 项（6 
  项定点提醒）。数据来源 zrfan.com 每日刷卡指南
 X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:360c4de4a2af469509b9ba4494fb90bd@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20270106
 SUMMARY:华夏银行｜借记卡12306（期内可参与）
 DESCRIPTION:12306使用华夏银行APP选择华夏62借记卡支付，满
  100-10元（日80名额）、满300-20元（日90名额）、满1k-50元
  （日30名额）（月4次，27年1月5日截止）\n\n活动截止：2
- 027-01-05\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/
- 8860.html
+ 027-01-05\n来源：2026-9-10日周四刷卡指南 https://www.zrfan.com
+ /8863.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:华夏银行
 END:VEVENT
 BEGIN:VEVENT
 UID:04a7c391eeadb48cb71c638d12932885@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20270701
 SUMMARY:华夏银行｜携程（期内可参与）
 DESCRIPTION:携程使用云闪付或华彩生活APP云网版支付，选
  择华夏62信用卡支付，满300元随机减6-66元（日245名额）
  满3k-26元（日20名额）满8k-66元（日8名额）（月1次共4次
  ，27年6月30日截止）\n\n活动截止：2027-06-30\n来源：2026-9
- -7日周一刷卡指南 https://www.zrfan.com/8860.html
+ -10日周四刷卡指南 https://www.zrfan.com/8863.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:华夏银行
 END:VEVENT
 BEGIN:VEVENT
 UID:9310569ba64afa99bd2f6be4ed593c9d@zrfan-card-guide
-DTSTART:20260907T010000Z
-DTEND:20260907T013000Z
-RRULE:FREQ=DAILY;UNTIL=20261007T155959Z
+DTSTART:20260910T010000Z
+DTEND:20260910T013000Z
+RRULE:FREQ=DAILY;UNTIL=20261010T155959Z
 SUMMARY:[每日] 华夏银行｜09:00 巨惠花（限时加码）
 DESCRIPTION:华彩生活APP-权益平台-巨惠来袭，指定金额订
- 购大额巨惠花权益包（持续6个月）\n\n来源：2026-9-7日
- 周一刷卡指南 https://www.zrfan.com/8860.html
+ 购大额巨惠花权益包（持续6个月）\n\n来源：2026-9-10日
+ 周四刷卡指南 https://www.zrfan.com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 华夏银行｜09:00 巨惠花（限时加码）
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:华夏银行
 END:VEVENT
 BEGIN:VEVENT
 UID:e20270faaf0b26b8770807d4d485995e@zrfan-card-guide
-DTSTART:20260907T010000Z
-DTEND:20260907T013000Z
+DTSTART:20260910T010000Z
+DTEND:20260910T013000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 华夏银行｜09:00 笔笔抽奖
 DESCRIPTION:每日单笔消费满18元，华彩生活APP-权益平台-10
  分心意笔笔抽，可抽积分刷卡金等（月10次，9月30日截
- 止）\n\n活动截止：2026-09-30\n来源：2026-9-7日周一刷卡指
- 南 https://www.zrfan.com/8860.html
+ 止）\n\n活动截止：2026-09-30\n来源：2026-9-10日周四刷卡
+ 指南 https://www.zrfan.com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 华夏银行｜09:00 笔笔抽奖
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
+CATEGORIES:华夏银行
+END:VEVENT
+BEGIN:VEVENT
+UID:56828d08c474c80c3f3137b6af5a106d@zrfan-card-guide
+DTSTART:20260910T020000Z
+DTEND:20260910T023000Z
+RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
+SUMMARY:[每日] 华夏银行｜10:00 月刷越有礼
+DESCRIPTION:使用华夏62信用卡支付，累计消费满3k-1w-3w元，
+ 可在达标次日（最早9月6日）使用10积分兑换5k积分或5
+ 元-10元-30元立减金券包（9月30日截止）\n满3k元13点起兑
+ 换5元支付宝立减金券包\n满1w元13点30分起兑换10元支付
+ 宝立减金券包\n满3w元14点起兑换30元支付宝立减金券包
+ \n广发银行天天利信用卡，每月8号消费达标（8倍积分
+ ，26年12月31日截止）\n中国银行APP-热门活动-支付超给
+ 利，8号10点起可抽奖，然后去，我的-我的权益，手动
+ 领取\n淘宝-闪购（支付宝-闪购），每日可领大额红包
+ ，通过千问APP下单，有随机减\n\n活动截止：2026-12-31\n
+ 来源：2026-9-8日周二刷卡指南 https://www.zrfan.com/8861.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[每日] 华夏银行｜10:00 月刷越有礼
+END:VALARM
+URL:https://www.zrfan.com/8861.html
 CATEGORIES:华夏银行
 END:VEVENT
 BEGIN:VEVENT
@@ -147,17 +173,17 @@ CATEGORIES:华夏银行
 END:VEVENT
 BEGIN:VEVENT
 UID:a5a62d7f40a83c903f2d34213222baaf@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20270101
 SUMMARY:华夏银行｜优享卡加油充电（期内可参与）
 DESCRIPTION:使用华夏优享白金卡每月通过银联渠道累计消
  费满2888元，次日14点30分华彩生活APP-权益平台-活动中
  心-优享白金卡加油充电满减，可领中石化中石油满200-4
  0元（日320名额）充电商户满40-15元券（日100名额）（12
- 月31日截止）\n\n活动截止：2026-12-31\n来源：2026-9-7日周
- 一刷卡指南 https://www.zrfan.com/8860.html
+ 月31日截止）\n\n活动截止：2026-12-31\n来源：2026-9-10日周
+ 四刷卡指南 https://www.zrfan.com/8863.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:华夏银行
 END:VEVENT
 END:VCALENDAR

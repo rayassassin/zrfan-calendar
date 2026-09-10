@@ -1,21 +1,6 @@
 {
-  "generated_at": "2026-09-07T00:00:12",
+  "generated_at": "2026-09-10T17:13:52",
   "articles": [
-    {
-      "title": "2026-9-1日周二刷卡指南",
-      "url": "https://www.zrfan.com/8852.html",
-      "date": "2026-09-01"
-    },
-    {
-      "title": "2026-9-2日周三刷卡指南",
-      "url": "https://www.zrfan.com/8854.html",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "2026-9-3日周四刷卡指南",
-      "url": "https://www.zrfan.com/8855.html",
-      "date": "2026-09-03"
-    },
     {
       "title": "2026-9-4日周五刷卡指南",
       "url": "https://www.zrfan.com/8857.html",
@@ -35,28 +20,43 @@
       "title": "2026-9-7日周一刷卡指南",
       "url": "https://www.zrfan.com/8860.html",
       "date": "2026-09-07"
+    },
+    {
+      "title": "2026-9-8日周二刷卡指南",
+      "url": "https://www.zrfan.com/8861.html",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "2026-9-9日周三刷卡指南",
+      "url": "https://www.zrfan.com/8862.html",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "2026-9-10日周四刷卡指南",
+      "url": "https://www.zrfan.com/8863.html",
+      "date": "2026-09-10"
     }
   ],
-  "n_events": 167,
-  "n_timed": 116,
+  "n_events": 170,
+  "n_timed": 121,
   "calendars": [
     {
       "bank": "农业银行",
       "slug": "abc",
-      "count": 26,
-      "timed": 13
-    },
-    {
-      "bank": "工商银行",
-      "slug": "icbc",
-      "count": 20,
-      "timed": 14
+      "count": 27,
+      "timed": 15
     },
     {
       "bank": "兴业银行",
       "slug": "cib",
       "count": 19,
       "timed": 9
+    },
+    {
+      "bank": "工商银行",
+      "slug": "icbc",
+      "count": 19,
+      "timed": 15
     },
     {
       "bank": "邮储银行",
@@ -67,7 +67,7 @@
     {
       "bank": "中国银行",
       "slug": "boc",
-      "count": 15,
+      "count": 14,
       "timed": 12
     },
     {
@@ -85,8 +85,8 @@
     {
       "bank": "华夏银行",
       "slug": "hxb",
-      "count": 8,
-      "timed": 5
+      "count": 9,
+      "timed": 6
     },
     {
       "bank": "民生银行",
@@ -95,16 +95,16 @@
       "timed": 6
     },
     {
+      "bank": "浙商银行",
+      "slug": "czbank",
+      "count": 6,
+      "timed": 5
+    },
+    {
       "bank": "中信银行",
       "slug": "citic",
       "count": 5,
       "timed": 3
-    },
-    {
-      "bank": "浙商银行",
-      "slug": "czbank",
-      "count": 5,
-      "timed": 4
     },
     {
       "bank": "上海银行",

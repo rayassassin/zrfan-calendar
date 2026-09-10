@@ -10,7 +10,7 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:b46562059cc804e7d9080d755b89bd05@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261101
 SUMMARY:浦发银行｜借记卡携程、滴滴、12306（期内可参与
  ）
@@ -18,35 +18,35 @@ DESCRIPTION:指定商户使用银联通道，选择浦发银行或云闪
  付，使用浦发62借记卡支付（月各1次，10月31日截止）\n
  ①滴滴满30-5元（日100名额）\n②携程满100-10元（日200名
  额）\n③12306满100-10元（日200名额）\n\n活动截止：2026-10
- -31\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860.h
- tml
+ -31\n来源：2026-9-10日周四刷卡指南 https://www.zrfan.com/8863.
+ html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:浦发银行
 END:VEVENT
 BEGIN:VEVENT
 UID:45862a72feb21d256399fa4fa032ef67@zrfan-card-guide
-DTSTART:20260907T160000Z
-DTEND:20260907T163000Z
+DTSTART:20260914T160000Z
+DTEND:20260914T163000Z
 RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20260930T155959Z
 SUMMARY:[周二] 浦发银行｜00:00 周周抽5折、茶咖1元购
 DESCRIPTION:浦大喜奔APP-66生活周二超惠吃-周周领，每周可
  抽各种折扣券、5折美食券\n66生活茶咖1元购-周周领，
  每周抽各种折扣券，1元饮品券（周1次，9月30日截止）
- \n\n活动截止：2026-09-30\n来源：2026-9-7日周一刷卡指南 ht
- tps://www.zrfan.com/8860.html
+ \n\n活动截止：2026-09-30\n来源：2026-9-10日周四刷卡指南 h
+ ttps://www.zrfan.com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周二] 浦发银行｜00:00 周周抽5折、茶咖1元购
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:浦发银行
 END:VEVENT
 BEGIN:VEVENT
 UID:7a09f6c089aabf6b278121b3162f6e11@zrfan-card-guide
-DTSTART;VALUE=DATE:20260907
+DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20270401
 SUMMARY:浦发银行｜小米之家分期（期内可参与）
 DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
@@ -55,36 +55,36 @@ DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
  银行满3k-100元（12月31日截止）\n民生银行满2k-50元、满5
  k-100元（26年11月30日截止）\n中信银行满1500-45元、满3500
  -100元、满6k-180元（27年3月31日截止）\n\n活动截止：2027-
- 03-31\n来源：2026-9-7日周一刷卡指南 https://www.zrfan.com/8860
- .html
+ 03-31\n来源：2026-9-10日周四刷卡指南 https://www.zrfan.com/886
+ 3.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:浦发银行
 END:VEVENT
 BEGIN:VEVENT
 UID:063dee51e62a87e7e191369e5be1cf26@zrfan-card-guide
-DTSTART:20260907T010000Z
-DTEND:20260907T013000Z
+DTSTART:20260910T010000Z
+DTEND:20260910T013000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 浦发银行｜09:00 车卡返现
 DESCRIPTION:浦大喜奔APP-搜-加油，车主卡上月消费满3888元
  或有3笔166元消费（不可为加油充电消费），享加油85折
  返现上限70元，次月15日可领取（26年12月31日截止）\n\n
- 活动截止：2026-12-31\n来源：2026-9-7日周一刷卡指南 https:
- //www.zrfan.com/8860.html
+ 活动截止：2026-12-31\n来源：2026-9-10日周四刷卡指南 https
+ ://www.zrfan.com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 浦发银行｜09:00 车卡返现
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:浦发银行
 END:VEVENT
 BEGIN:VEVENT
 UID:a37d65537386bd7a7802649c8075986f@zrfan-card-guide
-DTSTART:20260908T020000Z
-DTEND:20260908T023000Z
+DTSTART:20260915T020000Z
+DTEND:20260915T023000Z
 RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20260930T155959Z
 SUMMARY:[周二] 浦发银行｜10:00 66美食
 DESCRIPTION:周二10点起，浦大喜奔APP-66生活-周二半价，超
@@ -92,21 +92,21 @@ DESCRIPTION:周二10点起，浦大喜奔APP-66生活-周二半价，超
  周7200名额，月1次，9月30日截止）\nps：本期要求超6会
  员s3及以上等级才能参加（交易次数及消费金额获取，
  难度不大）卓信v3则需要日均资产达标\n\n活动截止：202
- 6-09-30\n来源：2026-9-1日周二刷卡指南 https://www.zrfan.com/88
- 52.html
+ 6-09-30\n来源：2026-9-8日周二刷卡指南 https://www.zrfan.com/88
+ 61.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周二] 浦发银行｜10:00 66美食
 END:VALARM
-URL:https://www.zrfan.com/8852.html
+URL:https://www.zrfan.com/8861.html
 CATEGORIES:浦发银行
 END:VEVENT
 BEGIN:VEVENT
 UID:32e41a861dd12b41d232c9f7fba88f8a@zrfan-card-guide
-DTSTART:20260907T020000Z
-DTEND:20260907T023000Z
+DTSTART:20260914T020000Z
+DTEND:20260914T023000Z
 RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20260930T155959Z
 SUMMARY:[周一] 浦发银行｜10:00 京东plus联名卡
 DESCRIPTION:周一10点起，京东购物使用浦发京东plus联名卡
@@ -145,55 +145,55 @@ CATEGORIES:浦发银行
 END:VEVENT
 BEGIN:VEVENT
 UID:a6c54f19ac432cc978cd8c774f3aad6b@zrfan-card-guide
-DTSTART:20260909T020000Z
-DTEND:20260909T023000Z
+DTSTART:20260916T020000Z
+DTEND:20260916T023000Z
 RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20261230T155959Z
 SUMMARY:[周三] 浦发银行｜10:00 半价文旅
 DESCRIPTION:周三10点起，浦大喜奔APP-半价趣游计划，可领5
  折文旅券上限50元（日2200名额，仅1次，12月30日截止）
- \n\n活动截止：2026-12-30\n来源：2026-9-2日周三刷卡指南 ht
- tps://www.zrfan.com/8854.html
+ \n\n活动截止：2026-12-30\n来源：2026-9-9日周三刷卡指南 ht
+ tps://www.zrfan.com/8862.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周三] 浦发银行｜10:00 半价文旅
 END:VALARM
-URL:https://www.zrfan.com/8854.html
+URL:https://www.zrfan.com/8862.html
 CATEGORIES:浦发银行
 END:VEVENT
 BEGIN:VEVENT
-UID:1e0f2844e498382c1196037877507561@zrfan-card-guide
-DTSTART:20260908T020000Z
-DTEND:20260908T023000Z
-RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20260930T155959Z
-SUMMARY:[周二] 浦发银行｜10:00 周周抽5折、茶咖1元购
-DESCRIPTION:9月1日10点起，浦大喜奔APP-66生活周二超惠吃-
- 周周领，每周可抽各种折扣券、5折美食券\n66生活茶咖1
- 元购-周周领，每周抽各种折扣券，1元饮品券（周1次，
- 9月30日截止）\n\n活动截止：2026-09-30\n来源：2026-9-1日周
- 二刷卡指南 https://www.zrfan.com/8852.html
+UID:e925025248d0a73b37c375fc26ba271e@zrfan-card-guide
+DTSTART:20260910T020000Z
+DTEND:20260910T023000Z
+RRULE:FREQ=MONTHLY;BYMONTHDAY=10;UNTIL=20260930T155959Z
+SUMMARY:[每月10日] 浦发银行｜10:00 宠友日
+DESCRIPTION:每月10日10点起，浦大喜奔APP-宠友日，可领指
+ 定宠物友好餐厅5折上限50元券（月1w名额），还可领多
+ 元商城宠物类满20-10元、满100-50元券，门票类5折上限10
+ 元券（9月30日截止）\n\n活动截止：2026-09-30\n来源：2026-
+ 9-10日周四刷卡指南 https://www.zrfan.com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
-DESCRIPTION:[周二] 浦发银行｜10:00 周周抽5折、茶咖1元购
+DESCRIPTION:[每月10日] 浦发银行｜10:00 宠友日
 END:VALARM
-URL:https://www.zrfan.com/8852.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:浦发银行
 END:VEVENT
 BEGIN:VEVENT
 UID:cd3cfd9f4303113d00491702bc455f69@zrfan-card-guide
-DTSTART:20260907T020000Z
-DTEND:20260907T023000Z
+DTSTART:20260910T020000Z
+DTEND:20260910T023000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 浦发银行｜10:00 蜜雪冰城、霸王茶姬、奈
  雪、古茗、茶百道、喜茶、瑞幸
 DESCRIPTION:每日10点起，浦大喜奔APP-66生活-大牌茶饮每日
  特惠周六1元购（限量，月2次，续期至9月30日截止）\n
  ①可半价购蜜雪冰城、霸王茶姬、茶百道、古茗、喜茶
- 、奈雪、瑞幸券\n\n活动截止：2026-09-30\n来源：2026-9-7日
- 周一刷卡指南 https://www.zrfan.com/8860.html
+ 、奈雪、瑞幸券\n\n活动截止：2026-09-30\n来源：2026-9-10
+ 日周四刷卡指南 https://www.zrfan.com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -201,7 +201,7 @@ TRIGGER:-PT10M
 DESCRIPTION:[每日] 浦发银行｜10:00 蜜雪冰城、霸王茶姬、
  奈雪、古茗、茶百道、喜茶、瑞幸
 END:VALARM
-URL:https://www.zrfan.com/8860.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:浦发银行
 END:VEVENT
 BEGIN:VEVENT
@@ -212,21 +212,21 @@ RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20261231T155959Z
 SUMMARY:[周四] 浦发银行｜10:00 观影5折券
 DESCRIPTION:周四10点起，浦大喜奔APP-半价看电影，可领半
  价观影券上限25元（日2k名额，仅1次，12月31日截止）\n
- \n活动截止：2026-12-31\n来源：2026-9-3日周四刷卡指南 http
- s://www.zrfan.com/8855.html
+ \n活动截止：2026-12-31\n来源：2026-9-10日周四刷卡指南 htt
+ ps://www.zrfan.com/8863.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周四] 浦发银行｜10:00 观影5折券
 END:VALARM
-URL:https://www.zrfan.com/8855.html
+URL:https://www.zrfan.com/8863.html
 CATEGORIES:浦发银行
 END:VEVENT
 BEGIN:VEVENT
 UID:b3995c5b79fe1274fd31028b71090da1@zrfan-card-guide
-DTSTART:20260907T023000Z
-DTEND:20260907T030000Z
+DTSTART:20260910T023000Z
+DTEND:20260910T030000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 浦发银行｜10:30 霸王茶姬、古茗、奈雪
 DESCRIPTION:周六10点30分起，浦大喜奔APP-66生活-大牌茶饮
@@ -245,8 +245,8 @@ CATEGORIES:浦发银行
 END:VEVENT
 BEGIN:VEVENT
 UID:c7f738b47fd66879bccc9bc3cd61201e@zrfan-card-guide
-DTSTART:20260907T030000Z
-DTEND:20260907T033000Z
+DTSTART:20260910T030000Z
+DTEND:20260910T033000Z
 RRULE:FREQ=DAILY;UNTIL=20260930T155959Z
 SUMMARY:[每日] 浦发银行｜11:00 星巴克、皮爷咖啡
 DESCRIPTION:周六11点起，浦大喜奔APP-66生活-大牌茶饮每日

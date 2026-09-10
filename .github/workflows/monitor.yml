@@ -62,13 +62,17 @@ jobs:
             OUT="${OUT}SSH 2525: 无 banner（主机可能卡死或防火墙拦截）\n"; echo "无 banner"
           fi
           echo "--- HTTP 8080 ---"
-          CODE=$(curl -s -o /dev/null -w '%{http_code}' --max-time 15 "http://$HOST:8080/" || echo 000)
-          OUT="${OUT}HTTP 8080: $CODE\n"
+          CODE=$(curl -s -o /dev/null -w '%{http_code}' --max-time 15 "http://$HOST:8080/" 2>/dev/null || echo 000)
+          OUT="${OUT}HTTP 8080: $CODE\n"; echo "HTTP 8080 返回 $CODE"
           echo "--- 源站 zrfan.com（验证 Actions 能否直连）---"
-          ZC=$(curl -s -o /dev/null -w '%{http_code}' --max-time 25 https://www.zrfan.com/category/zhinan/ || echo 000)
-          OUT="${OUT}zrfan.com: $ZC（Actions 节点）\n"
-          printf "$OUT" > diag.txt
-          printf "diag=%b\n" "$OUT" >> "$GITHUB_OUTPUT"
+          ZC=$(curl -s -o /dev/null -w '%{http_code}' --max-time 25 https://www.zrfan.com/category/zhinan/ 2>/dev/null || echo 000)
+          OUT="${OUT}zrfan.com: $ZC\n"; echo "zrfan.com 返回 $ZC"
+          printf "%b\n" "$OUT" > diag.txt
+          {
+            echo "diag<<DIAG_EOF"
+            printf "%b" "$OUT"
+            echo "DIAG_EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: 数据过期时建 issue 告警
         if: steps.fresh.outputs.stale == '1'
@@ -79,7 +83,8 @@ jobs:
         run: |
           TITLE="⚠️ 刷卡日历更新失败"
           BODY=$(printf '检测到日历数据未更新。\n\n**原因**：%s\n\n**服务器诊断**：\n```\n%s\n```\n\n**排查建议**：\n1. 登录阿里云控制台确认 ECS 实例状态，必要时强制重启\n2. 重启后检查 `crontab -l` 与 `/opt/zrfan-calendar/logs/cron.log`\n3. 手动执行 `bash /opt/zrfan-calendar/update_and_push.sh` 验证\n\n/cc @rayassassin\n' "$REASON" "$DIAG")
-          EXIST=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')
+          EXIST=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 50 \
+            --json number,title | jq -r --arg t "$TITLE" '.[] | select(.title == $t) | .number' | head -1)
           if [ -n "$EXIST" ]; then
             gh issue comment "$EXIST" --repo "$GITHUB_REPOSITORY" --body "$BODY"
             echo "已在已有 issue #$EXIST 上追加告警"

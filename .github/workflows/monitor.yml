@@ -6,6 +6,11 @@ name: monitor
 
 on:
   workflow_dispatch:
+    inputs:
+      test_alert:
+        description: '测试告警通道（强制判定为过期，用于验证 issue 通知）'
+        type: boolean
+        default: false
   schedule:
     - cron: '0 1 * * *'
 
@@ -19,8 +24,16 @@ jobs:
     steps:
       - name: 检查日历数据新鲜度
         id: fresh
+        env:
+          TEST_ALERT: ${{ inputs.test_alert }}
         run: |
           set -uo pipefail
+          if [ "${TEST_ALERT:-false}" = "true" ]; then
+            echo "::warning::测试模式：强制判定为数据过期"
+            echo "stale=1" >> "$GITHUB_OUTPUT"
+            echo "reason=【测试】人为触发告警通道验证" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           URL=https://rayassassin.github.io/zrfan-calendar/meta.json
           if ! curl -sS --max-time 30 --retry 3 --retry-all-errors -o meta.json "$URL"; then
             echo "::error::无法获取 meta.json（GitHub Pages 可能异常）"

@@ -143,6 +143,48 @@ Google 日历 → 设置 → 导入和导出 → 从计算机导入 → 选 `bui
 | `main.py` | 串联以上全部 |
 | `push_pages.sh` | 把 `build/` 推到 `gh-pages` 分支（Deploy Key 认证） |
 | `update_and_push.sh` | 每日定时入口：抓取 → 推送，由 crontab 调用 |
+| `catchup_if_missed.sh` | 6 点兜底：0 点没抓到当天指南时强制补抓 |
+| `.github/workflows/monitor.yml` | 数据新鲜度监控 + 服务器诊断，过期自动建 issue 告警 |
+
+## 可用性保障
+
+### 数据新鲜度监控（GitHub Actions）
+
+`monitor.yml` 每天 **01:00 UTC（= 09:00 北京时间）** 检查一次
+`https://rayassassin.github.io/zrfan-calendar/meta.json` 里最新文章的日期：
+
+- 最新日期 **早于昨天** → 判定更新失效：自动建 issue 并 `@` 提醒，同时让
+  workflow 失败（GitHub 会邮件通知仓库所有者）
+- 同时输出服务器诊断：ICMP / SSH 2525 / HTTP 8080 / zrfan.com 可达性，
+  直接写进 issue 正文，省去逐项排查
+
+手动验证告警通道：Actions → monitor → Run workflow → 勾选 `test_alert`。
+
+> 注意：Actions 的美国节点**连不上 zrfan.com**（已验证两次），
+> 所以监控只负责「发现问题 + 告警」，抓取仍必须由国内服务器完成。
+
+### 服务器侧加固
+
+`update_and_push.sh` 每次运行前会：
+
+- 轮转 `logs/cron.log`（超 5MB 只留最后 2000 行）
+- 清理 `raw/` 缓存（只留最近 30 篇）
+- 磁盘使用率 ≥ 90% 时打印告警并列出占用最大的目录
+- `main.py` 非 0 退出时**中止**，不再推送半成品
+
+## 故障排查
+
+服务器整机卡死时（SSH 能连但无 banner、HTTP 8080 无响应、cron 不执行）：
+
+1. 登录**云厂商控制台**，用 VNC/远程连接（不依赖 SSH）登录，或直接强制重启实例
+2. 重启后确认：`systemctl status cron`、`crontab -l`、`df -h`
+3. 手动跑一次：`bash /opt/zrfan-calendar/update_and_push.sh`
+4. 看日志：`tail -50 /opt/zrfan-calendar/logs/cron.log`
+
+应急刷新（服务器不可用但本机能访问源站时）：本地跑
+`python3 main.py -n 7 --force`，再把 `build/` 推到 `gh-pages` 分支。
+
+---
 
 ## 调参
 

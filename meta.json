@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-09-10T17:13:52",
+  "generated_at": "2026-09-14T10:18:29",
   "articles": [
-    {
-      "title": "2026-9-4日周五刷卡指南",
-      "url": "https://www.zrfan.com/8857.html",
-      "date": "2026-09-04"
-    },
-    {
-      "title": "2026-9-5日周六刷卡指南",
-      "url": "https://www.zrfan.com/8858.html",
-      "date": "2026-09-05"
-    },
-    {
-      "title": "2026-9-6日周日刷卡指南",
-      "url": "https://www.zrfan.com/8859.html",
-      "date": "2026-09-06"
-    },
-    {
-      "title": "2026-9-7日周一刷卡指南",
-      "url": "https://www.zrfan.com/8860.html",
-      "date": "2026-09-07"
-    },
     {
       "title": "2026-9-8日周二刷卡指南",
       "url": "https://www.zrfan.com/8861.html",
@@ -35,16 +15,36 @@
       "title": "2026-9-10日周四刷卡指南",
       "url": "https://www.zrfan.com/8863.html",
       "date": "2026-09-10"
+    },
+    {
+      "title": "2026-9-11日周五刷卡指南",
+      "url": "https://www.zrfan.com/8864.html",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "2026-9-12日周六刷卡指南",
+      "url": "https://www.zrfan.com/8865.html",
+      "date": "2026-09-12"
+    },
+    {
+      "title": "2026-9-13日周日刷卡指南",
+      "url": "https://www.zrfan.com/8866.html",
+      "date": "2026-09-13"
+    },
+    {
+      "title": "2026-9-14日周一刷卡指南",
+      "url": "https://www.zrfan.com/8867.html",
+      "date": "2026-09-14"
     }
   ],
-  "n_events": 170,
-  "n_timed": 121,
+  "n_events": 168,
+  "n_timed": 119,
   "calendars": [
     {
       "bank": "农业银行",
       "slug": "abc",
-      "count": 27,
-      "timed": 15
+      "count": 25,
+      "timed": 13
     },
     {
       "bank": "兴业银行",
@@ -71,16 +71,16 @@
       "timed": 12
     },
     {
-      "bank": "浦发银行",
-      "slug": "spdb",
-      "count": 13,
-      "timed": 11
-    },
-    {
       "bank": "建设银行",
       "slug": "ccb",
       "count": 13,
       "timed": 8
+    },
+    {
+      "bank": "浦发银行",
+      "slug": "spdb",
+      "count": 12,
+      "timed": 11
     },
     {
       "bank": "华夏银行",

@@ -10,8 +10,8 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:07d9691444a3dc817f2e3d4e35a2e8c5@zrfan-card-guide
-DTSTART:20260911T010000Z
-DTEND:20260911T013000Z
+DTSTART:20260918T010000Z
+DTEND:20260918T013000Z
 RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20261225T155959Z
 SUMMARY:[周五] 交通银行｜09:00 最红星期五
 DESCRIPTION:每周五，买单吧APP-最红专区（26年12月25日截止
@@ -26,21 +26,21 @@ DESCRIPTION:每周五，买单吧APP-最红专区（26年12月25日截止
  充电25元刷卡金（50%抵扣）；③25元支付宝地铁红包\n11
  点起，可抢①25元购50元加油券；④肯德基汉堡王等多
  种商户5折券\n周各1次月各场景仅1次，抽奖抢兑月共4次
- \n\n活动截止：2026-12-25\n来源：2026-9-4日周五刷卡指南 ht
- tps://www.zrfan.com/8857.html
+ \n\n活动截止：2026-12-25\n来源：2026-9-11日周五刷卡指南 h
+ ttps://www.zrfan.com/8864.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周五] 交通银行｜09:00 最红星期五
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8864.html
 CATEGORIES:交通银行
 END:VEVENT
 BEGIN:VEVENT
 UID:3fd117847f5ac1afb774ab6526745585@zrfan-card-guide
-DTSTART:20260911T020000Z
-DTEND:20260911T023000Z
+DTSTART:20260918T020000Z
+DTEND:20260918T023000Z
 RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20261225T155959Z
 SUMMARY:[周五] 交通银行｜10:00 最红星期五
 DESCRIPTION:每周五，买单吧APP-最红专区（26年12月25日截止
@@ -55,21 +55,21 @@ DESCRIPTION:每周五，买单吧APP-最红专区（26年12月25日截止
  充电25元刷卡金（50%抵扣）；③25元支付宝地铁红包\n11
  点起，可抢①25元购50元加油券；④肯德基汉堡王等多
  种商户5折券\n周各1次月各场景仅1次，抽奖抢兑月共4次
- \n\n活动截止：2026-12-25\n来源：2026-9-4日周五刷卡指南 ht
- tps://www.zrfan.com/8857.html
+ \n\n活动截止：2026-12-25\n来源：2026-9-11日周五刷卡指南 h
+ ttps://www.zrfan.com/8864.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周五] 交通银行｜10:00 最红星期五
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8864.html
 CATEGORIES:交通银行
 END:VEVENT
 BEGIN:VEVENT
 UID:7b6149c5f6cb41dc5e237bb4b31727ff@zrfan-card-guide
-DTSTART:20260911T030000Z
-DTEND:20260911T033000Z
+DTSTART:20260918T030000Z
+DTEND:20260918T033000Z
 RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20261225T155959Z
 SUMMARY:[周五] 交通银行｜11:00 最红星期五
 DESCRIPTION:每周五，买单吧APP-最红专区（26年12月25日截止
@@ -84,15 +84,15 @@ DESCRIPTION:每周五，买单吧APP-最红专区（26年12月25日截止
  充电25元刷卡金（50%抵扣）；③25元支付宝地铁红包\n11
  点起，可抢①25元购50元加油券；④肯德基汉堡王等多
  种商户5折券\n周各1次月各场景仅1次，抽奖抢兑月共4次
- \n\n活动截止：2026-12-25\n来源：2026-9-4日周五刷卡指南 ht
- tps://www.zrfan.com/8857.html
+ \n\n活动截止：2026-12-25\n来源：2026-9-11日周五刷卡指南 h
+ ttps://www.zrfan.com/8864.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周五] 交通银行｜11:00 最红星期五
 END:VALARM
-URL:https://www.zrfan.com/8857.html
+URL:https://www.zrfan.com/8864.html
 CATEGORIES:交通银行
 END:VEVENT
 END:VCALENDAR

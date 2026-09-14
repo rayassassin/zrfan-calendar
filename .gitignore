@@ -5,6 +5,9 @@ logs/
 build/
 state/
 
+# 敏感凭据（Deploy Key 私钥备份等），绝不入库
+.secrets/
+
 __pycache__/
 *.pyc
 

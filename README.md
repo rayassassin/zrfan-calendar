@@ -144,6 +144,7 @@ Google 日历 → 设置 → 导入和导出 → 从计算机导入 → 选 `bui
 | `push_pages.sh` | 把 `build/` 推到 `gh-pages` 分支（Deploy Key 认证） |
 | `update_and_push.sh` | 每日定时入口：抓取 → 推送，由 crontab 调用 |
 | `catchup_if_missed.sh` | 6 点兜底：0 点没抓到当天指南时强制补抓 |
+| `recover.sh` | **灾难恢复**：服务器被清空后一条命令重建整条链路 |
 | `.github/workflows/monitor.yml` | 数据新鲜度监控 + 服务器诊断，过期自动建 issue 告警 |
 
 ## 可用性保障
@@ -183,6 +184,57 @@ Google 日历 → 设置 → 导入和导出 → 从计算机导入 → 选 `bui
 
 应急刷新（服务器不可用但本机能访问源站时）：本地跑
 `python3 main.py -n 7 --force`，再把 `build/` 推到 `gh-pages` 分支。
+
+---
+
+## 灾难恢复
+
+**适用场景**：服务器重装系统、`/opt/zrfan-calendar` 被误删、
+`crontab` 丢失——即服务器侧整条链路归零。
+
+在**本地**一条命令重建：
+
+```bash
+cd zrfan
+ZRFAN_SSH_PASS='服务器密码' bash recover.sh <服务器IP> 2525
+```
+
+脚本会依次完成：
+
+1. 打包本地最新代码并上传解压到 `/opt/zrfan-calendar`
+2. 从本地备份恢复 Deploy Key 到 `/root/.ssh/zrfan_deploy`
+3. 重建 crontab（`0 0` 主更新 + `0 6` 兜底）
+4. 试跑一次完整流程（抓取 → 生成 → 推送 gh-pages）并验证
+
+### Deploy Key 备份（关键）
+
+推送 `gh-pages` 依赖一把只授权本仓库的 SSH 密钥。备份位置按优先级：
+
+1. `.secrets/zrfan_deploy` ← **推荐**，已在 `.gitignore` 中，不会入库
+2. `~/.ssh/zrfan_calendar_deploy`
+
+> 只要这份私钥还在，服务器无论重装多少次都能直接恢复，**不需要新的 GitHub PAT**。
+
+### 如果私钥备份也丢了
+
+需要重新签发：
+
+```bash
+# 在服务器上生成新密钥
+ssh-keygen -t ed25519 -f /root/.ssh/zrfan_deploy -N '' -C 'zrfan-calendar-deploy'
+cat /root/.ssh/zrfan_deploy.pub
+```
+
+把公钥内容通过 GitHub API 注册为仓库 Deploy Key（需 `repo` 权限的 PAT）：
+
+```bash
+curl -X POST -H "Authorization: Bearer $GH_PAT" \
+  -H "Accept: application/vnd.github+json" \
+  -d '{"title":"zrfan-calendar-deploy","key":"<公钥内容>","read_only":false}' \
+  https://api.github.com/repos/rayassassin/zrfan-calendar/keys
+```
+
+注册后把私钥下载回本地 `.secrets/zrfan_deploy`，之后恢复流程就能照常走。
 
 ---
 

@@ -4,7 +4,7 @@ PRODID:-//zrfan card guide//ZH-CN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:刷卡指南·光大银行
-X-WR-CALDESC:光大银行信用卡/借记卡优惠提醒，共 3 项（3 
+X-WR-CALDESC:光大银行信用卡/借记卡优惠提醒，共 4 项（4 
  项定点提醒）。数据来源 zrfan.com 每日刷卡指南
 X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
@@ -17,14 +17,35 @@ SUMMARY:[周五] 光大银行｜00:00 星巴克
 DESCRIPTION:周五0点起，星巴克线下门店使用支付宝付款码
  ，选择光大信用卡支付，满40-15元（周2w名额，月1次，
  续期至12月31日截止）\n\n活动截止：2026-12-31\n来源：2026
- -9-11日周五刷卡指南 https://www.zrfan.com/8864.html
+ -9-18日周五刷卡指南 https://www.zrfan.com/8871.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周五] 光大银行｜00:00 星巴克
 END:VALARM
-URL:https://www.zrfan.com/8864.html
+URL:https://www.zrfan.com/8871.html
+CATEGORIES:光大银行
+END:VEVENT
+BEGIN:VEVENT
+UID:bbade4f3b4169eb00a3bebc85dce7fbe@zrfan-card-guide
+DTSTART:20260919T020000Z
+DTEND:20260919T023000Z
+RRULE:FREQ=WEEKLY;BYDAY=SA,SU;UNTIL=20261227T155959Z
+SUMMARY:[周六周日] 光大银行｜10:00 加油充电
+DESCRIPTION:周五周六周日10点起，支付宝APP-车生活-加油公
+ 共充电场景，使用支付宝选择光大信用卡支付，满200-10
+ 元（日8968名额）满15-3元（日606名额）满5-1元（日4323名
+ 额）（月各1次，车主卡各2次，有中石油和中石化充值
+ ，12月27日截止）\n\n活动截止：2026-12-27\n来源：2026-9-18
+ 日周五刷卡指南 https://www.zrfan.com/8871.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[周六周日] 光大银行｜10:00 加油充电
+END:VALARM
+URL:https://www.zrfan.com/8871.html
 CATEGORIES:光大银行
 END:VEVENT
 BEGIN:VEVENT
@@ -38,15 +59,15 @@ DESCRIPTION:周五10点起，指定商户使用光大信用卡支付（
  名额）\n京东实物满200-10元（周14790名额）白金卡满1k-50
  元（周1340名额）京东联名卡满500-50元（1120名额，年2次
  ，12月31日截止）\n美团满30元随机减1-10元（周20400名额
- ）\n\n活动截止：2026-12-31\n来源：2026-9-11日周五刷卡指
- 南 https://www.zrfan.com/8864.html
+ ）\n\n活动截止：2026-12-31\n来源：2026-9-18日周五刷卡指
+ 南 https://www.zrfan.com/8871.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周五] 光大银行｜10:00 淘宝、京东、美团
 END:VALARM
-URL:https://www.zrfan.com/8864.html
+URL:https://www.zrfan.com/8871.html
 CATEGORIES:光大银行
 END:VEVENT
 BEGIN:VEVENT
@@ -58,14 +79,14 @@ SUMMARY:[周五] 光大银行｜10:00 肯德基
 DESCRIPTION:周五10点起，肯德基门店、APP及支付宝小程序
  ，使用光大信用卡支付，满30-10元（周3w名额，月1次，
  续期至12月31日截止）\n\n活动截止：2026-12-31\n来源：2026
- -9-11日周五刷卡指南 https://www.zrfan.com/8864.html
+ -9-18日周五刷卡指南 https://www.zrfan.com/8871.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周五] 光大银行｜10:00 肯德基
 END:VALARM
-URL:https://www.zrfan.com/8864.html
+URL:https://www.zrfan.com/8871.html
 CATEGORIES:光大银行
 END:VEVENT
 END:VCALENDAR

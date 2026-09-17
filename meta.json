@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-09-17T00:05:27",
+  "generated_at": "2026-09-18T00:00:12",
   "articles": [
-    {
-      "title": "2026-9-11日周五刷卡指南",
-      "url": "https://www.zrfan.com/8864.html",
-      "date": "2026-09-11"
-    },
     {
       "title": "2026-9-12日周六刷卡指南",
       "url": "https://www.zrfan.com/8865.html",
@@ -35,10 +30,15 @@
       "title": "2026-9-17日周四刷卡指南",
       "url": "https://www.zrfan.com/8870.html",
       "date": "2026-09-17"
+    },
+    {
+      "title": "2026-9-18日周五刷卡指南",
+      "url": "https://www.zrfan.com/8871.html",
+      "date": "2026-09-18"
     }
   ],
-  "n_events": 167,
-  "n_timed": 117,
+  "n_events": 169,
+  "n_timed": 119,
   "calendars": [
     {
       "bank": "农业银行",
@@ -113,21 +113,21 @@
       "timed": 2
     },
     {
-      "bank": "广发银行",
-      "slug": "cgb",
-      "count": 4,
-      "timed": 3
-    },
-    {
       "bank": "交通银行",
       "slug": "bocom",
-      "count": 3,
-      "timed": 3
+      "count": 4,
+      "timed": 4
     },
     {
       "bank": "光大银行",
       "slug": "ceb",
-      "count": 3,
+      "count": 4,
+      "timed": 4
+    },
+    {
+      "bank": "广发银行",
+      "slug": "cgb",
+      "count": 4,
       "timed": 3
     },
     {

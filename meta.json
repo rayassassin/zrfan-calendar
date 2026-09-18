@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-09-18T00:00:12",
+  "generated_at": "2026-09-19T00:00:12",
   "articles": [
-    {
-      "title": "2026-9-12日周六刷卡指南",
-      "url": "https://www.zrfan.com/8865.html",
-      "date": "2026-09-12"
-    },
     {
       "title": "2026-9-13日周日刷卡指南",
       "url": "https://www.zrfan.com/8866.html",
@@ -35,9 +30,14 @@
       "title": "2026-9-18日周五刷卡指南",
       "url": "https://www.zrfan.com/8871.html",
       "date": "2026-09-18"
+    },
+    {
+      "title": "2026-9-19日周六刷卡指南",
+      "url": "https://www.zrfan.com/8872.html",
+      "date": "2026-09-19"
     }
   ],
-  "n_events": 169,
+  "n_events": 171,
   "n_timed": 119,
   "calendars": [
     {
@@ -49,7 +49,7 @@
     {
       "bank": "兴业银行",
       "slug": "cib",
-      "count": 19,
+      "count": 21,
       "timed": 9
     },
     {

@@ -10,22 +10,22 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:c561faafeecf19d78fa8b4aed1a3eed9@zrfan-card-guide
-DTSTART:20260919T010000Z
-DTEND:20260919T013000Z
-RRULE:FREQ=DAILY;UNTIL=20261019T155959Z
+DTSTART:20260920T010000Z
+DTEND:20260920T013000Z
+RRULE:FREQ=DAILY;UNTIL=20261020T155959Z
 SUMMARY:[每日] 交通银行｜09:00 微信30元（特邀）
 DESCRIPTION:买单吧APP-我的-热门活动-达标赢返现（特邀）
  ，特邀用户报名后微信支付使用交行信用卡支付，累计
  满5k元得15元刷卡金，累计满1w元得30元刷卡金（仅1次，
- 18w名额）\n\n来源：2026-9-19日周六刷卡指南 https://www.zrfa
- n.com/8872.html
+ 18w名额）\n\n来源：2026-9-20日周日刷卡指南 https://www.zrfa
+ n.com/8874.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 交通银行｜09:00 微信30元（特邀）
 END:VALARM
-URL:https://www.zrfan.com/8872.html
+URL:https://www.zrfan.com/8874.html
 CATEGORIES:交通银行
 END:VEVENT
 BEGIN:VEVENT

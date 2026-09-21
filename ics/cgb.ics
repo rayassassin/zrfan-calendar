@@ -4,59 +4,40 @@ PRODID:-//zrfan card guide//ZH-CN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:刷卡指南·广发银行
-X-WR-CALDESC:广发银行信用卡/借记卡优惠提醒，共 4 项（3 
+X-WR-CALDESC:广发银行信用卡/借记卡优惠提醒，共 3 项（2 
  项定点提醒）。数据来源 zrfan.com 每日刷卡指南
 X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:8307898f33e7ea571109970dad5a2a65@zrfan-card-guide
-DTSTART;VALUE=DATE:20260921
+DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20270101
 SUMMARY:广发银行｜天天5折（期内可参与）
 DESCRIPTION:发现精彩APP-饭票，定位本地多种商户饭票5折
  起（12月31日截止）\n\n活动截止：2026-12-31\n来源：2026-9-
- 21日周一刷卡指南 https://www.zrfan.com/8875.html
+ 22日周二刷卡指南 https://www.zrfan.com/8877.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8875.html
-CATEGORIES:广发银行
-END:VEVENT
-BEGIN:VEVENT
-UID:015fa767a80ce8b5a5759d678aa11dda@zrfan-card-guide
-DTSTART:20261014T160000Z
-DTEND:20261014T163000Z
-RRULE:FREQ=MONTHLY;BYMONTHDAY=15;UNTIL=20261231T155959Z
-SUMMARY:[每月15日] 广发银行｜00:00 车主卡20元
-DESCRIPTION:每月15日0点起，上月广发车主卡消费满5k元，
- 发现精彩APP-车生活-特惠养车，可领20元券（月3w张，12
- 月31日截止）\n\n活动截止：2026-12-31\n来源：2026-9-15日周
- 二刷卡指南 https://www.zrfan.com/8868.html
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT10M
-DESCRIPTION:[每月15日] 广发银行｜00:00 车主卡20元
-END:VALARM
-URL:https://www.zrfan.com/8868.html
+URL:https://www.zrfan.com/8877.html
 CATEGORIES:广发银行
 END:VEVENT
 BEGIN:VEVENT
 UID:d267f8a4e7be4a2bb6b0c9d8508fac13@zrfan-card-guide
-DTSTART:20260921T010000Z
-DTEND:20260921T013000Z
-RRULE:FREQ=DAILY;UNTIL=20261021T155959Z
+DTSTART:20260922T010000Z
+DTEND:20260922T013000Z
+RRULE:FREQ=DAILY;UNTIL=20261022T155959Z
 SUMMARY:[每日] 广发银行｜09:00 云闪付信用卡
 DESCRIPTION:广发云闪付信用卡，云闪付APP支付享3%返利，
  微信支付宝享1%返利（办理分期满3k元次月享5%返利），
  单日20元单月100元（办理分期满3k元次月日20元月100元）
- \n兴业银行\n\n来源：2026-9-21日周一刷卡指南 https://www.zr
- fan.com/8875.html
+ \n兴业银行\n\n来源：2026-9-22日周二刷卡指南 https://www.zr
+ fan.com/8877.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 广发银行｜09:00 云闪付信用卡
 END:VALARM
-URL:https://www.zrfan.com/8875.html
+URL:https://www.zrfan.com/8877.html
 CATEGORIES:广发银行
 END:VEVENT
 BEGIN:VEVENT

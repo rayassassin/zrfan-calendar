@@ -16,15 +16,15 @@ RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20260930T155959Z
 SUMMARY:[周三] 其他优惠｜08:00 周三88折
 DESCRIPTION:周三8点起，移动APP-搜索-周三充值，可抢88折
  等充值券（邀请好友还可得至高88折话费券，9月30日截
- 止）\n\n活动截止：2026-09-30\n来源：2026-9-16日周三刷卡
- 指南 https://www.zrfan.com/8869.html
+ 止）\n\n活动截止：2026-09-30\n来源：2026-9-23日周三刷卡
+ 指南 https://www.zrfan.com/8878.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周三] 其他优惠｜08:00 周三88折
 END:VALARM
-URL:https://www.zrfan.com/8869.html
+URL:https://www.zrfan.com/8878.html
 CATEGORIES:其他优惠
 END:VEVENT
 END:VCALENDAR

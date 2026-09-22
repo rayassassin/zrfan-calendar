@@ -10,35 +10,35 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:8bd701775ed03bdea02bde952323418b@zrfan-card-guide
-DTSTART;VALUE=DATE:20260922
+DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20261016
 SUMMARY:交通银行｜乐园门票（期内可参与）
 DESCRIPTION:9月1日-10月13日累计消费满100元且满5笔，购买
  指定乐园门票满200-30元（日500名额，10月15日截止）\n\n
- 活动截止：2026-10-15\n来源：2026-9-22日周二刷卡指南 https
- ://www.zrfan.com/8877.html
+ 活动截止：2026-10-15\n来源：2026-9-23日周三刷卡指南 https
+ ://www.zrfan.com/8878.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8877.html
+URL:https://www.zrfan.com/8878.html
 CATEGORIES:交通银行
 END:VEVENT
 BEGIN:VEVENT
 UID:c561faafeecf19d78fa8b4aed1a3eed9@zrfan-card-guide
-DTSTART:20260922T010000Z
-DTEND:20260922T013000Z
-RRULE:FREQ=DAILY;UNTIL=20261022T155959Z
+DTSTART:20260923T010000Z
+DTEND:20260923T013000Z
+RRULE:FREQ=DAILY;UNTIL=20261023T155959Z
 SUMMARY:[每日] 交通银行｜09:00 微信30元（特邀）
 DESCRIPTION:买单吧APP-我的-热门活动-达标赢返现（特邀）
  ，特邀用户报名后微信支付使用交行信用卡支付，累计
  满5k元得15元刷卡金，累计满1w元得30元刷卡金（仅1次，
- 18w名额）\n\n来源：2026-9-22日周二刷卡指南 https://www.zrfa
- n.com/8877.html
+ 18w名额）\n\n来源：2026-9-23日周三刷卡指南 https://www.zrfa
+ n.com/8878.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 交通银行｜09:00 微信30元（特邀）
 END:VALARM
-URL:https://www.zrfan.com/8877.html
+URL:https://www.zrfan.com/8878.html
 CATEGORIES:交通银行
 END:VEVENT
 BEGIN:VEVENT
@@ -130,23 +130,23 @@ CATEGORIES:交通银行
 END:VEVENT
 BEGIN:VEVENT
 UID:5bb9891e60ef99ea953ce72456654ee8@zrfan-card-guide
-DTSTART:20260922T040000Z
-DTEND:20260922T043000Z
+DTSTART:20260923T040000Z
+DTEND:20260923T043000Z
 RRULE:FREQ=DAILY;UNTIL=20261015T155959Z
 SUMMARY:[每日] 交通银行｜12:00 美食出行礼包
 DESCRIPTION:每日12点起，9月1日-10月13日累计消费满100元且
  满5笔，买单吧APP-我的-热门活动-金秋出游季，可领加
  油150-10元、充电满10-4元、打车满10-4元、租车500-50元、
  代驾满25-6元、美食满80-6元礼包（日5k名额，10月15日截
- 止）\n\n活动截止：2026-10-15\n来源：2026-9-22日周二刷卡
- 指南 https://www.zrfan.com/8877.html
+ 止）\n\n活动截止：2026-10-15\n来源：2026-9-23日周三刷卡
+ 指南 https://www.zrfan.com/8878.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 交通银行｜12:00 美食出行礼包
 END:VALARM
-URL:https://www.zrfan.com/8877.html
+URL:https://www.zrfan.com/8878.html
 CATEGORIES:交通银行
 END:VEVENT
 END:VCALENDAR

@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-09-25T00:00:11",
+  "generated_at": "2026-09-26T00:00:12",
   "articles": [
-    {
-      "title": "2026-9-19日周六刷卡指南",
-      "url": "https://www.zrfan.com/8872.html",
-      "date": "2026-09-19"
-    },
     {
       "title": "2026-9-20日周日刷卡指南",
       "url": "https://www.zrfan.com/8874.html",
@@ -35,6 +30,11 @@
       "title": "2026-9-25日周五刷卡指南",
       "url": "https://www.zrfan.com/8880.html",
       "date": "2026-09-25"
+    },
+    {
+      "title": "2026-9-26日周六刷卡指南",
+      "url": "https://www.zrfan.com/8881.html",
+      "date": "2026-09-26"
     }
   ],
   "n_events": 175,
@@ -43,7 +43,7 @@
     {
       "bank": "农业银行",
       "slug": "abc",
-      "count": 26,
+      "count": 25,
       "timed": 14
     },
     {

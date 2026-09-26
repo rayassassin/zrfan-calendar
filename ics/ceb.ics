@@ -29,23 +29,23 @@ CATEGORIES:光大银行
 END:VEVENT
 BEGIN:VEVENT
 UID:bbade4f3b4169eb00a3bebc85dce7fbe@zrfan-card-guide
-DTSTART:20260926T020000Z
-DTEND:20260926T023000Z
+DTSTART:20261003T020000Z
+DTEND:20261003T023000Z
 RRULE:FREQ=WEEKLY;BYDAY=SA,SU;UNTIL=20261227T155959Z
 SUMMARY:[周六周日] 光大银行｜10:00 加油充电
 DESCRIPTION:周五周六周日10点起，支付宝APP-车生活-加油公
  共充电场景，使用支付宝选择光大信用卡支付，满200-10
  元（日8968名额）满15-3元（日606名额）满5-1元（日4323名
  额）（月各1次，车主卡各2次，有中石油和中石化充值
- ，12月27日截止）\n\n活动截止：2026-12-27\n来源：2026-9-26
- 日周六刷卡指南 https://www.zrfan.com/8881.html
+ ，12月27日截止）\n\n活动截止：2026-12-27\n来源：2026-9-27
+ 日周日刷卡指南 https://www.zrfan.com/8882.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周六周日] 光大银行｜10:00 加油充电
 END:VALARM
-URL:https://www.zrfan.com/8881.html
+URL:https://www.zrfan.com/8882.html
 CATEGORIES:光大银行
 END:VEVENT
 BEGIN:VEVENT

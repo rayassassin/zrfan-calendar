@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-09-28T00:00:10",
+  "generated_at": "2026-09-29T00:00:12",
   "articles": [
-    {
-      "title": "2026-9-22日周二刷卡指南",
-      "url": "https://www.zrfan.com/8877.html",
-      "date": "2026-09-22"
-    },
     {
       "title": "2026-9-23日周三刷卡指南",
       "url": "https://www.zrfan.com/8878.html",
@@ -35,6 +30,11 @@
       "title": "2026-9-28日周一刷卡指南",
       "url": "https://www.zrfan.com/8883.html",
       "date": "2026-09-28"
+    },
+    {
+      "title": "2026-9-29日周二刷卡指南",
+      "url": "https://www.zrfan.com/8884.html",
+      "date": "2026-09-29"
     }
   ],
   "n_events": 175,
@@ -43,7 +43,7 @@
     {
       "bank": "农业银行",
       "slug": "abc",
-      "count": 24,
+      "count": 23,
       "timed": 13
     },
     {
@@ -71,16 +71,16 @@
       "timed": 13
     },
     {
-      "bank": "浦发银行",
-      "slug": "spdb",
-      "count": 12,
-      "timed": 10
-    },
-    {
       "bank": "建设银行",
       "slug": "ccb",
       "count": 12,
       "timed": 9
+    },
+    {
+      "bank": "浦发银行",
+      "slug": "spdb",
+      "count": 11,
+      "timed": 10
     },
     {
       "bank": "民生银行",
@@ -113,12 +113,6 @@
       "timed": 3
     },
     {
-      "bank": "浙商银行",
-      "slug": "czbank",
-      "count": 5,
-      "timed": 4
-    },
-    {
       "bank": "光大银行",
       "slug": "ceb",
       "count": 4,
@@ -129,6 +123,12 @@
       "slug": "cgb",
       "count": 3,
       "timed": 2
+    },
+    {
+      "bank": "浙商银行",
+      "slug": "czbank",
+      "count": 3,
+      "timed": 4
     },
     {
       "bank": "银联云闪付",

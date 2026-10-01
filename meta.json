@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-10-01T00:00:12",
+  "generated_at": "2026-10-02T00:00:12",
   "articles": [
-    {
-      "title": "2026-9-25日周五刷卡指南",
-      "url": "https://www.zrfan.com/8880.html",
-      "date": "2026-09-25"
-    },
     {
       "title": "2026-9-26日周六刷卡指南",
       "url": "https://www.zrfan.com/8881.html",
@@ -35,16 +30,33 @@
       "title": "2026-10-1日周四刷卡指南",
       "url": "https://www.zrfan.com/8888.html",
       "date": "2026-10-01"
+    },
+    {
+      "title": "2026-10-2日周五刷卡指南",
+      "url": "https://www.zrfan.com/8890.html",
+      "date": "2026-10-02"
     }
   ],
-  "n_events": 137,
-  "n_timed": 90,
+  "n_events": 152,
+  "n_timed": 102,
   "calendars": [
+    {
+      "bank": "兴业银行",
+      "slug": "cib",
+      "count": 19,
+      "timed": 8
+    },
     {
       "bank": "农业银行",
       "slug": "abc",
-      "count": 18,
-      "timed": 8
+      "count": 19,
+      "timed": 9
+    },
+    {
+      "bank": "工商银行",
+      "slug": "icbc",
+      "count": 16,
+      "timed": 11
     },
     {
       "bank": "邮储银行",
@@ -53,28 +65,16 @@
       "timed": 12
     },
     {
-      "bank": "兴业银行",
-      "slug": "cib",
-      "count": 15,
-      "timed": 7
-    },
-    {
       "bank": "中国银行",
       "slug": "boc",
       "count": 13,
       "timed": 9
     },
     {
-      "bank": "工商银行",
-      "slug": "icbc",
-      "count": 13,
-      "timed": 8
-    },
-    {
       "bank": "浦发银行",
       "slug": "spdb",
-      "count": 11,
-      "timed": 7
+      "count": 12,
+      "timed": 8
     },
     {
       "bank": "民生银行",
@@ -91,8 +91,14 @@
     {
       "bank": "交通银行",
       "slug": "bocom",
-      "count": 6,
-      "timed": 5
+      "count": 7,
+      "timed": 6
+    },
+    {
+      "bank": "华夏银行",
+      "slug": "hxb",
+      "count": 7,
+      "timed": 4
     },
     {
       "bank": "中信银行",
@@ -113,14 +119,14 @@
       "timed": 4
     },
     {
-      "bank": "华夏银行",
-      "slug": "hxb",
-      "count": 4,
-      "timed": 1
-    },
-    {
       "bank": "广发银行",
       "slug": "cgb",
+      "count": 3,
+      "timed": 2
+    },
+    {
+      "bank": "浙商银行",
+      "slug": "czbank",
       "count": 3,
       "timed": 2
     },
@@ -147,12 +153,6 @@
       "slug": "bob",
       "count": 1,
       "timed": 1
-    },
-    {
-      "bank": "浙商银行",
-      "slug": "czbank",
-      "count": 1,
-      "timed": 0
     }
   ],
   "remind_minutes": 10

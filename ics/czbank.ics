@@ -4,62 +4,105 @@ PRODID:-//zrfan card guide//ZH-CN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:刷卡指南·浙商银行
-X-WR-CALDESC:浙商银行信用卡/借记卡优惠提醒，共 3 项（2 
+X-WR-CALDESC:浙商银行信用卡/借记卡优惠提醒，共 5 项（4 
  项定点提醒）。数据来源 zrfan.com 每日刷卡指南
 X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:b3ac9700493af09cf957dd5174f0fc5a@zrfan-card-guide
-DTSTART;VALUE=DATE:20261004
+DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20270101
 SUMMARY:浙商银行｜12306（期内可参与）
 DESCRIPTION:12306购买火车票，使用云闪付选择浙商长三角
  信用卡支付，享8折上限30元（限量，季度1次，12月31日
- 截止）\n\n活动截止：2026-12-31\n来源：2026-10-4日周日刷
- 卡指南 https://www.zrfan.com/8892.html
+ 截止）\n\n活动截止：2026-12-31\n来源：2026-10-5日周一刷
+ 卡指南 https://www.zrfan.com/8893.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8892.html
+URL:https://www.zrfan.com/8893.html
 CATEGORIES:浙商银行
 END:VEVENT
 BEGIN:VEVENT
 UID:dd16c768f4078588559090848ea88d87@zrfan-card-guide
-DTSTART:20261004T010000Z
-DTEND:20261004T013000Z
+DTSTART:20261005T010000Z
+DTEND:20261005T013000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 浙商银行｜09:00 文旅联名卡1%返现
 DESCRIPTION:浙商银行诗画文旅联名卡，每月任意消费10笔
  ，享支付宝微信消费1%返现（按10取整，月上限100元，
  账单分期5k元6期上限200元，12月31日截止，激活当月不
- 限制笔数）\n\n活动截止：2026-12-31\n来源：2026-10-4日周
- 日刷卡指南 https://www.zrfan.com/8892.html
+ 限制笔数）\n\n活动截止：2026-12-31\n来源：2026-10-5日周
+ 一刷卡指南 https://www.zrfan.com/8893.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 浙商银行｜09:00 文旅联名卡1%返现
 END:VALARM
-URL:https://www.zrfan.com/8892.html
+URL:https://www.zrfan.com/8893.html
+CATEGORIES:浙商银行
+END:VEVENT
+BEGIN:VEVENT
+UID:98f4016f4cbeb05cc11c9719aceae829@zrfan-card-guide
+DTSTART:20261005T010000Z
+DTEND:20261005T013000Z
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20261031T155959Z
+SUMMARY:[周一] 浙商银行｜09:00 瑞幸、库迪、Tims、CoCo
+DESCRIPTION:周一9点起，指定咖啡品牌选择浙商信用卡支付
+ ，满20.01随机减5-20元（周各1次月各2次，10月31日截止）
+ \n瑞幸app或微信小程序使用微信支付（周1k名额）\n库迪
+ 微信小程序使用微信支付（周500名额）\nTIms微信小程序
+ 使用微信支付（周500名额）\nCoCo微信小程序使用微信支
+ 付（周500名额）\n\n活动截止：2026-10-31\n来源：2026-10-5
+ 日周一刷卡指南 https://www.zrfan.com/8893.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[周一] 浙商银行｜09:00 瑞幸、库迪、Tims、CoCo
+END:VALARM
+URL:https://www.zrfan.com/8893.html
 CATEGORIES:浙商银行
 END:VEVENT
 BEGIN:VEVENT
 UID:f6afad50db999c847b77edca0f792eb9@zrfan-card-guide
-DTSTART:20261004T010000Z
-DTEND:20261004T013000Z
+DTSTART:20261005T010000Z
+DTEND:20261005T013000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 浙商银行｜09:00 红利卡1%返现
 DESCRIPTION:浙商银行红利卡，每月任意消费10笔，享支付
  宝微信消费1%返现（按10取整，月上限100元，账单分期5k
  元6期上限200元，续期至12月31日截止，激活当月不限制
  笔数，次月10号15号后去浙商银行APP-搜-我的权益-红利
- 卡领取）\n\n活动截止：2026-12-31\n来源：2026-10-4日周日
- 刷卡指南 https://www.zrfan.com/8892.html
+ 卡领取）\n\n活动截止：2026-12-31\n来源：2026-10-5日周一
+ 刷卡指南 https://www.zrfan.com/8893.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 浙商银行｜09:00 红利卡1%返现
 END:VALARM
-URL:https://www.zrfan.com/8892.html
+URL:https://www.zrfan.com/8893.html
+CATEGORIES:浙商银行
+END:VEVENT
+BEGIN:VEVENT
+UID:b0fbc16377685a88674029b8547b640b@zrfan-card-guide
+DTSTART:20261005T010000Z
+DTEND:20261005T013000Z
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20261031T155959Z
+SUMMARY:[周一] 浙商银行｜09:00 美团外卖、打车出行
+DESCRIPTION:周一9点起，指定商户使用浙商信用卡支付，享
+ 随机减（周各1次月各2次，10月31日截止）\n美团外卖满2
+ 0.01元随机减至高20元\n高德地图、滴滴出行、花小满打
+ 车、曹操出行、T3出行使用支付宝满20.01元随机减至高20
+ 元\n\n活动截止：2026-10-31\n来源：2026-10-5日周一刷卡指
+ 南 https://www.zrfan.com/8893.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[周一] 浙商银行｜09:00 美团外卖、打车出行
+END:VALARM
+URL:https://www.zrfan.com/8893.html
 CATEGORIES:浙商银行
 END:VEVENT
 END:VCALENDAR

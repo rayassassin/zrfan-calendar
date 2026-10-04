@@ -4,27 +4,50 @@ PRODID:-//zrfan card guide//ZH-CN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:刷卡指南·北京银行
-X-WR-CALDESC:北京银行信用卡/借记卡优惠提醒，共 1 项（1 
+X-WR-CALDESC:北京银行信用卡/借记卡优惠提醒，共 2 项（2 
  项定点提醒）。数据来源 zrfan.com 每日刷卡指南
 X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:637cb8499700371679662a7901b99638@zrfan-card-guide
-DTSTART:20261003T160000Z
-DTEND:20261003T163000Z
+DTSTART:20261004T160000Z
+DTEND:20261004T163000Z
 RRULE:FREQ=DAILY;UNTIL=20261017T155959Z
 SUMMARY:[每日] 北京银行｜00:00 电影
 DESCRIPTION:每日0点起，掌上京彩APP-优惠-电影票，购买影
  票满30-10元（限量，月1次，26年10月17日截止）\n\n活动
- 截止：2026-10-17\n来源：2026-10-4日周日刷卡指南 https://www
- .zrfan.com/8892.html
+ 截止：2026-10-17\n来源：2026-10-5日周一刷卡指南 https://www
+ .zrfan.com/8893.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 北京银行｜00:00 电影
 END:VALARM
-URL:https://www.zrfan.com/8892.html
+URL:https://www.zrfan.com/8893.html
+CATEGORIES:北京银行
+END:VEVENT
+BEGIN:VEVENT
+UID:0387e40f9ce75343fb14120dc291ac40@zrfan-card-guide
+DTSTART:20261005T020000Z
+DTEND:20261005T023000Z
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20261214T155959Z
+SUMMARY:[周一] 北京银行｜10:00 美运卡奈雪、瑞幸、肯德
+ 基
+DESCRIPTION:周一10点起，指定商户使用微信支付，选择北
+ 京银行美运信用卡支付享优惠（限量，日1次月2次，12
+ 月14日截止）\n奈雪的茶微信小程序或门店满30-15元\n瑞
+ 幸微信小程序或APP满9-4.5元\n肯德基微信小程序或门店
+ 满30-15元\n\n活动截止：2026-12-14\n来源：2026-10-5日周一刷
+ 卡指南 https://www.zrfan.com/8893.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[周一] 北京银行｜10:00 美运卡奈雪、瑞幸、肯
+ 德基
+END:VALARM
+URL:https://www.zrfan.com/8893.html
 CATEGORIES:北京银行
 END:VEVENT
 END:VCALENDAR

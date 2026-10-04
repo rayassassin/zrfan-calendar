@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-10-04T00:00:11",
+  "generated_at": "2026-10-05T00:00:12",
   "articles": [
-    {
-      "title": "2026-9-28日周一刷卡指南",
-      "url": "https://www.zrfan.com/8883.html",
-      "date": "2026-09-28"
-    },
     {
       "title": "2026-9-29日周二刷卡指南",
       "url": "https://www.zrfan.com/8884.html",
@@ -35,10 +30,15 @@
       "title": "2026-10-4日周日刷卡指南",
       "url": "https://www.zrfan.com/8892.html",
       "date": "2026-10-04"
+    },
+    {
+      "title": "2026-10-5日周一刷卡指南",
+      "url": "https://www.zrfan.com/8893.html",
+      "date": "2026-10-05"
     }
   ],
-  "n_events": 155,
-  "n_timed": 105,
+  "n_events": 160,
+  "n_timed": 110,
   "calendars": [
     {
       "bank": "兴业银行",
@@ -49,8 +49,8 @@
     {
       "bank": "农业银行",
       "slug": "abc",
-      "count": 19,
-      "timed": 9
+      "count": 20,
+      "timed": 10
     },
     {
       "bank": "工商银行",
@@ -67,8 +67,8 @@
     {
       "bank": "浦发银行",
       "slug": "spdb",
-      "count": 14,
-      "timed": 10
+      "count": 15,
+      "timed": 11
     },
     {
       "bank": "中国银行",
@@ -107,6 +107,12 @@
       "timed": 3
     },
     {
+      "bank": "浙商银行",
+      "slug": "czbank",
+      "count": 5,
+      "timed": 4
+    },
+    {
       "bank": "上海银行",
       "slug": "bos",
       "count": 4,
@@ -125,16 +131,16 @@
       "timed": 2
     },
     {
-      "bank": "浙商银行",
-      "slug": "czbank",
-      "count": 3,
-      "timed": 2
-    },
-    {
       "bank": "银联云闪付",
       "slug": "unionpay",
       "count": 3,
       "timed": 3
+    },
+    {
+      "bank": "北京银行",
+      "slug": "bob",
+      "count": 2,
+      "timed": 2
     },
     {
       "bank": "平安银行",
@@ -146,12 +152,6 @@
       "bank": "招商银行",
       "slug": "cmb",
       "count": 2,
-      "timed": 1
-    },
-    {
-      "bank": "北京银行",
-      "slug": "bob",
-      "count": 1,
       "timed": 1
     }
   ],

@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-10-05T00:00:12",
+  "generated_at": "2026-10-06T00:00:11",
   "articles": [
-    {
-      "title": "2026-9-29日周二刷卡指南",
-      "url": "https://www.zrfan.com/8884.html",
-      "date": "2026-09-29"
-    },
     {
       "title": "2026-9-30日周三刷卡指南",
       "url": "https://www.zrfan.com/8885.html",
@@ -35,22 +30,27 @@
       "title": "2026-10-5日周一刷卡指南",
       "url": "https://www.zrfan.com/8893.html",
       "date": "2026-10-05"
+    },
+    {
+      "title": "2026-10-6日周二刷卡指南",
+      "url": "https://www.zrfan.com/8894.html",
+      "date": "2026-10-06"
     }
   ],
-  "n_events": 160,
-  "n_timed": 110,
+  "n_events": 162,
+  "n_timed": 111,
   "calendars": [
+    {
+      "bank": "农业银行",
+      "slug": "abc",
+      "count": 22,
+      "timed": 11
+    },
     {
       "bank": "兴业银行",
       "slug": "cib",
       "count": 20,
       "timed": 9
-    },
-    {
-      "bank": "农业银行",
-      "slug": "abc",
-      "count": 20,
-      "timed": 10
     },
     {
       "bank": "工商银行",

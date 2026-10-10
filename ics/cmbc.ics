@@ -10,7 +10,7 @@ X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:529e30b931f1e921849958cc64ea4f8b@zrfan-card-guide
-DTSTART;VALUE=DATE:20261010
+DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20270401
 SUMMARY:民生银行｜小米之家分期（期内可参与）
 DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
@@ -19,10 +19,10 @@ DESCRIPTION:小米之家使用银联扫码分期，选择指定银行信
  银行满3k-100元（12月31日截止）\n民生银行满2k-50元、满5
  k-100元（26年11月30日截止）\n中信银行满1500-45元、满3500
  -100元、满6k-180元（27年3月31日截止）\n\n活动截止：2027-
- 03-31\n来源：2026-10-10日周六刷卡指南 https://www.zrfan.com/88
- 98.html
+ 03-31\n来源：2026-10-11日周日刷卡指南 https://www.zrfan.com/88
+ 99.html
 TRANSP:TRANSPARENT
-URL:https://www.zrfan.com/8898.html
+URL:https://www.zrfan.com/8899.html
 CATEGORIES:民生银行
 END:VEVENT
 BEGIN:VEVENT
@@ -51,15 +51,15 @@ DESCRIPTION:周日，指定商户门店、APP或微信小程序，使用
  程序，满50-10元（日500名额，日1次月2次）\n同程APP及小
  程序，满300-20元（日1k名额，日1次月2次）\n特来电APP及
  小程序，满30-10元（日500名额，日1次月2次）\n\n活动截
- 止：2026-12-31\n来源：2026-10-4日周日刷卡指南 https://www.zr
- fan.com/8892.html
+ 止：2026-12-31\n来源：2026-10-11日周日刷卡指南 https://www.z
+ rfan.com/8899.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[周日] 民生银行｜00:00 微信支付各种减
 END:VALARM
-URL:https://www.zrfan.com/8892.html
+URL:https://www.zrfan.com/8899.html
 CATEGORIES:民生银行
 END:VEVENT
 BEGIN:VEVENT
@@ -86,21 +86,21 @@ CATEGORIES:民生银行
 END:VEVENT
 BEGIN:VEVENT
 UID:4477b7bf074dad8f842c8929d049693a@zrfan-card-guide
-DTSTART:20261009T230000Z
-DTEND:20261009T233000Z
+DTSTART:20261010T230000Z
+DTEND:20261010T233000Z
 RRULE:FREQ=DAILY;UNTIL=20261011T155959Z
 SUMMARY:[每日] 民生银行｜07:00 美团到店
 DESCRIPTION:每日7点起，全民生活APP-惠买单-美团到店，指
  定活动商户满50.01元随机减5-50元（共11w名额，月1次，
  续期至10月11日截止）\n\n活动截止：2026-10-11\n来源：2026
- -10-10日周六刷卡指南 https://www.zrfan.com/8898.html
+ -10-11日周日刷卡指南 https://www.zrfan.com/8899.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 民生银行｜07:00 美团到店
 END:VALARM
-URL:https://www.zrfan.com/8898.html
+URL:https://www.zrfan.com/8899.html
 CATEGORIES:民生银行
 END:VEVENT
 BEGIN:VEVENT
@@ -125,9 +125,9 @@ CATEGORIES:民生银行
 END:VEVENT
 BEGIN:VEVENT
 UID:b833f5d901c79773729d4245773cb12a@zrfan-card-guide
-DTSTART:20261010T010000Z
-DTEND:20261010T013000Z
-RRULE:FREQ=DAILY;UNTIL=20261109T155959Z
+DTSTART:20261011T010000Z
+DTEND:20261011T013000Z
+RRULE:FREQ=DAILY;UNTIL=20261110T155959Z
 SUMMARY:[每日] 民生银行｜09:00 山姆联名卡（新卡介绍）
 DESCRIPTION:①山姆会员店指定消费，卓越会员享2%+民生山
  姆联名卡享2%返现（月上限700元）其它消费享0.2%返现（
@@ -136,8 +136,8 @@ DESCRIPTION:①山姆会员店指定消费，卓越会员享2%+民生山
  （月上限50元）\n民生银行全民生活APP-惠买单，可购买
  一些餐饮美食优惠券（平常日力度不大）\n民生银行奈
  雪的茶联名卡每月任意消费3笔次月可领一张电子券（
- 共1年12张）\n中信银行\n\n来源：2026-10-10日周六刷卡指
- 南 https://www.zrfan.com/8898.html
+ 共1年12张）\n中信银行\n\n来源：2026-10-11日周日刷卡指
+ 南 https://www.zrfan.com/8899.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -145,39 +145,32 @@ TRIGGER:-PT10M
 DESCRIPTION:[每日] 民生银行｜09:00 山姆联名卡（新卡介绍
  ）
 END:VALARM
-URL:https://www.zrfan.com/8898.html
+URL:https://www.zrfan.com/8899.html
 CATEGORIES:民生银行
 END:VEVENT
 BEGIN:VEVENT
 UID:97f47976d3dc8465eca16c5700f286c2@zrfan-card-guide
-DTSTART:20261010T020000Z
-DTEND:20261010T023000Z
-RRULE:FREQ=WEEKLY;BYDAY=SA,SU;UNTIL=20261011T155959Z
-SUMMARY:[周六周日] 民生银行｜10:00 美团到店
+DTSTART:20261011T020000Z
+DTEND:20261011T023000Z
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20261011T155959Z
+SUMMARY:[周日] 民生银行｜10:00 美团到店
 DESCRIPTION:周日10点起，全民生活APP-惠买单-各种美团到店
  活动商户页面，可领满30-15元支付券（限量，月1次，10
- 月11日截止）\nps：中秋国庆期间还有额外一次\n支付宝A
- PP-搜-支付有礼，每周末领碰一碰红包\n浦发银行浦大喜
- 奔APP-搜-中秋或国庆或抽奖，10点起可抽迪士尼门票，
- 电影美食文旅半价券等（10月1日、10月2日、10月4日）\n
- 中国电信APP-积分-1积分限时抢，每天10点可以抢视频会
- 员（日1k）实物（日500）（10月10日截止）\n淘宝-闪购（
- 支付宝-闪购），每日可领大额红包，千问APP下单有随
- 机减\n\n活动截止：2026-10-11\n来源：2026-10-4日周日刷卡
- 指南 https://www.zrfan.com/8892.html
+ 月11日截止）\n\n活动截止：2026-10-11\n来源：2026-10-11日
+ 周日刷卡指南 https://www.zrfan.com/8899.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
-DESCRIPTION:[周六周日] 民生银行｜10:00 美团到店
+DESCRIPTION:[周日] 民生银行｜10:00 美团到店
 END:VALARM
-URL:https://www.zrfan.com/8892.html
+URL:https://www.zrfan.com/8899.html
 CATEGORIES:民生银行
 END:VEVENT
 BEGIN:VEVENT
 UID:5927a56c023d39ab8802a492c4e872aa@zrfan-card-guide
-DTSTART:20261010T040000Z
-DTEND:20261010T043000Z
+DTSTART:20261011T040000Z
+DTEND:20261011T043000Z
 RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
 SUMMARY:[每日] 民生银行｜12:00 中石油、车车卡中石油
 DESCRIPTION:每日12点起，使用指定卡当月消费满1k元，指定
@@ -187,14 +180,14 @@ DESCRIPTION:每日12点起，使用指定卡当月消费满1k元，指定
  石油，查询门店及剩余名额）\n车车豪白满200-100元（月
  2次）钻石白满200-100元（月5次）（全民生活app-搜-车车
  卡，查询门店及剩余名额）\n\n活动截止：2026-12-31\n来
- 源：2026-10-10日周六刷卡指南 https://www.zrfan.com/8898.html
+ 源：2026-10-11日周日刷卡指南 https://www.zrfan.com/8899.html
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
 DESCRIPTION:[每日] 民生银行｜12:00 中石油、车车卡中石油
 END:VALARM
-URL:https://www.zrfan.com/8898.html
+URL:https://www.zrfan.com/8899.html
 CATEGORIES:民生银行
 END:VEVENT
 END:VCALENDAR

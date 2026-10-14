@@ -4,7 +4,7 @@ PRODID:-//zrfan card guide//ZH-CN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:刷卡指南·光大银行
-X-WR-CALDESC:光大银行信用卡/借记卡优惠提醒，共 4 项（4 
+X-WR-CALDESC:光大银行信用卡/借记卡优惠提醒，共 5 项（5 
  项定点提醒）。数据来源 zrfan.com 每日刷卡指南
 X-WR-TIMEZONE:Asia/Shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
@@ -25,6 +25,30 @@ TRIGGER:-PT10M
 DESCRIPTION:[周五] 光大银行｜00:00 星巴克
 END:VALARM
 URL:https://www.zrfan.com/8897.html
+CATEGORIES:光大银行
+END:VEVENT
+BEGIN:VEVENT
+UID:4ccbd6f36de2c3c86d4bc8020f08eda2@zrfan-card-guide
+DTSTART:20261015T020000Z
+DTEND:20261015T023000Z
+RRULE:FREQ=DAILY;UNTIL=20261231T155959Z
+SUMMARY:[每日] 光大银行｜10:00 刷卡大挑战（特邀）
+DESCRIPTION:阳光惠生活APP-首页精选优惠滚动广告-刷卡大
+ 挑战（特邀可见），报名后本月超上月消费的增加额（
+ 例如10月消费-9月消费）根据排名，次月10日10点起可领
+ 指定金额微信立减金（12月31日截止）\n①1-1k名得300元
+ 微信立减金\n②1k-4k名得200元微信立减金\n③4k-1w名得100
+ 元微信立减金\n④1w-2.5w名得50元微信立减金\n⑤2.5w-4.5w
+ 名得20元微信立减金\n⑥4.5w-6.5w名得10元微信立减金\n\n
+ 活动截止：2026-12-31\n来源：2026-10-15日周四刷卡指南 http
+ s://www.zrfan.com/8904.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[每日] 光大银行｜10:00 刷卡大挑战（特邀）
+END:VALARM
+URL:https://www.zrfan.com/8904.html
 CATEGORIES:光大银行
 END:VEVENT
 BEGIN:VEVENT

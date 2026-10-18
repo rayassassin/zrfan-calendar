@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-10-18T00:00:11",
+  "generated_at": "2026-10-19T00:00:11",
   "articles": [
-    {
-      "title": "2026-10-12日周一刷卡指南",
-      "url": "https://www.zrfan.com/8900.html",
-      "date": "2026-10-12"
-    },
     {
       "title": "2026-10-13日周二刷卡指南",
       "url": "https://www.zrfan.com/8901.html",
@@ -35,9 +30,14 @@
       "title": "2026-10-18日周日刷卡指南",
       "url": "https://www.zrfan.com/8907.html",
       "date": "2026-10-18"
+    },
+    {
+      "title": "2026-10-19日周一刷卡指南",
+      "url": "https://www.zrfan.com/8908.html",
+      "date": "2026-10-19"
     }
   ],
-  "n_events": 172,
+  "n_events": 173,
   "n_timed": 116,
   "calendars": [
     {
@@ -119,15 +119,15 @@
       "timed": 3
     },
     {
-      "bank": "浙商银行",
-      "slug": "czbank",
+      "bank": "交通银行",
+      "slug": "bocom",
       "count": 5,
       "timed": 4
     },
     {
-      "bank": "交通银行",
-      "slug": "bocom",
-      "count": 4,
+      "bank": "浙商银行",
+      "slug": "czbank",
+      "count": 5,
       "timed": 4
     },
     {

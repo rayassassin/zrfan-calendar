@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-10-21T00:00:12",
+  "generated_at": "2026-10-23T00:00:12",
   "articles": [
-    {
-      "title": "2026-10-15日周四刷卡指南",
-      "url": "https://www.zrfan.com/8904.html",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "2026-10-16日周五刷卡指南",
-      "url": "https://www.zrfan.com/8905.html",
-      "date": "2026-10-16"
-    },
     {
       "title": "2026-10-17日周六刷卡指南",
       "url": "https://www.zrfan.com/8906.html",
@@ -35,17 +25,21 @@
       "title": "2026-10-21日周三刷卡指南",
       "url": "https://www.zrfan.com/8912.html",
       "date": "2026-10-21"
+    },
+    {
+      "title": "2026-10-22日周四刷卡指南",
+      "url": "https://www.zrfan.com/8913.html",
+      "date": "2026-10-22"
+    },
+    {
+      "title": "2026-10-23日周五刷卡指南",
+      "url": "https://www.zrfan.com/8914.html",
+      "date": "2026-10-23"
     }
   ],
-  "n_events": 182,
-  "n_timed": 121,
+  "n_events": 175,
+  "n_timed": 114,
   "calendars": [
-    {
-      "bank": "农业银行",
-      "slug": "abc",
-      "count": 23,
-      "timed": 13
-    },
     {
       "bank": "兴业银行",
       "slug": "cib",
@@ -53,10 +47,16 @@
       "timed": 10
     },
     {
+      "bank": "农业银行",
+      "slug": "abc",
+      "count": 21,
+      "timed": 11
+    },
+    {
       "bank": "浦发银行",
       "slug": "spdb",
-      "count": 19,
-      "timed": 13
+      "count": 18,
+      "timed": 12
     },
     {
       "bank": "邮储银行",
@@ -89,12 +89,6 @@
       "timed": 7
     },
     {
-      "bank": "其他优惠",
-      "slug": "other",
-      "count": 8,
-      "timed": 4
-    },
-    {
       "bank": "华夏银行",
       "slug": "hxb",
       "count": 7,
@@ -125,6 +119,12 @@
       "timed": 4
     },
     {
+      "bank": "其他优惠",
+      "slug": "other",
+      "count": 5,
+      "timed": 1
+    },
+    {
       "bank": "浙商银行",
       "slug": "czbank",
       "count": 5,
@@ -133,8 +133,8 @@
     {
       "bank": "广发银行",
       "slug": "cgb",
-      "count": 4,
-      "timed": 3
+      "count": 3,
+      "timed": 2
     },
     {
       "bank": "银联云闪付",

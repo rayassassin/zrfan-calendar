@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-10-24T00:00:13",
+  "generated_at": "2026-10-25T00:00:13",
   "articles": [
-    {
-      "title": "2026-10-18日周日刷卡指南",
-      "url": "https://www.zrfan.com/8907.html",
-      "date": "2026-10-18"
-    },
     {
       "title": "2026-10-19日周一刷卡指南",
       "url": "https://www.zrfan.com/8908.html",
@@ -35,6 +30,11 @@
       "title": "2026-10-24日周六刷卡指南",
       "url": "https://www.zrfan.com/8915.html",
       "date": "2026-10-24"
+    },
+    {
+      "title": "2026-10-25日周日刷卡指南",
+      "url": "https://www.zrfan.com/8916.html",
+      "date": "2026-10-25"
     }
   ],
   "n_events": 177,

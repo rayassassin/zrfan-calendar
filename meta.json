@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T00:00:11",
+  "generated_at": "2026-10-29T00:46:17",
   "articles": [
     {
       "title": "2026-10-23日周五刷卡指南",
@@ -74,7 +74,7 @@
       "bank": "浦发银行",
       "slug": "spdb",
       "count": 15,
-      "timed": 11
+      "timed": 9
     },
     {
       "bank": "建设银行",
@@ -122,7 +122,7 @@
       "bank": "其他优惠",
       "slug": "other",
       "count": 4,
-      "timed": 1
+      "timed": 0
     },
     {
       "bank": "广发银行",
@@ -134,7 +134,7 @@
       "bank": "浙商银行",
       "slug": "czbank",
       "count": 3,
-      "timed": 4
+      "timed": 2
     },
     {
       "bank": "银联云闪付",
@@ -159,6 +159,62 @@
       "slug": "bob",
       "count": 1,
       "timed": 1
+    }
+  ],
+  "time_calendars": [
+    {
+      "name": "周一",
+      "slug": "t-mon",
+      "count": 79,
+      "timed": 79
+    },
+    {
+      "name": "周二",
+      "slug": "t-tue",
+      "count": 78,
+      "timed": 78
+    },
+    {
+      "name": "周三",
+      "slug": "t-wed",
+      "count": 80,
+      "timed": 80
+    },
+    {
+      "name": "周四",
+      "slug": "t-thu",
+      "count": 81,
+      "timed": 81
+    },
+    {
+      "name": "周五",
+      "slug": "t-fri",
+      "count": 86,
+      "timed": 86
+    },
+    {
+      "name": "周六",
+      "slug": "t-sat",
+      "count": 88,
+      "timed": 88
+    },
+    {
+      "name": "周日",
+      "slug": "t-sun",
+      "count": 84,
+      "timed": 84
+    },
+    {
+      "name": "每月固定日",
+      "slug": "t-monthly",
+      "count": 1,
+      "timed": 1
+    },
+    {
+      "name": "期内随时可参与",
+      "slug": "t-anytime",
+      "count": 63,
+      "timed": 0
     }
   ],
   "remind_minutes": 10

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//zrfan card guide//ZH-CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:刷卡指南·每月固定日
+X-WR-CALDESC:每月固定某日开放的活动，共 1 项。数据来源
+  zrfan.com 每日刷卡指南
+X-WR-TIMEZONE:Asia/Shanghai
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:537a1a7352c13d685629a763a76daa40@zrfan-card-guide
+DTSTAMP:20261028T164617Z
+LAST-MODIFIED:20261028T164617Z
+DTSTART:20261102T010000Z
+DTEND:20261102T013000Z
+RRULE:FREQ=MONTHLY;BYMONTHDAY=2;UNTIL=20261202T155959Z
+SUMMARY:[每月2日] 中信银行｜09:00 随心用
+DESCRIPTION:中信信用卡增值服务，可买多种随心用版本，
+ 买入后每月2日在动卡空间APP，通过权益点兑换指定微
+ 信消费卡券（所有有效期内仅可买一次，持续12个月）
+ 点击本文案可快速直达购买页\n①399元购480元（每月满9
+ 9-10元、满1599-30元）\n②599元购720元（每月满99-10元、满
+ 1599-50元）\n③999元购1320元（每月满99-10元、满1599-50元
+ 两张）\n④1599元购2040元（每月满99-10元、满1599-80元两
+ 张）\n若有微信大额消费需求可购买，购买后建议制定
+ 日历，否则少领2个月就反薅\n上海银行\n\n来源：2026-10-
+ 29日周四刷卡指南 https://www.zrfan.com/8920.html
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT10M
+DESCRIPTION:[每月2日] 中信银行｜09:00 随心用
+END:VALARM
+URL:https://www.zrfan.com/8920.html
+CATEGORIES:中信银行
+END:VEVENT
+END:VCALENDAR

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:25:36",
+  "generated_at": "2026-10-29T13:57:44",
   "articles": [
     {
       "title": "2026-10-23日周五刷卡指南",
@@ -163,46 +163,52 @@
   ],
   "time_calendars": [
     {
+      "name": "每日固定",
+      "slug": "t-daily",
+      "count": 76,
+      "timed": 76
+    },
+    {
       "name": "周一",
       "slug": "t-mon",
-      "count": 79,
-      "timed": 79
+      "count": 3,
+      "timed": 3
     },
     {
       "name": "周二",
       "slug": "t-tue",
-      "count": 78,
-      "timed": 78
+      "count": 2,
+      "timed": 2
     },
     {
       "name": "周三",
       "slug": "t-wed",
-      "count": 80,
-      "timed": 80
+      "count": 4,
+      "timed": 4
     },
     {
       "name": "周四",
       "slug": "t-thu",
-      "count": 81,
-      "timed": 81
+      "count": 5,
+      "timed": 5
     },
     {
       "name": "周五",
       "slug": "t-fri",
-      "count": 86,
-      "timed": 86
+      "count": 10,
+      "timed": 10
     },
     {
       "name": "周六",
       "slug": "t-sat",
-      "count": 88,
-      "timed": 88
+      "count": 12,
+      "timed": 12
     },
     {
       "name": "周日",
       "slug": "t-sun",
-      "count": 84,
-      "timed": 84
+      "count": 8,
+      "timed": 8
     },
     {
       "name": "每月固定日",

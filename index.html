@@ -160,8 +160,10 @@ a{color:inherit;text-decoration:none}
   box-shadow:none}
 .fchip.on .bl{box-shadow:0 0 0 1px rgba(255,255,255,.5)}
 .when{flex:0 0 74px;display:flex;align-items:center}
-/* 时间视图行：时间 → 银行 → 日期/频率 → 活动名，四列对齐才好扫 */
-.ev.tv{display:flex;align-items:center;gap:10px}
+/* 时间视图行：时间 → 银行 → 日期/频率 → 活动名，四列对齐才好扫。
+   只覆盖对齐方式，不重声明 display —— 否则与 .ev.drop/.ev.hidden 的
+   display:none 同权重且后定义，会把筛选隐藏盖掉（2026-10-30 踩过）。 */
+.ev.tv{align-items:center;gap:10px}
 .ev.tv .t{flex:0 0 44px}
 .ev.tv .act{flex:1 1 auto}
 .ev.tv .tags{flex:0 0 auto;max-width:none}
@@ -233,7 +235,7 @@ footer b{color:var(--text-2)}
   </div>
   <div class="topbar-spacer"></div>
   <div class="topbar-meta">
-    <span><span class="dot-live"></span>更新于 2026-10-30 12:07</span>
+    <span><span class="dot-live"></span>更新于 2026-10-30 12:27</span>
     <a class="btn-ghost" href="https://www.zrfan.com/category/zhinan/" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
       数据源

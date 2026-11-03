@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-11-03T00:00:14",
+  "generated_at": "2026-11-04T00:00:12",
   "articles": [
-    {
-      "title": "2026-10-28日周三刷卡指南",
-      "url": "https://www.zrfan.com/8919.html",
-      "date": "2026-10-28"
-    },
     {
       "title": "2026-10-29日周四刷卡指南",
       "url": "https://www.zrfan.com/8920.html",
@@ -35,10 +30,15 @@
       "title": "2026-11-3日周二刷卡指南",
       "url": "https://www.zrfan.com/8928.html",
       "date": "2026-11-03"
+    },
+    {
+      "title": "2026-11-4日周三刷卡指南",
+      "url": "https://www.zrfan.com/8929.html",
+      "date": "2026-11-04"
     }
   ],
-  "n_events": 180,
-  "n_timed": 114,
+  "n_events": 185,
+  "n_timed": 119,
   "calendars": [
     {
       "bank": "农业银行",
@@ -67,7 +67,7 @@
     {
       "bank": "中国银行",
       "slug": "boc",
-      "count": 17,
+      "count": 16,
       "timed": 11
     },
     {
@@ -89,10 +89,22 @@
       "timed": 7
     },
     {
+      "bank": "光大银行",
+      "slug": "ceb",
+      "count": 8,
+      "timed": 6
+    },
+    {
       "bank": "交通银行",
       "slug": "bocom",
       "count": 7,
       "timed": 6
+    },
+    {
+      "bank": "华夏银行",
+      "slug": "hxb",
+      "count": 7,
+      "timed": 4
     },
     {
       "bank": "上海银行",
@@ -107,28 +119,16 @@
       "timed": 3
     },
     {
-      "bank": "光大银行",
-      "slug": "ceb",
-      "count": 6,
-      "timed": 5
+      "bank": "其他优惠",
+      "slug": "other",
+      "count": 5,
+      "timed": 1
     },
     {
       "bank": "浙商银行",
       "slug": "czbank",
       "count": 5,
       "timed": 4
-    },
-    {
-      "bank": "其他优惠",
-      "slug": "other",
-      "count": 4,
-      "timed": 0
-    },
-    {
-      "bank": "华夏银行",
-      "slug": "hxb",
-      "count": 4,
-      "timed": 1
     },
     {
       "bank": "广发银行",
@@ -165,8 +165,8 @@
     {
       "name": "每日固定",
       "slug": "t-daily",
-      "count": 74,
-      "timed": 74
+      "count": 78,
+      "timed": 78
     },
     {
       "name": "周一",
@@ -183,8 +183,8 @@
     {
       "name": "周三",
       "slug": "t-wed",
-      "count": 4,
-      "timed": 4
+      "count": 5,
+      "timed": 5
     },
     {
       "name": "周四",

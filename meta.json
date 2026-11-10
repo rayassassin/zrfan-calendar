@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-11-10T00:00:16",
+  "generated_at": "2026-11-11T00:00:17",
   "articles": [
-    {
-      "title": "2026-11-4日周三刷卡指南",
-      "url": "https://www.zrfan.com/8929.html",
-      "date": "2026-11-04"
-    },
     {
       "title": "2026-11-5日周四刷卡指南",
       "url": "https://www.zrfan.com/8930.html",
@@ -35,22 +30,27 @@
       "title": "2026-11-10日周二刷卡指南",
       "url": "https://www.zrfan.com/8936.html",
       "date": "2026-11-10"
+    },
+    {
+      "title": "2026-11-11日周三刷卡指南",
+      "url": "https://www.zrfan.com/8937.html",
+      "date": "2026-11-11"
     }
   ],
-  "n_events": 192,
-  "n_timed": 126,
+  "n_events": 193,
+  "n_timed": 127,
   "calendars": [
+    {
+      "bank": "兴业银行",
+      "slug": "cib",
+      "count": 24,
+      "timed": 12
+    },
     {
       "bank": "农业银行",
       "slug": "abc",
       "count": 24,
       "timed": 14
-    },
-    {
-      "bank": "兴业银行",
-      "slug": "cib",
-      "count": 23,
-      "timed": 11
     },
     {
       "bank": "工商银行",
@@ -67,8 +67,8 @@
     {
       "bank": "中国银行",
       "slug": "boc",
-      "count": 16,
-      "timed": 11
+      "count": 17,
+      "timed": 12
     },
     {
       "bank": "浦发银行",
@@ -89,16 +89,16 @@
       "timed": 8
     },
     {
-      "bank": "光大银行",
-      "slug": "ceb",
-      "count": 8,
-      "timed": 6
-    },
-    {
       "bank": "上海银行",
       "slug": "bos",
       "count": 7,
       "timed": 3
+    },
+    {
+      "bank": "光大银行",
+      "slug": "ceb",
+      "count": 7,
+      "timed": 5
     },
     {
       "bank": "华夏银行",
@@ -165,8 +165,8 @@
     {
       "name": "每日固定",
       "slug": "t-daily",
-      "count": 83,
-      "timed": 83
+      "count": 84,
+      "timed": 84
     },
     {
       "name": "周一",

@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-11-13T00:00:17",
+  "generated_at": "2026-11-14T00:00:18",
   "articles": [
-    {
-      "title": "2026-11-7日周六刷卡指南",
-      "url": "https://www.zrfan.com/8933.html",
-      "date": "2026-11-07"
-    },
     {
       "title": "2026-11-8日周日刷卡指南",
       "url": "https://www.zrfan.com/8934.html",
@@ -35,10 +30,15 @@
       "title": "2026-11-13日周五刷卡指南",
       "url": "https://www.zrfan.com/8940.html",
       "date": "2026-11-13"
+    },
+    {
+      "title": "2026-11-14日周六刷卡指南",
+      "url": "https://www.zrfan.com/8941.html",
+      "date": "2026-11-14"
     }
   ],
-  "n_events": 193,
-  "n_timed": 124,
+  "n_events": 191,
+  "n_timed": 123,
   "calendars": [
     {
       "bank": "兴业银行",
@@ -49,7 +49,7 @@
     {
       "bank": "农业银行",
       "slug": "abc",
-      "count": 22,
+      "count": 21,
       "timed": 12
     },
     {
@@ -219,7 +219,7 @@
     {
       "name": "期内随时可参与",
       "slug": "t-anytime",
-      "count": 69,
+      "count": 68,
       "timed": 0
     }
   ],

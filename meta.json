@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-11-18T00:00:17",
+  "generated_at": "2026-11-19T00:00:24",
   "articles": [
-    {
-      "title": "2026-11-12日周四刷卡指南",
-      "url": "https://www.zrfan.com/8938.html",
-      "date": "2026-11-12"
-    },
     {
       "title": "2026-11-13日周五刷卡指南",
       "url": "https://www.zrfan.com/8940.html",
@@ -35,9 +30,14 @@
       "title": "2026-11-18日周三刷卡指南",
       "url": "https://www.zrfan.com/8947.html",
       "date": "2026-11-18"
+    },
+    {
+      "title": "2026-11-19日周四刷卡指南",
+      "url": "https://www.zrfan.com/8948.html",
+      "date": "2026-11-19"
     }
   ],
-  "n_events": 187,
+  "n_events": 188,
   "n_timed": 123,
   "calendars": [
     {
@@ -91,7 +91,7 @@
     {
       "bank": "上海银行",
       "slug": "bos",
-      "count": 7,
+      "count": 8,
       "timed": 3
     },
     {
@@ -219,7 +219,7 @@
     {
       "name": "期内随时可参与",
       "slug": "t-anytime",
-      "count": 64,
+      "count": 65,
       "timed": 0
     }
   ],

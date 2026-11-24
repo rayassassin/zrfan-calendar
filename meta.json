@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-11-24T00:00:20",
+  "generated_at": "2026-11-25T00:00:17",
   "articles": [
-    {
-      "title": "2026-11-18日周三刷卡指南",
-      "url": "https://www.zrfan.com/8947.html",
-      "date": "2026-11-18"
-    },
     {
       "title": "2026-11-19日周四刷卡指南",
       "url": "https://www.zrfan.com/8948.html",
@@ -35,6 +30,11 @@
       "title": "2026-11-24日周二刷卡指南",
       "url": "https://www.zrfan.com/8953.html",
       "date": "2026-11-24"
+    },
+    {
+      "title": "2026-11-25日周三刷卡指南",
+      "url": "https://www.zrfan.com/8954.html",
+      "date": "2026-11-25"
     }
   ],
   "n_events": 185,
@@ -73,8 +73,8 @@
     {
       "bank": "浦发银行",
       "slug": "spdb",
-      "count": 16,
-      "timed": 12
+      "count": 14,
+      "timed": 10
     },
     {
       "bank": "民生银行",
@@ -177,8 +177,8 @@
     {
       "name": "周二",
       "slug": "t-tue",
-      "count": 5,
-      "timed": 5
+      "count": 3,
+      "timed": 3
     },
     {
       "name": "周三",

@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-11-26T00:00:16",
+  "generated_at": "2026-11-27T00:00:15",
   "articles": [
-    {
-      "title": "2026-11-20日周五刷卡指南",
-      "url": "https://www.zrfan.com/8949.html",
-      "date": "2026-11-20"
-    },
     {
       "title": "2026-11-21日周六刷卡指南",
       "url": "https://www.zrfan.com/8950.html",
@@ -35,16 +30,21 @@
       "title": "2026-11-26日周四刷卡指南",
       "url": "https://www.zrfan.com/8955.html",
       "date": "2026-11-26"
+    },
+    {
+      "title": "2026-11-27日周五刷卡指南",
+      "url": "https://www.zrfan.com/8956.html",
+      "date": "2026-11-27"
     }
   ],
-  "n_events": 185,
+  "n_events": 183,
   "n_timed": 122,
   "calendars": [
     {
       "bank": "农业银行",
       "slug": "abc",
-      "count": 22,
-      "timed": 12
+      "count": 23,
+      "timed": 13
     },
     {
       "bank": "兴业银行",
@@ -59,28 +59,22 @@
       "timed": 13
     },
     {
-      "bank": "中国银行",
-      "slug": "boc",
-      "count": 18,
-      "timed": 11
-    },
-    {
       "bank": "邮储银行",
       "slug": "psbc",
       "count": 18,
       "timed": 13
     },
     {
-      "bank": "浦发银行",
-      "slug": "spdb",
-      "count": 14,
-      "timed": 10
+      "bank": "中国银行",
+      "slug": "boc",
+      "count": 17,
+      "timed": 11
     },
     {
-      "bank": "民生银行",
-      "slug": "cmbc",
-      "count": 10,
-      "timed": 8
+      "bank": "浦发银行",
+      "slug": "spdb",
+      "count": 13,
+      "timed": 9
     },
     {
       "bank": "上海银行",
@@ -89,15 +83,15 @@
       "timed": 4
     },
     {
+      "bank": "民生银行",
+      "slug": "cmbc",
+      "count": 9,
+      "timed": 7
+    },
+    {
       "bank": "建设银行",
       "slug": "ccb",
       "count": 8,
-      "timed": 5
-    },
-    {
-      "bank": "交通银行",
-      "slug": "bocom",
-      "count": 7,
       "timed": 5
     },
     {
@@ -111,6 +105,12 @@
       "slug": "hxb",
       "count": 7,
       "timed": 4
+    },
+    {
+      "bank": "交通银行",
+      "slug": "bocom",
+      "count": 6,
+      "timed": 5
     },
     {
       "bank": "广发银行",
@@ -165,8 +165,8 @@
     {
       "name": "每日固定",
       "slug": "t-daily",
-      "count": 81,
-      "timed": 81
+      "count": 80,
+      "timed": 80
     },
     {
       "name": "周一",
@@ -189,14 +189,14 @@
     {
       "name": "周四",
       "slug": "t-thu",
-      "count": 3,
-      "timed": 3
+      "count": 2,
+      "timed": 2
     },
     {
       "name": "周五",
       "slug": "t-fri",
-      "count": 10,
-      "timed": 10
+      "count": 11,
+      "timed": 11
     },
     {
       "name": "周六",
@@ -219,7 +219,7 @@
     {
       "name": "期内随时可参与",
       "slug": "t-anytime",
-      "count": 63,
+      "count": 61,
       "timed": 0
     }
   ],

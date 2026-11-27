@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-11-27T00:00:15",
+  "generated_at": "2026-11-28T00:00:12",
   "articles": [
-    {
-      "title": "2026-11-21日周六刷卡指南",
-      "url": "https://www.zrfan.com/8950.html",
-      "date": "2026-11-21"
-    },
     {
       "title": "2026-11-22日周日刷卡指南",
       "url": "https://www.zrfan.com/8951.html",
@@ -35,10 +30,15 @@
       "title": "2026-11-27日周五刷卡指南",
       "url": "https://www.zrfan.com/8956.html",
       "date": "2026-11-27"
+    },
+    {
+      "title": "2026-11-28日周六刷卡指南",
+      "url": "https://www.zrfan.com/8957.html",
+      "date": "2026-11-28"
     }
   ],
-  "n_events": 183,
-  "n_timed": 122,
+  "n_events": 187,
+  "n_timed": 125,
   "calendars": [
     {
       "bank": "农业银行",
@@ -61,8 +61,8 @@
     {
       "bank": "邮储银行",
       "slug": "psbc",
-      "count": 18,
-      "timed": 13
+      "count": 19,
+      "timed": 14
     },
     {
       "bank": "中国银行",
@@ -95,6 +95,12 @@
       "timed": 5
     },
     {
+      "bank": "交通银行",
+      "slug": "bocom",
+      "count": 7,
+      "timed": 6
+    },
+    {
       "bank": "光大银行",
       "slug": "ceb",
       "count": 7,
@@ -105,12 +111,6 @@
       "slug": "hxb",
       "count": 7,
       "timed": 4
-    },
-    {
-      "bank": "交通银行",
-      "slug": "bocom",
-      "count": 6,
-      "timed": 5
     },
     {
       "bank": "广发银行",
@@ -137,22 +137,22 @@
       "timed": 2
     },
     {
+      "bank": "招商银行",
+      "slug": "cmb",
+      "count": 3,
+      "timed": 1
+    },
+    {
       "bank": "银联云闪付",
       "slug": "unionpay",
       "count": 3,
       "timed": 3
     },
     {
-      "bank": "招商银行",
-      "slug": "cmb",
-      "count": 2,
-      "timed": 1
-    },
-    {
       "bank": "其他优惠",
       "slug": "other",
-      "count": 1,
-      "timed": 1
+      "count": 2,
+      "timed": 2
     },
     {
       "bank": "北京银行",
@@ -165,8 +165,8 @@
     {
       "name": "每日固定",
       "slug": "t-daily",
-      "count": 80,
-      "timed": 80
+      "count": 83,
+      "timed": 83
     },
     {
       "name": "周一",
@@ -219,7 +219,7 @@
     {
       "name": "期内随时可参与",
       "slug": "t-anytime",
-      "count": 61,
+      "count": 62,
       "timed": 0
     }
   ],

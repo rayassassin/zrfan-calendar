@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-11-28T00:00:12",
+  "generated_at": "2026-11-29T00:00:16",
   "articles": [
-    {
-      "title": "2026-11-22日周日刷卡指南",
-      "url": "https://www.zrfan.com/8951.html",
-      "date": "2026-11-22"
-    },
     {
       "title": "2026-11-23日周一刷卡指南",
       "url": "https://www.zrfan.com/8952.html",
@@ -35,10 +30,15 @@
       "title": "2026-11-28日周六刷卡指南",
       "url": "https://www.zrfan.com/8957.html",
       "date": "2026-11-28"
+    },
+    {
+      "title": "2026-11-29日周日刷卡指南",
+      "url": "https://www.zrfan.com/8960.html",
+      "date": "2026-11-29"
     }
   ],
-  "n_events": 187,
-  "n_timed": 125,
+  "n_events": 188,
+  "n_timed": 126,
   "calendars": [
     {
       "bank": "农业银行",
@@ -73,26 +73,20 @@
     {
       "bank": "浦发银行",
       "slug": "spdb",
-      "count": 13,
-      "timed": 9
+      "count": 11,
+      "timed": 7
+    },
+    {
+      "bank": "民生银行",
+      "slug": "cmbc",
+      "count": 10,
+      "timed": 8
     },
     {
       "bank": "上海银行",
       "slug": "bos",
       "count": 9,
       "timed": 4
-    },
-    {
-      "bank": "民生银行",
-      "slug": "cmbc",
-      "count": 9,
-      "timed": 7
-    },
-    {
-      "bank": "建设银行",
-      "slug": "ccb",
-      "count": 8,
-      "timed": 5
     },
     {
       "bank": "交通银行",
@@ -109,6 +103,12 @@
     {
       "bank": "华夏银行",
       "slug": "hxb",
+      "count": 7,
+      "timed": 4
+    },
+    {
+      "bank": "建设银行",
+      "slug": "ccb",
       "count": 7,
       "timed": 4
     },
@@ -201,14 +201,14 @@
     {
       "name": "周六",
       "slug": "t-sat",
-      "count": 13,
-      "timed": 13
+      "count": 10,
+      "timed": 10
     },
     {
       "name": "周日",
       "slug": "t-sun",
-      "count": 5,
-      "timed": 5
+      "count": 6,
+      "timed": 6
     },
     {
       "name": "每月固定日",
